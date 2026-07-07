@@ -1,6 +1,9 @@
 The 2026 Planning for a Better Planet AAAI Fall Symposium will bring together scientists and researchers to discuss autonomous agents that collect information, make decisions, and take actions to help make the planet a healthier, more sustainable place.
-![Alt Text](assets/plan4planet.png)
-This symposium aims to gather members of the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.
+
+<img src="/assets/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; max-width: 50%;" />
+<p>This symposium aims to gather members of the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
+
+
 
 <table>
   <thead>
