@@ -18,7 +18,7 @@ theme: minima
 # -----------------------------------------------------------------------------
 minima:
   # Automatically switch between light/dark mode based on system settings
-  skin: auto
+  skin: solarized
 
   # Standard date formatting (e.g., "Jul 7, 2026")
   date_format: "%b %-d, %Y"
