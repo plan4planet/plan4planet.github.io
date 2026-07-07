@@ -11,12 +11,13 @@ logo: /assets/AAAI-Logo.png
 # -----------------------------------------------------------------------------
 # Theme Activation
 # -----------------------------------------------------------------------------
-remote_theme: jekyll/minima
+theme: minima
 
-plugins:
-  - jekyll-remote-theme
-
+# -----------------------------------------------------------------------------
+# Minima Theme Customization
+# -----------------------------------------------------------------------------
 minima:
+  # Automatically switch between light/dark mode based on system settings
   skin: solarized
 
   # Standard date formatting (e.g., "Jul 7, 2026")
