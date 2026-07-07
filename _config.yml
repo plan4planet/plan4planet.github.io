@@ -1,15 +1,25 @@
-#Jekyll Theme
-# Pull the latest development version supporting skins
-remote_theme: jekyll/minima
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-
-# Enforce the light/dark skin default based on user preferences
-minima:
-  skin: auto
-
-#Page info
+# -----------------------------------------------------------------------------
+# Page Info
+# -----------------------------------------------------------------------------
 title: 2026 AAAI Fall Symposium on Planning for a Better Planet
 description: The website for the 2026 AAAI Fall Symposium on Planning for a Better Planet
+baseurl: ""
+url: https://plan4planet.github.io/
+
+
+# -----------------------------------------------------------------------------
+# Theme Activation
+# -----------------------------------------------------------------------------
+theme: minima
+
+# -----------------------------------------------------------------------------
+# Minima Theme Customization
+# -----------------------------------------------------------------------------
+minima:
+  # Automatically switch between light/dark mode based on system settings
+  skin: auto
+
+  # Standard date formatting (e.g., "Jul 7, 2026")
+  date_format: "%b %-d, %Y"
+
+
