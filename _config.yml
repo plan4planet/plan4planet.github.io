@@ -1,5 +1,14 @@
 #Jekyll Theme
-theme: jekyll-theme-minima
+# Pull the latest development version supporting skins
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+# Enforce the dark skin default
+minima:
+  skin: dark
 
 #Page info
 title: 2026 AAAI Fall Symposium on Planning for a Better Planet
