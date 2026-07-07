@@ -6,9 +6,10 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
 
-# Enforce the dark skin default
+# Enforce the light/dark skin default based on user preferences
 minima:
-  skin: dark
+  skin: auto
 
 #Page info
 title: 2026 AAAI Fall Symposium on Planning for a Better Planet
+description: The website for the 2026 AAAI Fall Symposium on Planning for a Better Planet
