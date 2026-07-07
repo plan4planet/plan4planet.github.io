@@ -89,6 +89,6 @@ Each session will include invited speakers, short talks from authors of submitte
 - Day 2, Morning: Planning for Climate Mitigation
   - *Discussion questions: Are there opportunities to plan research to transfer to relatively understudied areas, for instance, by applying multi-agent coordination methods from robotics to industrial process control? What engagement between researchers, industry, funding agencies, and policymakers can support a productive research agenda in this area?  What role can multi-agent coordination, mechanism design, and planning research play in the economic and policy dimensions of mitigation — including carbon markets, emissions trading scheme design, corporate carbon accounting, and the equitable phase-out of fossil fuel infrastructure?*
 - Day 2, Afternoon: Building AI x Climate Research Communities
-    *- Discussion questions: What do we want in a community of climate-inspired planning researchers? How do we create a community that supports both applied and foundational research under an umbrella of climate motivation?*
+    - *Discussion questions: What do we want in a community of climate-inspired planning researchers? How do we create a community that supports both applied and foundational research under an umbrella of climate motivation?*
 - Day 3: Community Discussion of Next Steps & Action Items
 
