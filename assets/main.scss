@@ -1,0 +1,10 @@
+.site-title::before {
+  content: "";
+  display: inline-block;
+  background-image: url("/assets/AAAI-Logo.png");
+  background-size: cover;
+  width: 100px; /* Adjust as needed */
+  height: 23px; /* Adjust as needed */
+  margin-right: 10px;
+  vertical-align: middle;
+}
