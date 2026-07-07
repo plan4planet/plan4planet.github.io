@@ -75,7 +75,8 @@ We specifically invite submissions from participants in climate domains, highlig
 - No more than 7 pages, not including references or (limited) appendices.
 - EasyChair submission site: [Check back soon!]
 
-## Tentative Schedule (subject to change)
+## Tentative Schedule 
+_(subject to change)_
 Each session will include invited speakers, short talks from authors of submitted papers, and Q&A, ending with facilitated small-group discussions with shareouts.
 
 - Day 1, Morning: Planning For Climate Understanding</u>
