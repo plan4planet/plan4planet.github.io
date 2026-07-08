@@ -78,7 +78,7 @@ We specifically invite submissions from participants in climate domains, highlig
 _(subject to change)_
 Each session will include invited speakers, short talks from authors of submitted papers, and Q&A, ending with facilitated small-group discussions with shareouts.
 
-- Day 1, Morning: Planning For Climate Understanding</u>
+- Day 1, Morning: Planning For Climate Understanding
   - *Discussion questions: How can planning research help improve the scope, scale, and cost of climate data to support climate modeling and environmental monitoring? How can planning research leverage recent advances in ML-based climate models?*
 - Day 1, Afternoon: Planning for Climate Adaptation
   - *Discussion questions: Are there directions for foundational planning research that can support both adaptation and climate science (discussed in the prior session)? How can the planning community help translate research into accessible tools for communities and policymakers dealing with climate adaptation? What role does planning play in institutional decision-making under climate uncertainty --- including resilient infrastructure siting, managed retreat, resource allocation in stressed water and food systems, and equitable disaster recovery?*
