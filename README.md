@@ -70,7 +70,8 @@ We invite submissions and participants from across the planning and climate doma
 1. climate-inspired planning research,
 2. climate applications of planning methods, and
 3. identifying planning/decision-making challenges within climate domains.
-We invite both short and long papers across various levels of maturity, including extended abstracts that highlight more speculative or prospective work, short papers highlighting case studies or works in progress, and full papers that highlight more mature solutions.  We also welcome submissions that identify aspirational future directions or opportunities for climate-motivated AI planning.
+
+We invite both short and long papers at various levels of maturity, including extended abstracts that highlight more speculative or prospective work, short papers that highlight case studies or works in progress, and full papers that present more mature solutions.  We also welcome submissions that identify aspirational future directions or opportunities for climate-motivated AI planning.
 
 We specifically invite submissions from participants in climate domains, highlighting challenges that represent novel opportunities for collaboration with the planning research community.  In particular, we welcome extended abstracts and short papers that highlight interesting planning or decision-making challenges or case studies from climate domains, and do not require these challenges or case studies to be formalized as decision or planning problems. We invite participation from across climate domains, including   from climate scientists, environmental economists, policy researchers, and practitioners working on a variety of topics, including carbon pricing and market mechanisms, international climate policy coordination, national climate strategy development, adaptation investment planning, energy transition pathways, climate risk assessment, and environmental justice. We welcome submissions highlighting challenges faced by, and work done with, communities across geopolitical and social contexts, especially those most impacted by climate change, including indigenous communities and those in the global south. 
 
@@ -90,19 +91,19 @@ Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fa
 - Charles Dawson, Emerald AI
 - Jeremy Frank, NASA Ames Research Center
 - Alice Lépissier, Green Finance AI
-- J. Pablo Ortiz-Partida, Union of Concerned Scientist
+- J. Pablo Ortiz-Partida, Union of Concerned Scientists
 - Amy Quarkume, Howard University
 - Jonathan Stock, NASA Ames Research Center
 
 
 ## Tentative Schedule 
 _(subject to change)_
-Each session will include invited speakers, short talks from authors of submitted papers, and Q&A, ending with facilitated small-group discussions with shareouts.
+Each session will include invited speakers, short talks by authors of submitted papers, and Q&A, and will end with facilitated small-group discussions with share-outs.
 
 - Day 1, Morning: Planning For Climate Understanding
   - *Discussion questions: How can planning research help improve the scope, scale, and cost of climate data to support climate modeling and environmental monitoring? How can planning research leverage recent advances in ML-based climate models?*
 - Day 1, Afternoon: Planning for Climate Mitigation
-  - *Discussion questions: Are there opportunities to plan research to transfer to relatively understudied areas, for instance, by applying multi-agent coordination methods from robotics to industrial process control? What engagement between researchers, industry, funding agencies, and policymakers can support a productive research agenda in this area?  What role can multi-agent coordination, mechanism design, and planning research play in the economic and policy dimensions of mitigation — including carbon markets, emissions trading scheme design, corporate carbon accounting, and the equitable phase-out of fossil fuel infrastructure?*
+  - *Discussion questions: Are there opportunities to plan research to transfer to relatively understudied areas, for instance, by applying multi-agent coordination methods from robotics to industrial process control? What forms of engagement among researchers, industry, funding agencies, and policymakers can support a productive research agenda in this area?  What role can research on multi-agent coordination, mechanism design, and planning play in the economic and policy dimensions of mitigation — including carbon markets, emissions trading scheme design, corporate carbon accounting, and the equitable phase-out of fossil fuel infrastructure?*
 - Day 2, Morning: Planning for Climate Adaptation
   - *Discussion questions: Are there directions for foundational planning research that can support adaptation? How can the planning community help translate research into accessible tools for communities and policymakers dealing with climate adaptation? What role does planning play in institutional decision-making under climate uncertainty --- including resilient infrastructure siting, managed retreat, resource allocation in stressed water and food systems, and equitable disaster recovery?*
 - Day 2, Afternoon: Building AI x Climate Research Communities
