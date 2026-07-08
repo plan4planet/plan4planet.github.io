@@ -44,11 +44,11 @@
     <tr>
       <td colspan="2"> 
         <ul>
-          <li>**Gather data** to reduce uncertainty in earth and climate systems modeling</li>
-          <li>**Optimize** systems, infrastructure, and resource distribution to mitigate climate impacts</li>
-          <li>**Coordinate** systems and communities for climate adaptation and resilience</li>
-          <li>**Plan** for the socio-political, economic, and technical challenges of the transition to net zero </li>
-          <li>**Translate** research into advocacy, engagement, and measurable social impact </li>
+          <li><b>Gather data</b> to reduce uncertainty in earth and climate systems modeling</li>
+          <li><b>Optimize</b> systems, infrastructure, and resource distribution to mitigate climate impacts</li>
+          <li><b>Coordinate</b> systems and communities for climate adaptation and resilience</li>
+          <li><b>Plan</b> for the socio-political, economic, and technical challenges of the transition to net zero </li>
+          <li><b>Translate</b> research into advocacy, engagement, and measurable social impact </li>
         </ul></td>
     </tr>
   </tbody>
