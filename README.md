@@ -104,7 +104,9 @@ Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fa
 
 ## Tentative Schedule 
 _Coming Soon!_
-<!--_(subject to change)_
+
+<!--
+_(subject to change)_
 Each session will include invited speakers, short talks by authors of submitted papers, and Q&A, and will end with facilitated small-group discussions with share-outs.
 
 - Day 1, Morning: Planning For Climate Understanding
