@@ -87,12 +87,12 @@ We specifically invite submissions from participants in climate domains, highlig
     - Extended abstracts: 2 pages + 1 page for references/appendices.
     - Short paper: 4 pages + 1 page for references/appendices.
     - Full paper: 8 pages + 1 page for references/appendices
-- EasyChair submission site: https://easychair.org/conferences/?conf=fss26
+- EasyChair submission site: <https://easychair.org/conferences/?conf=fss26>
 
 ## Get Connected
 Please join our mailing list to stay informed about opportunities related to this event:
-- Join via web: Visit https://groups.google.com/g/plan4planet-l/ and click "Ask to join group"
-- Join via email: Send a blank email to plan4planet-l+subscribe@googlegroups.com
+- Join via web: Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
+- Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)
 
 ## Registration and Attendance
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
