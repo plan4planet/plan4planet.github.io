@@ -103,7 +103,8 @@ Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fa
 
 
 ## Tentative Schedule 
-_(subject to change)_
+_Coming Soon!_
+<!--_(subject to change)_
 Each session will include invited speakers, short talks by authors of submitted papers, and Q&A, and will end with facilitated small-group discussions with share-outs.
 
 - Day 1, Morning: Planning For Climate Understanding
@@ -116,4 +117,4 @@ Each session will include invited speakers, short talks by authors of submitted 
     - Possible workshop on navigating the geopolitical, social, or policy contexts within climate work in order to have a positive impact.
     - *Discussion questions: What do we want in a community of climate-inspired planning researchers? How do we create a community that supports both applied and foundational research under an umbrella of climate motivation?*
 - Day 3, Morning: Community Discussion of Next Steps & Action Items
-
+-->
