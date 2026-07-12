@@ -75,13 +75,19 @@ We invite both short and long papers at various levels of maturity, including ex
 
 We specifically invite submissions from participants in climate domains, highlighting challenges that represent novel opportunities for collaboration with the planning research community.  In particular, we welcome extended abstracts and short papers that highlight interesting planning or decision-making challenges or case studies from climate domains, and do not require these challenges or case studies to be formalized as decision or planning problems. We invite participation from across climate domains, including   from climate scientists, environmental economists, policy researchers, and practitioners working on a variety of topics, including carbon pricing and market mechanisms, international climate policy coordination, national climate strategy development, adaptation investment planning, energy transition pathways, climate risk assessment, and environmental justice. We welcome submissions highlighting challenges faced by, and work done with, communities across geopolitical and social contexts, especially those most impacted by climate change, including indigenous communities and those in the global south. 
 
+### Important Dates
+- September 1: Submission deadline
+- September 15: Notification of acceptance
+- September 29: Camera-ready deadline
+- November 5-7 – Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA 
+
 ### Submission Guidelines
 - AAAI two-column, camera-ready format (per [the AAAI-26 author kit](https://aaai.org/authorkit26-1/))
 - Submission length:
     - Extended abstracts: 2 pages + 1 page for references/appendices.
     - Short paper: 4 pages + 1 page for references/appendices.
     - Full paper: 8 pages + 1 page for references/appendices
-- EasyChair submission site: [Check back soon!]
+- EasyChair submission site: https://easychair.org/conferences/?conf=fss26
 
 ## Registration and Attendance
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
