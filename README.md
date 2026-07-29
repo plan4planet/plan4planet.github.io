@@ -92,6 +92,12 @@ We specifically invite submissions from participants in climate domains, highlig
 ## Registration and Attendance
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
 
+### 2026 Fall Symposium Student Travel Grant
+The National Science Foundation has a Travel Grant for USA-based Students attending or participating in the 2026 Fall Symposium Series. The program aims to reduce financial barriers for students from less-resourced institutions in the USA, enabling them to engage with cutting-edge AI research, network with leading researchers, and participate in mentoring opportunities in a collaborative environment. Funds should be used for necessary travel expenses, lodging, and registration costs.
+
+**Deadline: September 5th**
+**Grant Application Form: [Apply here](https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/)**
+
 ## Stay Connected
 Please join our mailing list to stay informed about opportunities related to this event:
 - Join via web: Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
