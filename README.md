@@ -99,7 +99,7 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 
 ## Stay Connected
 Please join our mailing list to stay informed about opportunities related to this event:
-- Join via web: Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
+- Join via web (Gmail address required): Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
 - Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)
 
 
