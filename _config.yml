@@ -6,6 +6,7 @@ description: The website for the 2026 AAAI Fall Symposium on Planning for a Bett
 baseurl: ""
 url: https://plan4planet.github.io/
 image: /assets/plan4planet_web.png
+logo: /assets/plan4planet_web.png
 
 
 # -----------------------------------------------------------------------------
