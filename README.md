@@ -66,7 +66,6 @@ Recognizing that research to address these foundational challenges is a long-ter
     - **For planning and reasoning experts**, this symposium will offer direct exposure to the challenges and opportunities of developing and deploying AI and robotics applications in service of climate challenges, including navigating unstructured environments for robotics, multi-faceted planning, optimization, and decision support domains for climate justice, etc.
 
 ## Call for Participation
-![2026 AAAI FSS Planning for a Better Planet Call for Participation](https://plan4planet.github.io/assets/plan4planet_web.png)
 We invite submissions and participants from across the planning and climate domains who are interested in or have engaged in 
 1. climate-inspired planning research,
 2. climate applications of planning methods, and
@@ -132,3 +131,5 @@ Each session will include invited speakers, short talks by authors of submitted 
     - *Discussion questions: What do we want in a community of climate-inspired planning researchers? How do we create a community that supports both applied and foundational research under an umbrella of climate motivation?*
 - Day 3, Morning: Community Discussion of Next Steps & Action Items
 -->
+
+![2026 AAAI FSS Planning for a Better Planet Call for Participation](https://plan4planet.github.io/assets/plan4planet_web.png)
