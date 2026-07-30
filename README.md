@@ -133,4 +133,4 @@ Each session will include invited speakers, short talks by authors of submitted 
 -->
 
 ## Poster 
-![2026 AAAI FSS Planning for a Better Planet Call for Participation](https://plan4planet.github.io/assets/plan4planet_web.png)
+![2026 AAAI FSS Planning for a Better Planet Call for Participation](https://plan4planet.github.io/assets/plan4planet_share.png)
