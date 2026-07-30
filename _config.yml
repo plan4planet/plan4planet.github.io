@@ -7,6 +7,9 @@ url: "https://plan4planet.github.io/"
 image: /assets/plan4planet_web.png
 logo: /assets/AAAI-Logo.png
 
+social:
+  name: 2026 Fall Symposium on Planning for a Better Planet
+  image: /assets/plan4planet_web.png
 
 plugins:
   - jekyll-seo-tag
