@@ -18,7 +18,7 @@
           <li>Multiagent coordination </li>
           <li>Mechanism design and negotiation protocols </li>
           <li>Probabilistic planning under uncertainty </li>
-          <li>Robotics task, motion and path planning </li>
+          <li>Robotics task, motion, and path planning </li>
           <li>Operations research </li>
           <li>Optimization </li>
         </ul>
@@ -29,7 +29,7 @@
           <li>Energy systems and decarbonization </li>
           <li>Land use, agriculture, and food systems </li>
           <li>Transportation, urban planning, and infrastructure </li>
-          <li>Recycling, Remediation, Decarbonization </li>
+          <li>Recycling, remediation, decarbonization </li>
           <li>Adaptation and resilience</li>
           <li>Climate policy, governance, and environmental justice
  </li>
@@ -69,7 +69,7 @@ Recognizing that research to address these foundational challenges is a long-ter
 We invite submissions and participants from across the planning and climate domains who are interested in or have engaged in 
 1. climate-inspired planning research,
 2. climate applications of planning methods, and
-3. identifying planning/decision-making challenges within climate domains.
+3. identifying planning/decision-making challenges within climate domains (aka "problems in search of solutions”).
 
 We invite both short and long papers at various levels of maturity, including extended abstracts that highlight more speculative or prospective work, short papers that highlight case studies or works in progress, and full papers that present more mature solutions.  We also welcome submissions that identify aspirational future directions or opportunities for climate-motivated AI planning.
 
@@ -83,10 +83,17 @@ We specifically invite submissions from participants in climate domains, highlig
 
 ### Submission Guidelines
 - AAAI two-column, camera-ready format (per [the AAAI-26 author kit](https://aaai.org/authorkit26-1/))
+- Single-blind
 - Submission length:
     - Extended abstracts: 2 pages + 1 page for references/appendices.
     - Short paper: 4 pages + 1 page for references/appendices.
     - Full paper: 8 pages + 1 page for references/appendices
+- **Keywords:** When submitting on EasyChair, please select which of the following best fits your paper as your first keyword phrase:
+    - _"climate-inspired planning research,"_
+    - _"climate applications of planning methods,"_ or
+    - _"climate problem in search of solution."_
+
+  Please also list 2-4 additional keyword phrases that best fit your submission from those listed below AI Domains and/or Climate Domains in the table above. 
 - EasyChair submission site: <https://easychair.org/conferences/?conf=fss26>
 
 ## Registration and Attendance
@@ -112,6 +119,8 @@ Please join our mailing list to stay informed about opportunities related to thi
 - Amy Quarkume, Howard University
 - Jonathan Stock, NASA Ames Research Center
 
+## Contact Us
+- [plan4planet-26@easychair.org](mailto:plan4planet-26@easychair.org)
 
 ## Tentative Schedule 
 _Coming Soon!_
