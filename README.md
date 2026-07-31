@@ -88,12 +88,6 @@ We specifically invite submissions from participants in climate domains, highlig
     - Extended abstracts: 2 pages + 1 page for references/appendices.
     - Short paper: 4 pages + 1 page for references/appendices.
     - Full paper: 8 pages + 1 page for references/appendices
-- **Keywords:** When submitting on EasyChair, please select which of the following best fits your paper as your first keyword phrase:
-    - _"climate-inspired planning research,"_
-    - _"climate applications of planning methods,"_ or
-    - _"climate problem in search of solution."_
-
-  Please also list 2-4 additional keyword phrases that best fit your submission from those listed below AI Domains and/or Climate Domains in the table above. 
 - EasyChair submission site: <https://easychair.org/conferences/?conf=fss26>
 
 ## Registration and Attendance
