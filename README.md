@@ -1,3 +1,16 @@
+<!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
+<div style="background: #003973; color: #ffffff; text-align: center; padding: 24px 16px; border-radius: 4px;">
+  <span style="font-size: 1.4em; font-weight: 700;">📅 November 5-7, 2026 &nbsp;· 📍 Arlington, VA</span>
+</div>
+
+<br>
+
+<div style="text-align: center; color:#003973">
+<span style="font-size: 1.2em; font-weight: 500; text-align: center;">Submission deadline: September 1</span>
+</div>
+
+<br>
+
 <img src="/assets/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; margin-bottom: 20px; max-width: 30%;" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
 <p>The <a href="https://plan4planet.github.io/"><strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong></a> brings together formal planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
