@@ -67,11 +67,16 @@ Recognizing that research to address these foundational challenges is a long-ter
 
 ## Call for Participation
 We invite submissions and participants from across the planning and climate domains who are interested in or have engaged in 
+<div markdown="1" style="border-left: 4px solid #003973; background: #eef3f8; padding: 10px 16px;">
+
 1. climate-inspired planning research,
 2. climate applications of planning methods, and
-3. identifying planning/decision-making challenges within climate domains (aka "problems in search of solutions”).
+3. identifying planning/decision-making challenges within climate domains (aka "problems in search of solutions").
+</div>
 
-We invite both short and long papers at various levels of maturity, including extended abstracts that highlight more speculative or prospective work, short papers that highlight case studies or works in progress, and full papers that present more mature solutions.  We also welcome submissions that identify aspirational future directions or opportunities for climate-motivated AI planning.
+<br>
+
+**We invite both short and long papers at various levels of maturity, including extended abstracts that highlight more speculative or prospective work, short papers that highlight case studies or works in progress, and full papers that present more mature solutions.  We also welcome submissions that identify aspirational future directions or opportunities for climate-motivated AI planning.**
 
 We specifically invite submissions from participants in climate domains, highlighting challenges that represent novel opportunities for collaboration with the planning research community.  In particular, we welcome extended abstracts and short papers that highlight interesting planning or decision-making challenges or case studies from climate domains, and do not require these challenges or case studies to be formalized as decision or planning problems. We invite participation from across climate domains, including from climate scientists, environmental economists, policy researchers, and practitioners working on a variety of topics, including carbon pricing and market mechanisms, international climate policy coordination, national climate strategy development, adaptation investment planning, energy transition pathways, climate risk assessment, and environmental justice. We welcome submissions highlighting challenges faced by, and work done with, communities across geopolitical and social contexts, especially those most impacted by climate change, including indigenous communities and those in the global south. 
 
@@ -79,7 +84,7 @@ We specifically invite submissions from participants in climate domains, highlig
 - September 1: Submission deadline
 - September 15: Notification of acceptance
 - September 29: Camera-ready deadline
-- November 5-7 – Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA 
+- November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA 
 
 ### Submission Guidelines
 - AAAI two-column, camera-ready format (per [the AAAI-26 author kit](https://aaai.org/authorkit26-1/))
