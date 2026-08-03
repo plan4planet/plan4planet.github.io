@@ -80,11 +80,23 @@ Recognizing that research to address these foundational challenges is a long-ter
 
 ## Call for Participation
 We invite submissions and participants from across the planning and climate domains who are interested in or have engaged in 
-<div markdown="1" style="border-left: 4px solid #003973; background: #eef3f8; padding: 10px 16px;">
+<div style="border-left: 4px solid #003973; background: #eef3f8; padding: 10px 16px;">
 
-1. climate-inspired planning research,
-2. climate applications of planning methods, and
-3. identifying planning/decision-making challenges within climate domains (aka "problems in search of solutions").
+<div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px;">
+<span style="flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; background: #003973; color: #ffffff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">1</span>
+<span>climate-inspired planning research,</span>
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px;">
+<span style="flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; background: #003973; color: #ffffff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">2</span>
+<span>climate applications of planning methods, and</span>
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 12px;">
+<span style="flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; background: #003973; color: #ffffff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">3</span>
+<span>identifying planning/decision-making challenges within climate domains (aka "problems in search of solutions").</span>
+</div>
+
 </div>
 
 <br>
