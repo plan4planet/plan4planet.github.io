@@ -5,13 +5,21 @@ title: 2026 Fall Symposium on Planning for a Better Planet
 description: The website for the 2026 AAAI Fall Symposium on Planning for a Better Planet
 url: "https://plan4planet.github.io/"
 logo: /assets/AAAI-Logo.png
-image: /assets/plan4planet_share.png
 
+# Enforce a large image display format for Twitter/X cards
+twitter:
+  card: summary_large_image
 
 social:
   name: 2026 Fall Symposium on Planning for a Better Planet
   url: "https://plan4planet.github.io/"
-  image: /assets/plan4planet_share.png
+
+# Sets a default fallback image for all pages on the site
+defaults:
+  - scope:
+      path: "" # Applies to all files in the project
+    values:
+      image: /assets/plan4planet_share.png
 
 plugins:
   - jekyll-feed
