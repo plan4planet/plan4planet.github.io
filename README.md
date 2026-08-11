@@ -52,7 +52,7 @@
     </tr>
     <tr>
       <!-- This cell spans across 2 columns -->
-      <th colspan="2" style=background-color: #285234; color: #ffffff;">Foundational problem areas</th>
+      <th colspan="2"; style=background-color: #285234; color: #ffffff;">Foundational problem areas</th>
     </tr>
     <tr>
       <td colspan="2"> 
