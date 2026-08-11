@@ -112,7 +112,7 @@ We specifically invite submissions from participants in climate domains, highlig
 - November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA 
 
 ### Submission Guidelines
-- AAAI two-column, camera-ready format (per [the AAAI-26 author kit](https://aaai.org/authorkit26-1/))
+- AAAI two-column, camera-ready format (per [the AAAI-26 author kit](https://aaai.org/authorkit26-1/); Overleaf template [available here](https://www.overleaf.com/latex/templates/aaai-2026-press-formatting-instructions-for-authors-using-latex/qnpmwrzmddjj))
 - Single-blind
 - Submission length:
     - Extended abstracts: 2 pages + 1 page for references/appendices.
