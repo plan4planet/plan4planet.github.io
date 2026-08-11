@@ -16,11 +16,11 @@
 <p>The <a href="https://plan4planet.github.io/"><strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong></a> brings together formal planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
 
-<table>
+<table style="background-color: #e5f2e9;">
   <thead>
     <tr>
-      <th style="text-align: left;">AI Domains</th>
-      <th style="text-align: left;">Climate Domains</th>
+      <th style="text-align: left; background-color: #285234; color: #ffffff;">AI Domains</th>
+      <th style="text-align: left; background-color: #285234; color: #ffffff;">Climate Domains</th>
     </tr>
   </thead>
   <tbody>
@@ -52,7 +52,7 @@
     </tr>
     <tr>
       <!-- This cell spans across 2 columns -->
-      <th colspan="2">Foundational problem areas</th>
+      <th colspan="2" style=background-color: #285234; color: #ffffff;">Foundational problem areas</th>
     </tr>
     <tr>
       <td colspan="2"> 
