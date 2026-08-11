@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 title: 2026 Fall Symposium on Planning for a Better Planet
 description: 📅 November 5-7, 2026 | 📍 Arlington, VA | ⏳ Submit by September 1.  The 2026 Planning for a Better Planet AAAI Fall Symposium brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. 
-url: "https://plan4planet.github.io/"
+url: "https://plan4planet.github.io"
 logo: /assets/AAAI-Logo.png
 
 # Enforce a large image display format for Twitter/X cards
@@ -12,7 +12,7 @@ twitter:
 
 social:
   name: 2026 Fall Symposium on Planning for a Better Planet
-  url: "https://plan4planet.github.io/"
+  url: "https://plan4planet.github.io"
 
 # Sets a default fallback image for all pages on the site
 defaults:
