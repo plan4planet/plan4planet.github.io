@@ -10,9 +10,11 @@ image: /assets/plan4planet_share.png
 
 social:
   name: 2026 Fall Symposium on Planning for a Better Planet
+  url: "https://plan4planet.github.io/"
   image: /assets/plan4planet_share.png
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
 
 # -----------------------------------------------------------------------------
