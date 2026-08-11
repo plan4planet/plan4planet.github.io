@@ -6,7 +6,7 @@
 <br>
 
 <div style="text-align: center; color:#003973">
-<span style="font-size: 1.2em; font-weight: 500; text-align: center;">Submission deadline: September 1</span>
+<span style="font-size: 1.2em; font-weight: 500; text-align: center;">⏳ Submission deadline: September 1</span>
 </div>
 
 <br>
