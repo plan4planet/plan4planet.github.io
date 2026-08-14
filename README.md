@@ -103,13 +103,25 @@ We invite submissions and participants from across the planning and climate doma
 
 **We invite both short and long papers at various levels of maturity, including extended abstracts that highlight more speculative or prospective work, short papers that highlight case studies or works in progress, and full papers that present more mature solutions.  We also welcome submissions that identify aspirational future directions or opportunities for climate-motivated AI planning.**
 
-We specifically invite submissions from participants in climate domains, highlighting challenges that represent novel opportunities for collaboration with the planning research community.  In particular, we welcome extended abstracts and short papers that highlight interesting planning or decision-making challenges or case studies from climate domains, and do not require these challenges or case studies to be formalized as decision or planning problems. We invite participation from across climate domains, including from climate scientists, environmental economists, policy researchers, and practitioners working on a variety of topics, including carbon pricing and market mechanisms, international climate policy coordination, national climate strategy development, adaptation investment planning, energy transition pathways, climate risk assessment, and environmental justice. We welcome submissions highlighting challenges faced by, and work done with, communities across geopolitical and social contexts, especially those most impacted by climate change, including indigenous communities and those in the global south. 
+We specifically invite submissions from participants in climate domains that highlight challenges representing novel opportunities for collaboration with the planning research community.  In particular, we welcome extended abstracts and short papers that highlight interesting planning or decision-making challenges or case studies from climate domains, and do not require these challenges or case studies to be formalized as decision or planning problems. We invite participation from across climate domains, including from climate scientists, environmental economists, policy researchers, and practitioners working on a variety of topics, including carbon pricing and market mechanisms, international climate policy coordination, national climate strategy development, adaptation investment planning, energy transition pathways, climate risk assessment, and environmental justice. We welcome submissions highlighting challenges faced by, and work with, communities across geopolitical and social contexts, especially those most impacted by climate change, including indigenous communities and those in the Global South. 
+
+### Author Recommendations
+Here are some recommendations aligned with the goals of this symposium to keep in mind as you prepare your submission:
+1. Relevance to Planning for a Better Planet:  Explicitly articulate how your work serves to bridge climate challenges with AI planning/reasoning techniques.
+2. Contribution & Impact: Highlight the novelty and value of the work:
+   - Planning/Application Papers: Clearly articulate what makes your planning approach or its real-world climate application novel and effective.
+   - Domain/Challenge Papers: Define the climate challenge clearly and highlight why it provides an interesting challenge for the AI planning community.
+3. Correctness/Soundness:
+   - Planning/Application Papers: Demonstrate that your methods, theoretical arguments, and empirical evaluations are rigorous and trustworthy.
+   - Domain/Challenge Papers: Ground your problem in real-world physical and ecological constraints. Be transparent about simplifying assumptions, and document any expert or stakeholder validation.
+4. Clarity & Interdisciplinary Accessibility: Write for a Broad Audience. Define terms, acronyms, and domain contexts clearly so researchers outside your primary field can fully grasp your contributions.
+5. Foster Cross-Disciplinary Dialogue: Frame your open questions, limitations, and future directions to invite meaningful discussion across AI and climate domains.
 
 ### Important Dates
 - September 1: Submission deadline
 - September 15: Notification of acceptance
 - September 29: Camera-ready deadline
-- November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA 
+- November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA
 
 ### Submission Guidelines
 - AAAI two-column, camera-ready format (per [the AAAI-26 author kit](https://aaai.org/authorkit26-1/); Overleaf template [available here](https://www.overleaf.com/latex/templates/aaai-2026-press-formatting-instructions-for-authors-using-latex/qnpmwrzmddjj))
@@ -119,6 +131,11 @@ We specifically invite submissions from participants in climate domains, highlig
     - Short paper: 4 pages + 1 page for references/appendices.
     - Full paper: 8 pages + 1 page for references/appendices
 - EasyChair submission site: <https://easychair.org/conferences/?conf=fss26>
+
+To help us provide robust, vibrant, and valuable reviews and feedback for submissions across the disciplinary spectrum, we ask that at least one member of each author team volunteer to serve as a reviewer.  You can volunteer to serve as a reviewer by responding to [this form](https://forms.gle/uWduegVhtgJKYAkL9)
+
+
+
 
 ## Registration and Attendance
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
@@ -132,6 +149,8 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 Please join our mailing list to stay informed about opportunities related to this event:
 - Join via web (Gmail address required): Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
 - Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)
+
+Volunteer to help review: <https://forms.gle/uWduegVhtgJKYAkL9>
 
 
 ## Organizing Committee
