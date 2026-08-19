@@ -40,4 +40,5 @@ minima:
   # Standard date formatting (e.g., "Jul 7, 2026")
   date_format: "%b %-d, %Y"
 
+google_analytics: G-VSGECY5X2H
 
