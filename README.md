@@ -152,6 +152,7 @@ Please join our mailing list to stay informed about opportunities related to thi
 
 Volunteer to help review: <https://forms.gle/uWduegVhtgJKYAkL9>
 
+Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
 
 ## Organizing Committee
 - Jim Boerkoel, Harvey Mudd College
