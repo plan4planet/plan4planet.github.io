@@ -158,12 +158,12 @@ Volunteer to help review: <https://forms.gle/uWduegVhtgJKYAkL9>
 - Charles Dawson, Emerald AI
 - Jeremy Frank, NASA Ames Research Center
 - Alice Lépissier, Green Finance AI
-- J. Pablo Ortiz-Partida, Union of Concerned Scientists
+<!--- J. Pablo Ortiz-Partida, Union of Concerned Scientists-->
 - Amy Quarkume, Howard University
-- Jonathan Stock, NASA Ames Research Center
+<!--- Jonathan Stock, NASA Ames Research Center-->
 
 ## Contact Us
-- [plan4planet-26@easychair.org](mailto:plan4planet-26@easychair.org)
+- [info@plan4planet.org](mailto:info@plan4planet.org)
 
 ## Tentative Schedule 
 _Coming Soon!_
