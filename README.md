@@ -132,7 +132,7 @@ Here are some recommendations aligned with the goals of this symposium to keep i
     - Full paper: 8 pages + 1 page for references/appendices
 - EasyChair submission site: <https://easychair.org/conferences/?conf=fss26>
 
-To help us provide robust, vibrant, and valuable reviews and feedback for submissions across the disciplinary spectrum, we ask that at least one member of each author team volunteer to serve as a reviewer.  You can volunteer to serve as a reviewer by responding to [this form](https://forms.gle/uWduegVhtgJKYAkL9)
+To help us provide robust, vibrant, and valuable reviews and feedback for submissions across the disciplinary spectrum, we ask that at least one member of each author team volunteer to serve as a reviewer.  You can volunteer by responding to [this form](https://forms.gle/uWduegVhtgJKYAkL9).
 
 
 
