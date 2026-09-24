@@ -1,8 +1,9 @@
 <!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
 <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Planning for a Better Planet</h1>
 
-<div style="background: #003973; color: #ffffff; text-align: center; padding: 24px 16px; border-radius: 4px;">
-  <span style="font-size: 1.4em; font-weight: 700;">📅 November 5-7, 2026 &nbsp;· 📍 Arlington, VA</span>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; background: #003973; color: #ffffff; text-align: center; padding: 20px 16px; border-radius: 4px;">
+  <img src="/assets/AAAI-Logo.png" alt="AAAI" style="height: 28px; width: auto;">
+  <span style="font-size: 1.4em; font-weight: 700;">AAAI | 📅 November 5-7, 2026 &nbsp;· 📍 Arlington, VA</span>
 </div>
 
 <br>

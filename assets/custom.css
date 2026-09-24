@@ -54,6 +54,10 @@
   text-align: center;
 }
 
+.footer-description {
+  text-align: center;
+}
+
 .footer-links a {
   display: inline-flex;
   align-items: center;
