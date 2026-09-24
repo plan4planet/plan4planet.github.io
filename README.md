@@ -1,7 +1,5 @@
 <!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
-# Planning for a Better Planet
-
-2026 AAAI Fall Symposium · November 5–7 · Arlington, Virginia
+<h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Planning for a Better Planet</h1>
 
 <div style="background: #003973; color: #ffffff; text-align: center; padding: 24px 16px; border-radius: 4px;">
   <span style="font-size: 1.4em; font-weight: 700;">📅 November 5-7, 2026 &nbsp;· 📍 Arlington, VA</span>
@@ -20,7 +18,6 @@
   <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;">Book your room!</a>
   <a href="https://groups.google.com/g/plan4planet-l/" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;">Join the mailing list</a>
   <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;">Follow us on Bluesky</a>
-  <a href="https://www.plan4planet.org/assets/plan4planet_poster.png" style="background: #5c6770; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;">View the poster</a>
 </div>
 
 <img src="/assets/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; margin-bottom: 20px; max-width: 30%;" />
