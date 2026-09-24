@@ -1,9 +1,9 @@
 <!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
-<h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Planning for a Better Planet</h1>
+<h1 class="page-title">The 2026 Planning For a Better Planet AAAI Fall Symposium</h1>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; background: #003973; color: #ffffff; text-align: center; padding: 20px 16px; border-radius: 4px;">
   <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-White.png" alt="AAAI" style="height: 28px; width: auto;">
-  <span style="font-size: 1.4em; font-weight: 700;">AAAI | 📅 November 5-7, 2026 &nbsp;· 📍 Arlington, VA</span>
+  <span style="font-size: 1.4em; font-weight: 700;"> &nbsp;· 📅 November 5-7, 2026 &nbsp;· 📍 Arlington, VA</span>
 </div>
 
 <br>
@@ -20,7 +20,7 @@
   <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
 </div>
 
-<img src="/assets/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; margin-bottom: 20px; max-width: 30%;" />
+<img src="/assets/images/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; margin-bottom: 20px; max-width: 30%;" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
 <p>The <a href="https://www.plan4planet.org/"><strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong></a> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
@@ -65,7 +65,9 @@
   </div>
 </section>
 
-## Objectives
+<details id="our-goals" class="collapsible-section" markdown="1">
+<summary>Learn more about our goals</summary>
+
 Recognizing that research to address these foundational challenges is a long-term effort, “success” in this symposium will involve achieving the following objectives, which focus on defining an agenda for climate-inspired planning research and kick-starting a community of researchers working in this area.
 
 1. **Identify opportunities for impact** (“problems in search of a solution”) where automated planning, reasoning, and decision-making can support climate science, climate mitigation, climate adaptation, and climate justice. For example, planning sensor deployment to learn more effective models, planning more sustainable, equitable, or resilient infrastructure, planning for disaster recovery, and using planning to translate data and models into climate action.
@@ -75,6 +77,8 @@ Recognizing that research to address these foundational challenges is a long-ter
 1. **Foster cross-disciplinary literacy, collaboration, and opportunities:**
     - **For climate domain experts**, this symposium will offer direct exposure to formal planning and reasoning tools that address problems at the core of climate decision-making: decision-making under uncertainty, multi-stakeholder coordination, constrained resource allocation, and risk-aware policy design.
     - **For planning and reasoning experts**, this symposium will offer direct exposure to the challenges and opportunities of developing and deploying AI and robotics applications in service of climate challenges, including navigating unstructured environments for robotics, multi-faceted planning, optimization, and decision support domains for climate justice, etc.
+
+  </details>
 
 <details id="call-for-participation" class="call-for-participation" markdown="1">
 <summary>Call for Participation <em>(submission period closed)</em></summary>
@@ -155,7 +159,7 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 **Deadline: September 5th -- [Apply here](https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/)**
 -->
 
-## Stay Connected
+## Connect
 Please join our mailing list to stay informed about opportunities related to this event:
 - Join via web (Gmail address required): Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
 - Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)

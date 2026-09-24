@@ -4,7 +4,7 @@
 title: 2026 Fall Symposium on Planning for a Better Planet
 description: "AAAI | 📅 Nov 5-7, 2026 | 📍 Arlington, VA  \n \n The website for the 2026 Planning for a Better Planet AAAI Fall Symposium, which aims to bring together AI planning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place."
 url: "https://www.plan4planet.org"
-logo: /assets/AAAI-Logo.png
+logo: /assets/images/plan4planet.png
 
 # Enforce a large image display format for Twitter/X cards
 twitter:
@@ -19,7 +19,7 @@ defaults:
   - scope:
       path: "" # Applies to all files in the project
     values:
-      image: /assets/plan4planet_share.png
+      image: /assets/images/plan4planet_share.png
 
 plugins:
   - jekyll-feed

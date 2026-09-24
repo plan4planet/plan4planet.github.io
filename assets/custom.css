@@ -5,6 +5,11 @@
   margin: 24px 0;
 }
 
+.page-title {
+  margin: 0 0 24px;
+  color: #003973;
+}
+
 .domain-group {
   background: #e5f2e9;
   border: 1px solid #285234;
@@ -34,10 +39,12 @@
   gap: 6px;
 }
 
+.collapsible-section,
 .call-for-participation {
   margin: 24px 0;
 }
 
+.collapsible-section summary,
 .call-for-participation summary {
   cursor: pointer;
   color: #003973;
@@ -56,6 +63,17 @@
 
 .footer-description {
   text-align: center;
+}
+
+.footer-aaai-logo {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.footer-aaai-logo img {
+  display: inline-block;
+  width: min(220px, 80%);
+  height: auto;
 }
 
 .footer-links a {
