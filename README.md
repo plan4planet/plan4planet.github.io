@@ -13,11 +13,10 @@
 
 <br>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 24px;">
-  <a href="https://aaai.getregistered.net/2026-fall-symposium" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;">Register Today!</a>
-  <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;">Book your room!</a>
-  <a href="https://groups.google.com/g/plan4planet-l/" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;">Join the mailing list</a>
-  <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;">Follow us on Bluesky</a>
+<div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 24px;">
+  <a href="https://aaai.getregistered.net/2026-fall-symposium" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
+  <a href="https://groups.google.com/g/plan4planet-l/" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
+  <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
 </div>
 
 <img src="/assets/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; margin-bottom: 20px; max-width: 30%;" />
@@ -138,6 +137,11 @@ To help us provide robust, vibrant, and valuable reviews and feedback for submis
 
 ## Registration and Attendance
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
+
+<div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 16px 0 24px;">
+  <a href="https://aaai.getregistered.net/2026-fall-symposium" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
+  <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book your room!</a>
+</div>
 
 ### 2026 Fall Symposium Student Travel Grant
 The National Science Foundation has a Travel Grant for USA-based Students attending or participating in the 2026 Fall Symposium Series. The program aims to reduce financial barriers for students from less-resourced institutions in the USA, enabling them to engage with cutting-edge AI research, network with leading researchers, and participate in mentoring opportunities in a collaborative environment. Funds should be used for necessary travel expenses, lodging, and registration costs.
