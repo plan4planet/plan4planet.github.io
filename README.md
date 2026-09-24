@@ -10,12 +10,6 @@
 
 <br>
 
-<div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 24px;">
-  <a href="https://aaai.getregistered.net/2026-fall-symposium" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
-  <a href="https://groups.google.com/g/plan4planet-l/" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
-  <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
-</div>
-
 <!--<div style="text-align: center; color:#003973">
 <span style="font-size: 1.2em; font-weight: 500; text-align: center;">⏳ Early registration deadline: October 2</span>
 </div>-->
@@ -24,6 +18,11 @@
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
 <p>The <a href="https://www.plan4planet.org/"><strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong></a> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
+<div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 24px;">
+  <a href="https://aaai.getregistered.net/2026-fall-symposium" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
+  <a href="https://groups.google.com/g/plan4planet-l/" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
+  <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
+</div>
 
 <section class="domain-overview" aria-label="Research domains and problem areas">
   <div class="domain-group">
