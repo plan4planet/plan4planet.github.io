@@ -1,5 +1,11 @@
 <!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
-<h1 class="page-title">The 2026 Planning For a Better Planet AAAI Fall Symposium</h1>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; background: #003973; color: #ffffff; text-align: center; padding: 24px 20px; border-radius: 4px;">
+  
+  <span style="font-size: 1.8em; font-weight: 700;"> &nbsp;·2026 Planning for a Better Planet AAAI Fall Symposium</span>
+</div>
+
+<br>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; background: #003973; color: #ffffff; text-align: center; padding: 20px 16px; border-radius: 4px;">
   <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-White.png" alt="AAAI" style="height: 28px; width: auto;">
@@ -13,8 +19,6 @@
   <a href="https://groups.google.com/g/plan4planet-l/" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
   <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
 </div>
-
-<br>
 
 <div style="text-align: center; color:#003973">
 <span style="font-size: 1.2em; font-weight: 500; text-align: center;">⏳ Early registration deadline: October 2</span>
