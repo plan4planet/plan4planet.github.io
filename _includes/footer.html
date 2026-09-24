@@ -47,3 +47,15 @@
   </div>
 
 </footer>
+
+<script>
+  function expandHashTarget() {
+    const target = document.getElementById(window.location.hash.slice(1));
+    if (target instanceof HTMLDetailsElement) {
+      target.open = true;
+    }
+  }
+
+  expandHashTarget();
+  window.addEventListener("hashchange", expandHashTarget);
+</script>

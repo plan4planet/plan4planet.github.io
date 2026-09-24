@@ -1,3 +1,5 @@
+- name: "Submit"
+  link: "/#call-for-participation"
 - name: "Attend"
   link: "/#registration-and-attendance"
 - name: "Connect"
