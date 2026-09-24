@@ -31,8 +31,10 @@
 .footer-links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 12px 20px;
   margin-top: 16px;
+  text-align: center;
 }
 
 .footer-links a {
