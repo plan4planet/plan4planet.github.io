@@ -4,7 +4,7 @@
   <div>
     <h1>Planning For a Better Planet</h1>
     <p>2026 AAAI Fall Symposium</p>
-    <p>November 5–7, 2026 · Arlington, VA</p>
+    <p>📅 November 5–7, 2026 · 📍Arlington, VA</p>
   </div>
 </div>
 
@@ -16,9 +16,9 @@
   <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
 </div>
 
-<div style="text-align: center; color:#003973">
+<!--<div style="text-align: center; color:#003973">
 <span style="font-size: 1.2em; font-weight: 500; text-align: center;">⏳ Early registration deadline: October 2</span>
-</div>
+</div>-->
 
 <img src="/assets/images/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; margin-bottom: 20px; max-width: 30%;" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
