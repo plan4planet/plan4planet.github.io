@@ -1,15 +1,11 @@
 <!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
-
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; background: #003973; color: #ffffff; text-align: center; padding: 24px 20px; border-radius: 4px;">
-  
-  <span style="font-size: 1.8em; font-weight: 700;"> &nbsp;·2026 Planning for a Better Planet AAAI Fall Symposium</span>
-</div>
-
-<br>
-
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; background: #003973; color: #ffffff; text-align: center; padding: 20px 16px; border-radius: 4px;">
-  <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-White.png" alt="AAAI" style="height: 28px; width: auto;">
-  <span style="font-size: 1.4em; font-weight: 700;"> &nbsp;· 📅 November 5-7, 2026 &nbsp;· 📍 Arlington, VA</span>
+<div class="event-hero">
+  <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-White.png" alt="AAAI">
+  <div>
+    <h1>Planning For a Better Planet</h1>
+    <p>2026 AAAI Fall Symposium</p>
+    <p>November 5–7, 2026 · Arlington, VA</p>
+  </div>
 </div>
 
 <br>
