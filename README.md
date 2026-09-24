@@ -75,7 +75,9 @@ Recognizing that research to address these foundational challenges is a long-ter
     - **For climate domain experts**, this symposium will offer direct exposure to formal planning and reasoning tools that address problems at the core of climate decision-making: decision-making under uncertainty, multi-stakeholder coordination, constrained resource allocation, and risk-aware policy design.
     - **For planning and reasoning experts**, this symposium will offer direct exposure to the challenges and opportunities of developing and deploying AI and robotics applications in service of climate challenges, including navigating unstructured environments for robotics, multi-faceted planning, optimization, and decision support domains for climate justice, etc.
 
-## Call for Participation
+<details id="call-for-participation" class="call-for-participation" markdown="1">
+<summary>Call for Participation <em>(submission period closed)</em></summary>
+
 We invite submissions and participants from across the planning and climate domains who are interested in or have engaged in 
 <div style="border-left: 4px solid #003973; background: #eef3f8; padding: 10px 16px;">
 
@@ -114,13 +116,6 @@ Here are some recommendations designed to help you align your submission with th
 4. Clarity & Interdisciplinary Accessibility: Write for a Broad Audience. Define terms, acronyms, and domain contexts clearly so researchers outside your primary field can fully grasp your contributions.
 5. Foster Cross-Disciplinary Dialogue: Frame your open questions, limitations, and future directions to invite meaningful discussion across AI and climate domains.
 
-### Important Dates
-- ~~September 1: Submission deadline~~
-- ~~September 15: Notification of acceptance~~
-- September 29: Camera-ready deadline
-- October 2: Early Registration deadline
-- November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA
-
 ### Submission Guidelines
 - AAAI two-column, camera-ready format (per [the AAAI-26 author kit](https://aaai.org/authorkit26-1/); Overleaf template [available here](https://www.overleaf.com/latex/templates/aaai-2026-press-formatting-instructions-for-authors-using-latex/qnpmwrzmddjj))
 - Single-blind
@@ -132,8 +127,16 @@ Here are some recommendations designed to help you align your submission with th
 
 To help us provide robust, vibrant, and valuable reviews and feedback for submissions across the disciplinary spectrum, we ask that at least one member of each author team volunteer to serve as a reviewer.  You can volunteer by responding to [this form](https://forms.gle/uWduegVhtgJKYAkL9).
 
+</details>
 
 
+
+## Important Dates
+- ~~September 1: Submission deadline~~
+- ~~September 15: Notification of acceptance~~
+- September 29: Camera-ready deadline
+- October 2: Early Registration deadline
+- November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA
 
 ## Registration and Attendance
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
@@ -141,12 +144,15 @@ Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fa
 <div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 16px 0 24px;">
   <a href="https://aaai.getregistered.net/2026-fall-symposium" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
   <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book your room!</a>
+  <a href="https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/" target="_blank" rel="noopener noreferrer" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Student travel grant</a>
 </div>
 
+<!--
 ### 2026 Fall Symposium Student Travel Grant
 The National Science Foundation has a Travel Grant for USA-based Students attending or participating in the 2026 Fall Symposium Series. The program aims to reduce financial barriers for students from less-resourced institutions in the USA, enabling them to engage with cutting-edge AI research, network with leading researchers, and participate in mentoring opportunities in a collaborative environment. Funds should be used for necessary travel expenses, lodging, and registration costs.
 
 **Deadline: September 5th -- [Apply here](https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/)**
+-->
 
 ## Stay Connected
 Please join our mailing list to stay informed about opportunities related to this event:
