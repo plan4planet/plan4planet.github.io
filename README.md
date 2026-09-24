@@ -25,56 +25,45 @@
 <p>The <a href="https://www.plan4planet.org/"><strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong></a> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
 
-<table style="background-color: #e5f2e9;">
-  <thead>
-    <tr>
-      <th style="text-align: left; background-color: #285234; color: #ffffff;">AI Domains</th>
-      <th style="text-align: left; background-color: #285234; color: #ffffff;">Climate Domains</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <ul>
-          <li>Automated planning and scheduling </li>
-          <li>Multiagent coordination </li>
-          <li>Mechanism design and negotiation protocols </li>
-          <li>Probabilistic planning under uncertainty </li>
-          <li>Robotics task, motion, and path planning </li>
-          <li>Operations research </li>
-          <li>Optimization </li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Earth, ocean, and climate sciences </li>
-          <li>Energy systems and decarbonization </li>
-          <li>Land use, agriculture, and food systems </li>
-          <li>Transportation, urban planning, and infrastructure </li>
-          <li>Recycling, remediation, decarbonization </li>
-          <li>Adaptation and resilience</li>
-          <li>Climate policy, governance, and environmental justice
- </li>
-          <li>Climate advocacy, policy engagement, and social impact</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <!-- This cell spans across 2 columns -->
-      <th colspan="2" style="background-color: #285234; color: #ffffff;">Foundational problem areas</th>
-    </tr>
-    <tr>
-      <td colspan="2"> 
-        <ul>
-          <li><b>Gather data</b> to reduce uncertainty in earth and climate systems modeling</li>
-          <li><b>Optimize</b> systems, infrastructure, and resource distribution to mitigate climate impacts</li>
-          <li><b>Coordinate</b> systems and communities for climate adaptation and resilience</li>
-          <li><b>Plan</b> for the socio-political, economic, and technical challenges of the transition to net zero </li>
-          <li><b>Translate</b> research into advocacy, engagement, and measurable social impact </li>
-        </ul></td>
-    </tr>
-  </tbody>
-</table>
+<section class="domain-overview" aria-label="Research domains and problem areas">
+  <div class="domain-group">
+    <h2>AI Domains</h2>
+    <ul>
+      <li>Automated planning and scheduling</li>
+      <li>Multiagent coordination</li>
+      <li>Mechanism design and negotiation protocols</li>
+      <li>Probabilistic planning under uncertainty</li>
+      <li>Robotics task, motion, and path planning</li>
+      <li>Operations research</li>
+      <li>Optimization</li>
+    </ul>
+  </div>
+
+  <div class="domain-group">
+    <h2>Climate Domains</h2>
+    <ul>
+      <li>Earth, ocean, and climate sciences</li>
+      <li>Energy systems and decarbonization</li>
+      <li>Land use, agriculture, and food systems</li>
+      <li>Transportation, urban planning, and infrastructure</li>
+      <li>Recycling, remediation, decarbonization</li>
+      <li>Adaptation and resilience</li>
+      <li>Climate policy, governance, and environmental justice</li>
+      <li>Climate advocacy, policy engagement, and social impact</li>
+    </ul>
+  </div>
+
+  <div class="domain-group domain-group-wide">
+    <h2>Foundational problem areas</h2>
+    <ul>
+      <li><strong>Gather data</strong> to reduce uncertainty in earth and climate systems modeling</li>
+      <li><strong>Optimize</strong> systems, infrastructure, and resource distribution to mitigate climate impacts</li>
+      <li><strong>Coordinate</strong> systems and communities for climate adaptation and resilience</li>
+      <li><strong>Plan</strong> for the socio-political, economic, and technical challenges of the transition to net zero</li>
+      <li><strong>Translate</strong> research into advocacy, engagement, and measurable social impact</li>
+    </ul>
+  </div>
+</section>
 
 ## Objectives
 Recognizing that research to address these foundational challenges is a long-term effort, “success” in this symposium will involve achieving the following objectives, which focus on defining an agenda for climate-inspired planning research and kick-starting a community of researchers working in this area.

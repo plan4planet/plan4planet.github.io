@@ -1,0 +1,39 @@
+.domain-overview {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.domain-group {
+  background: #e5f2e9;
+  border: 1px solid #285234;
+  border-radius: 4px;
+  padding: 16px 20px;
+}
+
+.domain-group h2 {
+  margin-top: 0;
+  padding: 10px 12px;
+  background: #285234;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.domain-group ul {
+  margin-bottom: 0;
+}
+
+.domain-group-wide {
+  grid-column: 1 / -1;
+}
+
+@media screen and (max-width: 640px) {
+  .domain-overview {
+    display: block;
+  }
+
+  .domain-group {
+    margin-bottom: 16px;
+  }
+}
