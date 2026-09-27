@@ -176,6 +176,11 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
 <!---- Amy Quarkume, Howard University-->
 <!--- Jonathan Stock, NASA Ames Research Center-->
 
+## Sponsors
+<div class="sponsor-logos">
+  <a href="https://www.hmc.edu/hixon-center/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/HMC-HIXON.png" alt="Hixon Center for Climate and the Environment at Harvey Mudd College" /></a>
+</div>
+
 ## Contact Us
 - [info@plan4planet.org](mailto:info@plan4planet.org)
 
