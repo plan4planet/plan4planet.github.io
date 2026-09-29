@@ -129,7 +129,7 @@ Here are some recommendations designed to help you align your submission with th
     - Full paper: 8 pages + 1 page for references/appendices
 - EasyChair submission site: <https://easychair.org/conferences/?conf=fss26>
 
-To help us provide robust, vibrant, and valuable reviews and feedback for submissions across the disciplinary spectrum, we ask that at least one member of each author team volunteer to serve as a reviewer.  You can volunteer by responding to [this form](https://forms.gle/uWduegVhtgJKYAkL9).
+To help us provide robust, vibrant, and valuable reviews and feedback for submissions across the disciplinary spectrum, we ask that at least one member of each author team volunteer to serve as a reviewer.  You can volunteer by responding to [this form](https://docs.google.com/forms/d/e/1FAIpQLSdKMIwb6lwynWyx-4Sg1FcS1ER3lwRj4cC6x0YliZzPpC48wg/viewform).
 
 </details>
 
@@ -163,7 +163,7 @@ Please join our mailing list to stay informed about opportunities related to thi
 - Join via web (Gmail address required): Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
 - Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)
 
-Volunteer to help review: <https://forms.gle/uWduegVhtgJKYAkL9>
+Volunteer to help review: <https://docs.google.com/forms/d/e/1FAIpQLSdKMIwb6lwynWyx-4Sg1FcS1ER3lwRj4cC6x0YliZzPpC48wg/viewform>
 
 Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
 
