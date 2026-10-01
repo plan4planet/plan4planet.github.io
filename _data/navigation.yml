@@ -4,6 +4,8 @@
   link: "/#registration-and-attendance"
 - name: "Connect"
   link: "/#connect"
+- name: "Speakers"
+  link: "/#confirmed-speakers"
 - name: "Papers"
   link: "/#accepted-papers"
 - name: "Schedule"

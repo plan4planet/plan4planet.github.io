@@ -184,6 +184,59 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
 ## Contact Us
 - [info@plan4planet.org](mailto:info@plan4planet.org)
 
+## Confirmed Speakers
+
+<div class="speaker-cards">
+  <article class="speaker-card">
+    <header class="speaker-card-header">
+      <span class="speaker-initials" aria-hidden="true">CG</span>
+      <div>
+        <h3>Carla P. Gomes</h3>
+        <p class="speaker-affiliation">Cornell University</p>
+        <p class="speaker-title">Ronald C. and Antonia V. Nielsen Professor of Computing and Information Science</p>
+      </div>
+    </header>
+    <p class="speaker-bio">Carla Gomes directs the Institute for Computational Sustainability and co-directs the Cornell University AI for Science Institute. Her research combines constraint reasoning, optimization, and machine learning for large-scale combinatorial problems, with a focus on computational methods for environmental, economic, and societal challenges. She is a Fellow of AAAI and a Schmidt AI2050 Senior Fellow.</p>
+    <a class="speaker-link" href="https://www.cs.cornell.edu/gomes/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
+  </article>
+  <article class="speaker-card">
+    <header class="speaker-card-header">
+      <span class="speaker-initials" aria-hidden="true">LO</span>
+      <div>
+        <h3>Luis E. Ortiz</h3>
+        <p class="speaker-affiliation">George Mason University</p>
+        <p class="speaker-title">Assistant Professor, Atmospheric, Oceanic, and Earth Sciences</p>
+      </div>
+    </header>
+    <p class="speaker-bio">Luis Ortiz is a member of the Center for Ocean-Land-Atmosphere Studies. He studies how cities interact with the atmosphere in a changing climate, and how those interactions affect people and infrastructure. His work uses high-resolution dynamical and statistical modeling of urban weather and climate to analyze impacts ranging from energy demand to exposure to weather extremes.</p>
+    <a class="speaker-link" href="https://science.gmu.edu/directory/luis-ortiz" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
+  </article>
+  <article class="speaker-card">
+    <header class="speaker-card-header">
+      <span class="speaker-initials" aria-hidden="true">BS</span>
+      <div>
+        <h3>Biplav Srivastava</h3>
+        <p class="speaker-affiliation">University of South Carolina</p>
+        <p class="speaker-title">Professor of Computer Science, AI Institute</p>
+      </div>
+    </header>
+    <p class="speaker-bio">Biplav Srivastava's research aims to help people make rational decisions despite poor data, changing goals, and limited resources, with work spanning neuro-symbolic planning, trusted AI, and sensor and open-data applications for smarter communities in areas such as water, energy, and transportation. He is an ACM Distinguished Scientist, an AAAI Senior Member, and an IEEE Senior Member.</p>
+    <a class="speaker-link" href="https://sites.google.com/site/biplavsrivastava/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
+  </article>
+  <article class="speaker-card">
+    <header class="speaker-card-header">
+      <span class="speaker-initials" aria-hidden="true">SW</span>
+      <div>
+        <h3>Stephen Wissow</h3>
+        <p class="speaker-affiliation">University of New Hampshire</p>
+        <p class="speaker-title">Doctoral Candidate, Computer Science</p>
+      </div>
+    </header>
+    <p class="speaker-bio">Stephen Wissow also collaborates with the MIT-IBM Watson AI Lab. His research uses heuristic search for planning under time pressure and develops algorithms for autonomy, including work on balancing exploration and exploitation in Monte Carlo Tree Search.</p>
+    <a class="speaker-link" href="https://www.cs.unh.edu/~sjw1000/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
+  </article>
+</div>
+
 ## Accepted Papers
 
 ### ⛈️ Disaster and Hazard Adaptation
@@ -227,7 +280,7 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
   Zixi Chen, Yifu Ding, Ruicheng Ao, David Simchi-Levi, and Thomas Magnanti (Massachusetts Institute of Technology)
 
 ### 🚉 Transportation and Built Environment
-- **Some Lessons from Smart Transportation to Help Plan for a Better Planet (Position Paper)**  
+- **Some Lessons from Smart Transportation to Help Plan for a Better Planet**  
   Biplav Srivastava (AI Institute, University of South Carolina)
 
 ## Tentative Schedule 
