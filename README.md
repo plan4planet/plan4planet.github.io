@@ -138,8 +138,8 @@ To help us provide robust, vibrant, and valuable reviews and feedback for submis
 ## Important Dates
 - ~~September 1: Submission deadline~~
 - ~~September 15: Notification of acceptance~~
-- September 29: Camera-ready deadline
-- October 2: Early Registration deadline
+- ~~September 29: Camera-ready deadline~~
+- **October 2: Early Registration deadline**
 - November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA
 
 ## Registration and Attendance
