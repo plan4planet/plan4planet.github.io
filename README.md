@@ -189,6 +189,18 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
 <div class="speaker-cards">
   <article class="speaker-card">
     <header class="speaker-card-header">
+      <span class="speaker-initials" aria-hidden="true">JD</span>
+      <div>
+        <h3>Joanmarie Del Vecchio</h3>
+        <p class="speaker-affiliation">William &amp; Mary</p>
+        <p class="speaker-title">Assistant Professor of Geology</p>
+      </div>
+    </header>
+    <p class="speaker-bio">Joanmarie Del Vecchio is a geomorphologist who uses field observations and remotely sensed data from satellites and drones to study how landscapes respond to a changing climate. Her work spans permafrost landscapes, surface processes, and computational and "big data" approaches to Earth science, including models for identifying Arctic landforms and studies of how permafrost thaw shapes rivers, erosion, and vegetation.</p>
+    <a class="speaker-link" href="https://www.wm.edu/as/geology/people/faculty/delvecchio_j.php" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
+  </article>
+  <article class="speaker-card">
+    <header class="speaker-card-header">
       <span class="speaker-initials" aria-hidden="true">CG</span>
       <div>
         <h3>Carla P. Gomes</h3>
