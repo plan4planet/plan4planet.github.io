@@ -237,7 +237,7 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
   </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
-      <span class="speaker-initials" aria-hidden="true">SW</span>
+      <img class="speaker-photo" src="/assets/images/speakers/stephen-wissow.jpg" alt="Stephen Wissow" width="56" height="56">
       <div>
         <h3>Stephen Wissow</h3>
         <p class="speaker-affiliation">University of New Hampshire</p>
