@@ -163,7 +163,7 @@ Please join our mailing list to stay informed about opportunities related to thi
 - Join via web (Gmail address required): Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
 - Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)
 
-Volunteer to help review: <https://docs.google.com/forms/d/e/1FAIpQLSdKMIwb6lwynWyx-4Sg1FcS1ER3lwRj4cC6x0YliZzPpC48wg/viewform>
+<!-- Volunteer to help review: <https://docs.google.com/forms/d/e/1FAIpQLSdKMIwb6lwynWyx-4Sg1FcS1ER3lwRj4cC6x0YliZzPpC48wg/viewform> -->
 
 Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
 
