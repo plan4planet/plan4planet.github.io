@@ -19,7 +19,7 @@
 <p>The <a href="https://www.plan4planet.org/"><strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong></a> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
 <div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 24px;">
-  <a href="https://aaai.getregistered.net/2026-fall-symposium" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none; text-align: center;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
+  <a href="https://aaai.getregistered.net/2026-fall-symposium/register" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none; text-align: center;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
   <a href="https://groups.google.com/g/plan4planet-l/" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
   <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
 </div>
@@ -146,7 +146,7 @@ To help us provide robust, vibrant, and valuable reviews and feedback for submis
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
 
 <div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 16px 0 24px;">
-  <a href="https://aaai.getregistered.net/2026-fall-symposium" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none; text-align: center;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
+  <a href="https://aaai.getregistered.net/2026-fall-symposium/register" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none; text-align: center;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
   <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book your room!</a>
   <span aria-disabled="true" title="The application deadline has passed" style="background: #9e9e9e; color: #f5f5f5; padding: 10px 16px; border-radius: 4px; text-align: center; cursor: not-allowed;"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Student travel grant<span class="deadline">Deadline: Sept. 25 (closed)</span></span>
 </div>
