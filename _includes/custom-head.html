@@ -1,1 +1,20 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+<script>
+  // Links to a collapsible section (e.g. plan4planet.org/#our-goals or
+  // /#call-for-participation) open it and scroll to it, on page load and when
+  // the #part of the address changes. Also works for anything inside one.
+  (function () {
+    function openFromHash() {
+      var id = decodeURIComponent(location.hash.slice(1));
+      if (!id) return;
+      var target = document.getElementById(id);
+      if (!target) return;
+      var section = target.tagName === "DETAILS" ? target : target.closest("details");
+      if (!section) return;
+      section.open = true;
+      requestAnimationFrame(function () { target.scrollIntoView(); });
+    }
+    document.addEventListener("DOMContentLoaded", openFromHash);
+    window.addEventListener("hashchange", openFromHash);
+  })();
+</script>
