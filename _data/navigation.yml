@@ -7,6 +7,6 @@
 - name: "Papers"
   link: "/papers/"
 - name: "Schedule"
-  link: "/#tentative-schedule"
+  link: "/schedule/"
 - name: "Contact"
   link: "/#contact-us"
