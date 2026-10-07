@@ -68,7 +68,7 @@ layout: home
   </div>
 </section>
 
-# Our Goals
+## Our Goals
 
 Recognizing that research to address these foundational challenges is a long-term effort, “success” in this symposium will involve achieving the following objectives, which focus on defining an agenda for climate-inspired planning research and kick-starting a community of researchers working in this area.
 
