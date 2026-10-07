@@ -16,7 +16,7 @@
 
 <img src="/assets/images/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; margin-bottom: 20px; max-width: 30%;" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
-<p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong></a> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
+<p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
 <div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 24px;">
   <a href="https://aaai.getregistered.net/2026-fall-symposium/register" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none; text-align: center;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
@@ -210,6 +210,18 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
     </header>
     <p class="speaker-bio">Carla Gomes directs the Institute for Computational Sustainability and co-directs the Cornell University AI for Science Institute. Her research combines constraint reasoning, optimization, and machine learning for large-scale combinatorial problems, with a focus on computational methods for environmental, economic, and societal challenges. She is a Fellow of AAAI and a Schmidt AI2050 Senior Fellow.</p>
     <a class="speaker-link" href="https://www.cs.cornell.edu/gomes/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
+  </article>
+  <article class="speaker-card">
+    <header class="speaker-card-header">
+      <span class="speaker-initials" aria-hidden="true">SH</span>
+      <div>
+        <h3>Stéphane Hallegatte</h3>
+        <p class="speaker-affiliation">World Bank Group</p>
+        <p class="speaker-title">Chief Economic Adviser, Climate</p>
+      </div>
+    </header>
+    <p class="speaker-bio">Stéphane Hallegatte is Chief Economic Adviser for Climate at the World Bank Group, which he joined in 2012 after a decade of research in environmental economics and climate science at Météo-France, CIRED, and Stanford University. His work focuses on the economics of resilient, low-emission development, natural disasters and risk management, and how climate policies affect jobs, incomes, and poverty. He was a lead author of the IPCC Fifth Assessment Report and has led World Bank reports on green growth, decarbonization, and climate resilience.</p>
+    <a class="speaker-link" href="https://www.worldbank.org/en/about/people/stephane-hallegatte" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
   </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
