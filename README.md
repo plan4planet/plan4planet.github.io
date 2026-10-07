@@ -9,16 +9,19 @@ Note: You do *not* need to run `jekyll build` or install anything for this to wo
 
 | You want to change | Edit this file |
 |---|---|
-| Home page (intro, goals, call for participation, attend, connect, committee) | `index.md` |
+| Home page (hero, announcement, intro, goals, call for participation, attend) | `index.md` |
+| Connect channels (home page and footer) | `_data/channels.yml` |
+| Organizing committee | `_data/committee.yml` |
 | Sponsors (home page) | `_data/supporters.yml` |
 | Confirmed speakers | `pages/speakers.md` |
 | Accepted papers | `pages/papers.md` |
 | Schedule | `pages/schedule.md` |
 | Menu items in the top bar | `_data/navigation.yml` |
-| Footer (links, support logos) | `_includes/footer.html` |
+| Footer | `_includes/footer.html` |
 | Site title, description, social card | `_config.yml` |
-| Images (logos, speaker photos) | `assets/images/` |
-| Styling | `assets/custom.css` |
+| Images (logos, speaker and committee photos) | `assets/images/` |
+| Colours and fonts | `_sass/_tokens.scss` |
+| Styling of one part of the site | `_sass/components/` |
 
 To edit on GitHub: open the file, click the pencil icon, make your change, and commit to `main`.
 
@@ -45,11 +48,13 @@ and open http://127.0.0.1:4000. The page reloads as you save.
 ```
 index.md              home page
 pages/                one Markdown file per section page
-_data/navigation.yml  top menu
-_includes/            header and footer HTML (theme overrides)
-assets/               images and custom CSS
+_data/                menu, channels, committee, sponsors
+_layouts/             page shells (default, home, page)
+_includes/            head, header, footer, and the home page sections
+_sass/                tokens, base styles, one partial per component, vendored minima base
+assets/               images and the Sass entry point
 _config.yml           site settings
 CNAME                 custom domain (do not edit)
 ```
 
-The theme is [minima](https://github.com/jekyll/minima), the GitHub Pages default.
+The site has no gem theme. The minima base styles are vendored under `_sass/vendor/` and everything visible is set by the tokens in `_sass/_tokens.scss` and the partials in `_sass/components/`.
