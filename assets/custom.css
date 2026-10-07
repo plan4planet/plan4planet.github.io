@@ -235,6 +235,26 @@
   opacity: 0.85;
 }
 
+/* Optional talk title, shown only once a speaker's title is confirmed. */
+.speaker-talk {
+  margin: 16px 20px 0;
+  padding-left: 10px;
+  border-left: 3px solid #285234;
+  color: #003973;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.speaker-talk span {
+  display: block;
+  color: #285234;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 .speaker-bio {
   margin: 16px 20px 12px;
   color: #333333;
