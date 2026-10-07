@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 <!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
 <div class="event-hero">
   <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-White.png" alt="AAAI">
