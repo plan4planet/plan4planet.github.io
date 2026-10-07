@@ -1,0 +1,49 @@
+// Connect section on the home page: one button, a note under it, then the other channels as links.
+.connect {
+  margin: 16px 0 24px;
+}
+
+.connect .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.connect-note {
+  margin: 10px 0 18px;
+  color: var(--color-ink-soft);
+}
+
+.connect-channels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.connect-channels a,
+.connect-channels .is-pending {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.connect-channels a:hover {
+  text-decoration: underline;
+}
+
+.connect-channels .is-pending {
+  color: var(--color-muted);
+  cursor: default;
+}
+
+@media screen and (max-width: 640px) {
+  .connect-channels {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

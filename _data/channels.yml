@@ -1,5 +1,7 @@
-# Ways to reach or follow Plan4Planet. Drives the Connect buttons on the home page and the footer links.
+# Ways to reach or follow Plan4Planet. Drives the Connect section on the home page and the footer links.
 # icon: a Font Awesome class. pending: true shows the entry greyed out with "coming soon" until url is set.
+# primary: true makes the entry the one button in the Connect section; the rest show as plain links.
+# fallback_email: for the mailing list, the subscribe address for people without a Google account.
 - name: "Email the organizers"
   short: "Email"
   url: "mailto:info@plan4planet.org"
@@ -8,6 +10,8 @@
   short: "Mailing list"
   url: "https://groups.google.com/g/plan4planet-l/"
   icon: "fa-solid fa-users"
+  primary: true
+  fallback_email: "plan4planet-l+subscribe@googlegroups.com"
 - name: "Follow on Bluesky"
   short: "Bluesky"
   url: "https://bsky.app/profile/plan4planet.bsky.social"

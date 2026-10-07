@@ -1,4 +1,4 @@
-// Rows of pill buttons (hero, Attend, Connect).
+// Rows of pill buttons (hero, Attend).
 .action-links {
   display: flex;
   flex-wrap: wrap;
@@ -9,10 +9,6 @@
 
 .action-links--flush-top {
   margin-top: 0;
-}
-
-.action-links--tight {
-  margin-bottom: 12px;
 }
 
 // Anchors only: the disabled badge (a span) stays a plain block, as it always was.

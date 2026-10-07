@@ -160,8 +160,6 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 ## Connect
 {% include channel-buttons.html %}
 
-<p class="note-center">No Google account? Join the list by sending a blank email to <a href="mailto:plan4planet-l+subscribe@googlegroups.com">plan4planet-l+subscribe@googlegroups.com</a>.</p>
-
 ## Organizing Committee
 {% include committee-cards.html %}
 

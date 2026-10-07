@@ -1,12 +1,23 @@
 {%- comment -%}
-Connect buttons, from _data/channels.yml. A pending channel shows greyed out with "coming soon".
+Connect section, from _data/channels.yml. The primary channel is the one button; the others are plain
+links, the same treatment as the footer. A pending channel shows greyed out with "coming soon".
 {%- endcomment -%}
-<div class="action-links action-links--tight">
-  {%- for c in site.data.channels %}
-  {%- if c.pending %}
-  <span class="btn btn-disabled" aria-disabled="true" title="Coming soon"><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }}<span class="deadline">coming soon</span></span>
-  {%- else %}
+<div class="connect">
+  {%- for c in site.data.channels %}{% if c.primary %}
   <a class="btn btn-brand" href="{{ c.url }}"{% unless c.url contains 'mailto:' %} target="_blank" rel="noopener noreferrer"{% endunless %}><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }}</a>
+  {%- if c.fallback_email %}
+  <p class="connect-note">Without a Google account, send a blank email to <a href="mailto:{{ c.fallback_email }}">{{ c.fallback_email }}</a> to join.</p>
   {%- endif %}
-  {%- endfor %}
+  {%- endif %}{% endfor %}
+  <ul class="connect-channels" aria-label="Other ways to reach us">
+    {%- for c in site.data.channels %}{% unless c.primary %}
+    <li>
+      {%- if c.pending %}
+      <span class="is-pending" title="Coming soon"><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }} (coming soon)</span>
+      {%- else %}
+      <a href="{{ c.url }}"{% unless c.url contains 'mailto:' %} target="_blank" rel="noopener noreferrer"{% endunless %}><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }}</a>
+      {%- endif %}
+    </li>
+    {%- endunless %}{% endfor %}
+  </ul>
 </div>
