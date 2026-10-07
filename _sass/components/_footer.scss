@@ -11,7 +11,7 @@
   object-fit: contain;
 }
 
-// Footer: three quiet rows. Brand, channels, supporters.
+// Footer: two quiet rows. Brand, channels.
 .site-footer {
   border-top: 1px solid var(--color-rule);
   padding: 32px 0 40px;
@@ -51,7 +51,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px 22px;
-  margin: 0 0 20px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -72,35 +72,6 @@
 .footer-channels .is-pending {
   color: var(--color-muted);
   cursor: default;
-}
-
-// "Support from" logos, listed in _data/supporters.yml. The light chip keeps dark logos legible
-// when the footer sits on a tinted paper.
-.footer-supporters {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 16px;
-  padding-top: 18px;
-  border-top: 1px solid var(--color-rule);
-}
-
-.footer-supporters-label {
-  font-size: 0.85rem;
-  color: var(--color-ink-soft);
-}
-
-.footer-supporters a {
-  display: inline-block;
-  padding: 4px 8px;
-  background: #ffffff;
-  border-radius: var(--radius);
-}
-
-.footer-supporters img {
-  display: block;
-  height: 20px;
-  width: auto;
 }
 
 @media screen and (max-width: 640px) {

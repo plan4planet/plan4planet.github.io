@@ -10,7 +10,7 @@ Note: You do *not* need to run `jekyll build` or install anything for this to wo
 | You want to change | Edit this file |
 |---|---|
 | Home page (intro, goals, call for participation, attend, connect, committee) | `index.md` |
-| Sponsors (home page) and "Support from" logos (footer) | `_data/supporters.yml` |
+| Sponsors (home page) | `_data/supporters.yml` |
 | Confirmed speakers | `pages/speakers.md` |
 | Accepted papers | `pages/papers.md` |
 | Schedule | `pages/schedule.md` |

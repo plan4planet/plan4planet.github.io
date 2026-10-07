@@ -21,15 +21,6 @@
       {%- endfor %}
     </ul>
 
-    {%- if site.data.supporters %}
-    <div class="footer-supporters" aria-label="Supporters">
-      <span class="footer-supporters-label">Support from</span>
-      {%- for supporter in site.data.supporters %}
-      <a href="{{ supporter.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ supporter.logo | relative_url }}" alt="{{ supporter.name }}"></a>
-      {%- endfor %}
-    </div>
-    {%- endif %}
-
   </div>
 </footer>
 
