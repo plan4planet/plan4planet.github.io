@@ -9,11 +9,13 @@ Note: You do *not* need to run `jekyll build` or install anything for this to wo
 
 | You want to change | Edit this file |
 |---|---|
-| Home page (intro, goals, call for participation, attend, committee, sponsors, connect) | `index.md` |
+| Home page (intro, goals, call for participation, attend, connect, committee) | `index.md` |
+| Sponsors (home page) and "Support from" logos (footer) | `_data/supporters.yml` |
 | Confirmed speakers | `pages/speakers.md` |
 | Accepted papers | `pages/papers.md` |
 | Schedule | `pages/schedule.md` |
 | Menu items in the top bar | `_data/navigation.yml` |
+| Footer (links, support logos) | `_includes/footer.html` |
 | Site title, description, social card | `_config.yml` |
 | Images (logos, speaker photos) | `assets/images/` |
 | Styling | `assets/custom.css` |

@@ -80,7 +80,6 @@ Recognizing that research to address these foundational challenges is a long-ter
     - **For climate domain experts**, this symposium will offer direct exposure to formal planning and reasoning tools that address problems at the core of climate decision-making: decision-making under uncertainty, multi-stakeholder coordination, constrained resource allocation, and risk-aware policy design.
     - **For planning and reasoning experts**, this symposium will offer direct exposure to the challenges and opportunities of developing and deploying AI and robotics applications in service of climate challenges, including navigating unstructured environments for robotics, multi-faceted planning, optimization, and decision support domains for climate justice, etc.
 
-
 <details id="call-for-participation" class="call-for-participation" markdown="1">
 <summary>Call for Participation <em>(submission period closed)</em></summary>
 
@@ -158,6 +157,15 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 **Deadline: September 5th -- [Apply here](https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/)**
 -->
 
+## Connect
+<div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 16px 0 12px;">
+  <a href="https://groups.google.com/g/plan4planet-l/" target="_blank" rel="noopener noreferrer" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
+  <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
+  <a href="mailto:info@plan4planet.org" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email the organizers</a>
+</div>
+
+<p style="text-align: center; font-size: 0.9rem;">No Google account? Join the list by sending a blank email to <a href="mailto:plan4planet-l+subscribe@googlegroups.com">plan4planet-l+subscribe@googlegroups.com</a>.</p>
+
 ## Organizing Committee
 - Jim Boerkoel, Harvey Mudd College
 - Charles Dawson, Emerald AI
@@ -167,17 +175,11 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 <!---- Amy Quarkume, Howard University-->
 <!--- Jonathan Stock, NASA Ames Research Center-->
 
-## Sponsors
+## Thanks to our Sponsors
 <div class="sponsor-logos">
-  <a href="https://www.hmc.edu/hixon-center/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/HMC-HIXON.png" alt="Hixon Center for Climate and the Environment at Harvey Mudd College" /></a>
+{%- for supporter in site.data.supporters %}{% if supporter.sponsor %}
+  <a href="{{ supporter.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ supporter.logo | relative_url }}" alt="{{ supporter.name }}" /></a>
+{%- endif %}{% endfor %}
 </div>
-
-## Connect
-- Email the organizers: [info@plan4planet.org](mailto:info@plan4planet.org)
-- Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
-
-Please join our mailing list to stay informed about opportunities related to this event:
-- Join via web (Gmail address required): Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
-- Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)
 
 <!-- Volunteer to help review: <https://docs.google.com/forms/d/e/1FAIpQLSdKMIwb6lwynWyx-4Sg1FcS1ER3lwRj4cC6x0YliZzPpC48wg/viewform> -->

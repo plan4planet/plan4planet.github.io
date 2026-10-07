@@ -87,7 +87,7 @@
 
 .sponsor-logos img {
   display: block;
-  width: min(360px, 100%);
+  width: min(300px, 100%);
   height: auto;
 }
 
@@ -109,23 +109,47 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 12px 20px;
-  margin-top: 16px;
+  margin-top: 14px;
   text-align: center;
 }
 
 .footer-description {
+  margin-bottom: 0;
   text-align: center;
 }
 
-.footer-aaai-logo {
-  margin-bottom: 12px;
-  text-align: center;
+/* Even spacing between footer rows: drop minima's column margin, then space each row the same. */
+.site-footer .footer-col {
+  margin-bottom: 0;
 }
 
-.footer-aaai-logo img {
+/* "Support from" logos in the site-wide footer, listed in _data/supporters.yml. The light chip keeps
+   dark logos legible when the footer switches to the dark skin. */
+.footer-supporters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 14px;
+}
+
+.footer-supporters-label {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.footer-supporters a {
   display: inline-block;
-  width: min(220px, 80%);
-  height: auto;
+  padding: 4px 8px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.footer-supporters img {
+  display: block;
+  height: 20px;
+  width: auto;
 }
 
 .footer-links a {
