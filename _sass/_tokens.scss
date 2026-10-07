@@ -22,6 +22,13 @@
   --color-surface-2: #eef3f8;      // callout box in the call for participation
   --color-rule: #c9d6e3;           // card borders
 
+  // Chrome (defaults reproduce the vendored minima values)
+  --color-link: #2a7ae2;           // body links
+  --color-link-visited: #1756a9;
+  --color-header-rule: #424242;    // thick rule above the header
+  --color-site-title: #424242;     // "Plan4Planet" in the header
+  --color-four: currentColor;      // the 4 in the wordmark; skins give it the accent
+
   // Effects
   --shadow-brand: 0 2px 6px rgba(0, 57, 115, 0.12);
   --radius: 4px;

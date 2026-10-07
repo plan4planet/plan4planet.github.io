@@ -1,4 +1,4 @@
-// Header logo lockup (was inline in header.html).
+// Header logo lockup.
 .site-title {
   display: inline-flex;
   align-items: center;
@@ -11,45 +11,83 @@
   object-fit: contain;
 }
 
-.footer-links {
+// Footer: three quiet rows. Brand, channels, supporters.
+.site-footer {
+  border-top: 1px solid var(--color-rule);
+  padding: 32px 0 40px;
+  font-size: 0.95rem;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.footer-mark {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.footer-brand .wordmark {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-site-title);
+  line-height: 1.1;
+}
+
+.footer-tagline {
+  margin: 4px 0 0;
+  color: var(--color-ink-soft);
+  max-width: 60ch;
+}
+
+.footer-channels {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px 20px;
-  margin-top: 14px;
-  text-align: center;
+  gap: 8px 22px;
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
 }
 
-.footer-links a {
+.footer-channels a,
+.footer-channels .is-pending {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
+  color: var(--color-link);
+  text-decoration: none;
 }
 
-.footer-description {
-  margin-bottom: 0;
-  text-align: center;
+.footer-channels a:hover {
+  text-decoration: underline;
 }
 
-// Even spacing between footer rows: drop minima's column margin, then space each row the same.
-.site-footer .footer-col {
-  margin-bottom: 0;
+.footer-channels .is-pending {
+  color: var(--color-muted);
+  cursor: default;
 }
 
-// "Support from" logos in the site-wide footer, listed in _data/supporters.yml. The light chip keeps
-// dark logos legible when the footer switches to a dark skin.
+// "Support from" logos, listed in _data/supporters.yml. The light chip keeps dark logos legible
+// when the footer sits on a tinted paper.
 .footer-supporters {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   gap: 8px 16px;
-  margin-top: 14px;
+  padding-top: 18px;
+  border-top: 1px solid var(--color-rule);
 }
 
 .footer-supporters-label {
   font-size: 0.85rem;
-  opacity: 0.8;
+  color: var(--color-ink-soft);
 }
 
 .footer-supporters a {
@@ -63,4 +101,15 @@
   display: block;
   height: 20px;
   width: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .footer-brand {
+    align-items: flex-start;
+  }
+
+  .footer-channels {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

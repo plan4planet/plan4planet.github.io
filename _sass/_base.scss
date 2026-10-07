@@ -1,10 +1,45 @@
 // Site-wide element tweaks on top of the vendored minima base.
+// Everything here reads a token, so a skin changes the whole page by redefining tokens.
 body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
   font-family: var(--font-text);
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:visited {
+  color: var(--color-link-visited);
+}
+
+.site-header {
+  border-top-color: var(--color-header-rule);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--color-site-title);
+  font-family: var(--font-display);
+}
+
+.site-nav .page-link {
+  color: var(--color-ink);
+}
+
+// Section rhythm: every top-level section heading gets the same breathing room above it.
+.page-content h2 {
+  margin-top: 2.25em;
+  margin-bottom: 0.6em;
+}
+
+.page-content h2:first-child {
+  margin-top: 0;
 }
 
 // Centered small print, e.g. the "No Google account?" line under the Connect buttons.
@@ -13,10 +48,16 @@ h1, h2, h3, h4 {
   font-size: 0.9rem;
 }
 
-// The logo floated beside the intro paragraphs on the home page.
+// The mark floated beside the intro paragraphs on the home page.
 .intro-logo {
   float: right;
-  margin-left: 15px;
-  margin-bottom: 20px;
   max-width: 30%;
+  margin: 0 0 20px 15px;
+}
+
+@media screen and (max-width: 640px) {
+  .intro-logo {
+    display: none;
+  }
+
 }

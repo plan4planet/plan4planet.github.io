@@ -1,0 +1,23 @@
+# Ways to reach or follow Plan4Planet. Drives the Connect buttons on the home page and the footer links.
+# icon: a Font Awesome class. pending: true shows the entry greyed out with "coming soon" until url is set.
+- name: "Email the organizers"
+  short: "Email"
+  url: "mailto:info@plan4planet.org"
+  icon: "fa-solid fa-envelope"
+- name: "Join the mailing list"
+  short: "Mailing list"
+  url: "https://groups.google.com/g/plan4planet-l/"
+  icon: "fa-solid fa-users"
+- name: "Follow on Bluesky"
+  short: "Bluesky"
+  url: "https://bsky.app/profile/plan4planet.bsky.social"
+  icon: "fa-brands fa-bluesky"
+- name: "Follow on X"
+  short: "X"
+  url: "https://x.com/plan4planet_org"
+  icon: "fa-brands fa-x-twitter"
+- name: "Follow on LinkedIn"
+  short: "LinkedIn"
+  url: ""
+  icon: "fa-brands fa-linkedin"
+  pending: true

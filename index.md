@@ -4,15 +4,15 @@ layout: home
 
 <!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
 <div class="event-hero">
-  <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-White.png" alt="AAAI">
-  <div>
+  <div class="event-hero-text">
     <h1>Planning For a Better Planet</h1>
-    <p>2026 AAAI Fall Symposium</p>
+    <p>AAAI Fall Symposium 2026</p>
     <p>📅 November 5–7, 2026 · 📍Arlington, VA</p>
   </div>
+  <a class="aaai-chip" href="https://aaai.org/" target="_blank" rel="noopener noreferrer" aria-label="AAAI, Association for the Advancement of Artificial Intelligence">
+    <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-FullColor.png" alt="AAAI, Association for the Advancement of Artificial Intelligence">
+  </a>
 </div>
-
-<br>
 
 <!--<div style="text-align: center; color:#003973">
 <span style="font-size: 1.2em; font-weight: 500; text-align: center;">⏳ Early registration deadline: October 2</span>
@@ -23,9 +23,9 @@ layout: home
 <p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
 <div class="action-links action-links--flush-top">
-  <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
-  <a class="btn btn-secondary" href="https://groups.google.com/g/plan4planet-l/"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
-  <a class="btn btn-bluesky" href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
+  <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register today</a>
+  <a class="btn btn-secondary" href="#connect"><i class="fa-solid fa-comments" aria-hidden="true"></i> Connect with us</a>
+  <span class="btn btn-disabled" aria-disabled="true" title="Coming soon"><i class="fa-solid fa-book-open" aria-hidden="true"></i> About Plan4Planet<span class="deadline">coming soon</span></span>
 </div>
 
 <section class="domain-overview" aria-label="Research domains and problem areas">
@@ -158,19 +158,12 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 -->
 
 ## Connect
-<div class="action-links action-links--tight">
-  <a class="btn btn-secondary" href="https://groups.google.com/g/plan4planet-l/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
-  <a class="btn btn-bluesky" href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
-  <a class="btn btn-brand" href="mailto:info@plan4planet.org"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email the organizers</a>
-</div>
+{% include channel-buttons.html %}
 
 <p class="note-center">No Google account? Join the list by sending a blank email to <a href="mailto:plan4planet-l+subscribe@googlegroups.com">plan4planet-l+subscribe@googlegroups.com</a>.</p>
 
 ## Organizing Committee
-- [Jim Boerkoel](https://www.cs.hmc.edu/~boerkoel/), Harvey Mudd College
-- [Charles Dawson](https://www.emeraldai.co/team-members/charles-dawson), Emerald AI
-- [Jeremy Frank](https://www.nasa.gov/people/jeremy-frank/), NASA Ames Research Center
-- [Alice Lépissier](https://alicelepissier.com/), Green Finance AI
+{% include committee-cards.html %}
 
 ## Thanks to our Sponsors
 <div class="sponsor-logos">

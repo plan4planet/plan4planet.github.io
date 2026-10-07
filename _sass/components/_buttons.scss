@@ -47,11 +47,6 @@
   background: var(--color-secondary);
 }
 
-// Third-party brand colour, deliberately not a token.
-.btn-bluesky {
-  background: #0085ff;
-}
-
 .btn-disabled {
   background: var(--color-muted);
   color: var(--color-muted-soft);

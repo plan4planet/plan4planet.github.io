@@ -1,0 +1,35 @@
+{%- comment -%}
+Organizing committee cards, from _data/committee.yml. Same card as the speakers so the site has one card style.
+Each card has exactly three children (header, body, link) because the grid uses subgrid rows.
+{%- endcomment -%}
+<div class="speaker-cards committee-cards">
+{%- for m in site.data.committee %}
+  {%- assign parts = m.name | split: " " %}
+  {%- assign first = parts | first %}
+  {%- assign last = parts | last %}
+  <article class="speaker-card">
+    <header class="speaker-card-header">
+      {%- if m.photo and m.photo != "" %}
+      <img class="speaker-photo" src="{{ '/assets/images/committee/' | append: m.photo | relative_url }}" alt="{{ m.name }}" width="56" height="56">
+      {%- else %}
+      <span class="speaker-initials" aria-hidden="true">{{ first | slice: 0 }}{{ last | slice: 0 }}</span>
+      {%- endif %}
+      <div>
+        <h3>{{ m.name }}</h3>
+        <p class="speaker-affiliation">{{ m.affiliation }}</p>
+        {%- if m.role and m.role != "" %}
+        <p class="speaker-title">{{ m.role }}</p>
+        {%- endif %}
+      </div>
+    </header>
+    <div class="speaker-body">
+      <p class="speaker-bio">{% if m.bio and m.bio != "" %}{{ m.bio }}{% else %}Bio to come.{% endif %}</p>
+    </div>
+    {%- if m.website and m.website != "" %}
+    <a class="speaker-link" href="{{ m.website }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
+    {%- else %}
+    <span class="speaker-link" aria-hidden="true"></span>
+    {%- endif %}
+  </article>
+{%- endfor %}
+</div>
