@@ -257,7 +257,7 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
         <p class="speaker-title">Doctoral Candidate, Computer Science</p>
       </div>
     </header>
-    <p class="speaker-bio">Stephen Wissow is a PhD candidate in Computer Science at the University of New Hampshire, collaborates with the MIT-IBM Watson AI Lab, and will give an introduction to AI planning for researchers across disciplines. Steve's research develops heuristic search algorithms for automated planning under time pressure, focusing on how problem presentation influences planning speed and on balancing exploration and exploitation, the latter recognized with an Outstanding Paper Award at ECAI 2024.</p>
+    <p class="speaker-bio">Stephen Wissow is a PhD candidate in Computer Science at the University of New Hampshire, collaborates with the MIT-IBM Watson AI Lab, and will give an introduction to AI planning for researchers across disciplines. Their research develops heuristic search algorithms for automated planning under resource constraints, focusing on how cost models influence planning speed and on balancing exploration and exploitation, the latter recognized with an Outstanding Paper Award at ECAI 2024. They are interested in the problem setting posed by renewable-heavy power grids, where energy availability fluctuates and long-running algorithms must reconcile partial plans with accrued world changes.</p>
     <a class="speaker-link" href="https://www.cs.unh.edu/~sjw1000/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
   </article>
 </div>
