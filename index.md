@@ -84,6 +84,13 @@ Recognizing that research to address these foundational challenges is a long-ter
 <details id="call-for-participation" class="call-for-participation" markdown="1">
 <summary>Call for Participation <em>(submission period closed)</em></summary>
 
+### Important Dates
+- ~~September 1: Submission deadline~~
+- ~~September 15: Notification of acceptance~~
+- ~~September 29: Camera-ready deadline~~
+- ~~October 2: Early Registration deadline~~
+- November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA
+
 We invite submissions and participants from across the planning and climate domains who are interested in or have engaged in 
 <div style="border-left: 4px solid #003973; background: #eef3f8; padding: 10px 16px;">
 
@@ -134,15 +141,6 @@ Here are some recommendations designed to help you align your submission with th
 To help us provide robust, vibrant, and valuable reviews and feedback for submissions across the disciplinary spectrum, we ask that at least one member of each author team volunteer to serve as a reviewer.  You can volunteer by responding to [this form](https://docs.google.com/forms/d/e/1FAIpQLSdKMIwb6lwynWyx-4Sg1FcS1ER3lwRj4cC6x0YliZzPpC48wg/viewform).
 
 </details>
-
-
-
-## Important Dates
-- ~~September 1: Submission deadline~~
-- ~~September 15: Notification of acceptance~~
-- ~~September 29: Camera-ready deadline~~
-- ~~October 2: Early Registration deadline~~
-- November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA
 
 ## Attend
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
