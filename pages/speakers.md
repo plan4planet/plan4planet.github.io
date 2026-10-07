@@ -44,7 +44,7 @@ permalink: /speakers/
   </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
-      <img class="speaker-photo" src="/assets/images/speakers/luis-ortiz.jpg" alt="Luis E. Ortiz" width="56" height="56">
+      <img class="speaker-photo" src="{{ '/assets/images/speakers/luis-ortiz.jpg' | relative_url }}" alt="Luis E. Ortiz" width="56" height="56">
       <div>
         <h3>Luis E. Ortiz</h3>
         <p class="speaker-affiliation">George Mason University</p>
@@ -71,7 +71,7 @@ permalink: /speakers/
   </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
-      <img class="speaker-photo" src="/assets/images/speakers/stephen-wissow.jpg" alt="Stephen Wissow" width="56" height="56">
+      <img class="speaker-photo" src="{{ '/assets/images/speakers/stephen-wissow.jpg' | relative_url }}" alt="Stephen Wissow" width="56" height="56">
       <div>
         <h3>Stephen Wissow</h3>
         <p class="speaker-affiliation">University of New Hampshire</p>
