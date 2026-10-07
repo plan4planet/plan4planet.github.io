@@ -244,8 +244,10 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
         <p class="speaker-title">Professor of Computer Science, AI Institute</p>
       </div>
     </header>
-    <p class="speaker-talk"><span>Talk</span> Some Lessons from Smart Transportation to Help Plan for a Better Planet</p>
-    <p class="speaker-bio">Biplav Srivastava's research aims to help people make rational decisions despite poor data, changing goals, and limited resources, with work spanning neuro-symbolic planning, trusted AI, and sensor and open-data applications for smarter communities in areas such as water, energy, and transportation. He is an ACM Distinguished Scientist, an AAAI Senior Member, and an IEEE Senior Member.</p>
+    <div class="speaker-body">
+      <p class="speaker-talk"><span>Talk</span> Some Lessons from Smart Transportation to Help Plan for a Better Planet</p>
+      <p class="speaker-bio">Biplav Srivastava's research aims to help people make rational decisions despite poor data, changing goals, and limited resources, with work spanning neuro-symbolic planning, trusted AI, and sensor and open-data applications for smarter communities in areas such as water, energy, and transportation. He is an ACM Distinguished Scientist, an AAAI Senior Member, and an IEEE Senior Member.</p>
+    </div>
     <a class="speaker-link" href="https://sites.google.com/site/biplavsrivastava/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Website</a>
   </article>
   <article class="speaker-card">

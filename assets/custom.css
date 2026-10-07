@@ -235,7 +235,8 @@
   opacity: 0.85;
 }
 
-/* Optional talk title, shown only once a speaker's title is confirmed. */
+/* Optional talk title, shown only once a speaker's title is confirmed. Wrap it with the bio in
+   .speaker-body so the card keeps its three subgrid rows (header, body, link). */
 .speaker-talk {
   margin: 16px 20px 0;
   padding-left: 10px;
