@@ -167,10 +167,10 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 <p style="text-align: center; font-size: 0.9rem;">No Google account? Join the list by sending a blank email to <a href="mailto:plan4planet-l+subscribe@googlegroups.com">plan4planet-l+subscribe@googlegroups.com</a>.</p>
 
 ## Organizing Committee
-- Jim Boerkoel, Harvey Mudd College
-- Charles Dawson, Emerald AI
-- Jeremy Frank, NASA Ames Research Center
-- Alice Lépissier, Green Finance AI
+- [Jim Boerkoel](https://www.cs.hmc.edu/~boerkoel/), Harvey Mudd College
+- [Charles Dawson](https://www.emeraldai.co/team-members/charles-dawson), Emerald AI
+- [Jeremy Frank](https://www.nasa.gov/people/jeremy-frank/), NASA Ames Research Center
+- [Alice Lépissier](https://alicelepissier.com/), Green Finance AI
 
 ## Thanks to our Sponsors
 <div class="sponsor-logos">
