@@ -162,15 +162,6 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 **Deadline: September 5th -- [Apply here](https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/)**
 -->
 
-## Connect
-Please join our mailing list to stay informed about opportunities related to this event:
-- Join via web (Gmail address required): Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
-- Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)
-
-<!-- Volunteer to help review: <https://docs.google.com/forms/d/e/1FAIpQLSdKMIwb6lwynWyx-4Sg1FcS1ER3lwRj4cC6x0YliZzPpC48wg/viewform> -->
-
-Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
-
 ## Organizing Committee
 - Jim Boerkoel, Harvey Mudd College
 - Charles Dawson, Emerald AI
@@ -185,5 +176,12 @@ Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
   <a href="https://www.hmc.edu/hixon-center/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/HMC-HIXON.png" alt="Hixon Center for Climate and the Environment at Harvey Mudd College" /></a>
 </div>
 
-## Contact Us
-- [info@plan4planet.org](mailto:info@plan4planet.org)
+## Connect
+- Email the organizers: [info@plan4planet.org](mailto:info@plan4planet.org)
+- Follow on Bluesky: <https://bsky.app/profile/plan4planet.bsky.social>
+
+Please join our mailing list to stay informed about opportunities related to this event:
+- Join via web (Gmail address required): Visit <https://groups.google.com/g/plan4planet-l/> and click "Ask to join group"
+- Join via email: Send a blank email to [plan4planet-l+subscribe@googlegroups.com](mailto:plan4planet-l+subscribe@googlegroups.com)
+
+<!-- Volunteer to help review: <https://docs.google.com/forms/d/e/1FAIpQLSdKMIwb6lwynWyx-4Sg1FcS1ER3lwRj4cC6x0YliZzPpC48wg/viewform> -->
