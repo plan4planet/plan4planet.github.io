@@ -171,9 +171,6 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 - Charles Dawson, Emerald AI
 - Jeremy Frank, NASA Ames Research Center
 - Alice Lépissier, Green Finance AI
-<!--- J. Pablo Ortiz-Partida, Union of Concerned Scientists-->
-<!---- Amy Quarkume, Howard University-->
-<!--- Jonathan Stock, NASA Ames Research Center-->
 
 ## Thanks to our Sponsors
 <div class="sponsor-logos">
