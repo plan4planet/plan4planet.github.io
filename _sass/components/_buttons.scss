@@ -32,6 +32,13 @@
   color: var(--color-on-brand);
 }
 
+// Outrank the base a:visited and a:hover rules, which the old inline styles used to beat.
+.btn:visited,
+.btn:hover {
+  color: var(--color-on-brand);
+  text-decoration: none;
+}
+
 .btn-brand {
   background: var(--color-brand);
 }
