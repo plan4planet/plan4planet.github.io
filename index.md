@@ -68,8 +68,7 @@ layout: home
   </div>
 </section>
 
-<details id="our-goals" class="collapsible-section" markdown="1">
-<summary>Learn more about our goals</summary>
+# Our Goals
 
 Recognizing that research to address these foundational challenges is a long-term effort, “success” in this symposium will involve achieving the following objectives, which focus on defining an agenda for climate-inspired planning research and kick-starting a community of researchers working in this area.
 
@@ -81,7 +80,6 @@ Recognizing that research to address these foundational challenges is a long-ter
     - **For climate domain experts**, this symposium will offer direct exposure to formal planning and reasoning tools that address problems at the core of climate decision-making: decision-making under uncertainty, multi-stakeholder coordination, constrained resource allocation, and risk-aware policy design.
     - **For planning and reasoning experts**, this symposium will offer direct exposure to the challenges and opportunities of developing and deploying AI and robotics applications in service of climate challenges, including navigating unstructured environments for robotics, multi-faceted planning, optimization, and decision support domains for climate justice, etc.
 
-  </details>
 
 <details id="call-for-participation" class="call-for-participation" markdown="1">
 <summary>Call for Participation <em>(submission period closed)</em></summary>
