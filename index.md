@@ -2,32 +2,36 @@
 layout: home
 ---
 
-<!-- AL: if the in-line HTML/CSS becomes annoying, happy to refactor and use the Jekyll theme/functions down the line -->
-<div class="event-hero">
-  <div class="event-hero-text">
-    <h1>Planning For a Better Planet</h1>
-    <p>AAAI Fall Symposium 2026</p>
-    <p>📅 November 5–7, 2026 · 📍Arlington, VA</p>
+<header class="hero">
+  <div class="hero-text">
+    <p class="hero-kicker">AAAI Fall Symposium 2026</p>
+    <h1>Planning for a Better Planet</h1>
+    <p class="hero-deck">AI planning and reasoning researchers and climate experts, working on the decisions a changing climate demands.</p>
+    <ul class="hero-facts">
+      <li><i class="fa-regular fa-calendar" aria-hidden="true"></i> November 5 to 7, 2026</li>
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> <a href="https://www.google.com/maps/search/?api=1&query=The+Westin+Arlington+Gateway%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA+22203" target="_blank" rel="noopener noreferrer">Westin Arlington, Arlington, Virginia</a></li>
+    </ul>
+    <div class="hero-actions">
+      <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register</a>
+      <a class="hero-link" href="#connect">Join the mailing list</a>
+    </div>
   </div>
-  <a class="aaai-chip" href="https://aaai.org/" target="_blank" rel="noopener noreferrer" aria-label="AAAI, Association for the Advancement of Artificial Intelligence">
+  <a class="hero-aaai" href="https://aaai.org/" target="_blank" rel="noopener noreferrer" aria-label="AAAI, Association for the Advancement of Artificial Intelligence">
     <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-FullColor.png" alt="AAAI, Association for the Advancement of Artificial Intelligence">
   </a>
-</div>
+</header>
 
-<!-- Announcement bar. Uncomment to show one line under the hero, for example a deadline or a new page.
-Keep it to one sentence; link the thing being announced. Delete or re-comment when it is out of date.
-<p class="announcement"><span class="announcement-label">New</span> The <a href="{{ '/schedule/' | relative_url }}">schedule</a> is out.</p>
+<!-- Announcement. Uncomment to show one under the hero: a label, one sentence, and a button that does the thing.
+Re-comment when it is out of date.
+<div class="announcement">
+  <p><span class="announcement-label">New</span> The programme is out: three keynotes, two panels, and twenty-four papers across the three days.</p>
+  <a class="btn btn-brand" href="{{ '/schedule/' | relative_url }}">See the schedule</a>
+</div>
 -->
 
 <img class="intro-logo" src="{{ '/assets/images/plan4planet.png' | relative_url }}" alt="Planning for a Better Planet Logo" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
 <p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
-
-<div class="action-links action-links--flush-top">
-  <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register today</a>
-  <a class="btn btn-secondary" href="#connect"><i class="fa-solid fa-comments" aria-hidden="true"></i> Connect with us</a>
-  <span class="btn btn-disabled" aria-disabled="true" title="Coming soon"><i class="fa-solid fa-book-open" aria-hidden="true"></i> About Plan4Planet<span class="deadline">coming soon</span></span>
-</div>
 
 <section class="domain-overview" aria-label="Research domains and problem areas">
   <div class="domain-group">

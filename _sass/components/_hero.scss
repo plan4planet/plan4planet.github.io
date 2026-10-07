@@ -1,60 +1,122 @@
-// Event hero: title block on the left, the AAAI logo on a white chip on the right.
-// The AAAI logo follows AAAI's brand guidelines: full-colour primary version, never recoloured,
-// clear space around it, and linked to aaai.org.
-.event-hero {
+// Home page hero: typographic, on the page background. Kicker, title, one-sentence deck, the two
+// facts a visitor needs (when, where), the two actions, and the AAAI logo on the right.
+// AAAI brand rules: full-colour logo, never recoloured, clear space around it, linked to aaai.org.
+.hero {
   display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 24px;
-  margin-bottom: 28px;
-  padding: 28px 32px;
-  background: var(--color-brand);
-  color: var(--color-on-brand);
-  border-radius: var(--radius);
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 32px;
+  margin: 8px 0 32px;
+  padding-bottom: 28px;
+  border-bottom: 3px solid var(--color-brand);
 }
 
-.event-hero h1 {
-  margin: 0;
-  color: var(--color-on-brand);
-  font-size: 2.25rem;
+.hero-kicker {
+  margin: 0 0 10px;
+  color: var(--color-secondary);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hero h1 {
+  margin: 0 0 14px;
+  max-width: 16ch;
+  color: var(--color-brand);
+  font-size: 3rem;
   font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
+  line-height: 1.02;
+  letter-spacing: -0.025em;
 }
 
-.event-hero p {
-  margin: 8px 0 0;
-  font-size: 1.1rem;
+.hero-deck {
+  margin: 0 0 18px;
+  max-width: 44ch;
+  color: var(--color-ink-soft);
+  font-size: 1.2rem;
+  line-height: 1.45;
 }
 
-.aaai-chip {
+.hero-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 28px;
+  margin: 0 0 22px;
+  padding: 0;
+  list-style: none;
+  font-size: 1.05rem;
+}
+
+.hero-facts li {
   display: inline-flex;
   align-items: center;
-  padding: 14px 18px;
-  background: #ffffff;
-  border-radius: var(--radius);
-  text-decoration: none;
+  gap: 8px;
 }
 
-.aaai-chip img {
+.hero-facts i {
+  color: var(--color-secondary);
+}
+
+.hero-facts a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule);
+  text-underline-offset: 3px;
+}
+
+.hero-facts a:hover {
+  text-decoration-color: currentColor;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 22px;
+}
+
+.hero-actions .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  font-weight: 600;
+}
+
+.hero-link {
+  color: var(--color-brand);
+  font-weight: 600;
+}
+
+.hero-aaai {
   display: block;
-  height: 44px;
+  padding: 6px 0;
+}
+
+.hero-aaai img {
+  display: block;
+  height: 48px;
   width: auto;
 }
 
 @media screen and (max-width: 640px) {
-  .event-hero {
+  .hero {
     grid-template-columns: 1fr;
-    justify-items: center;
-    padding: 20px 16px;
-    text-align: center;
+    gap: 20px;
   }
 
-  .event-hero h1 {
-    font-size: 1.6rem;
+  .hero-aaai {
+    order: -1;
   }
 
-  .aaai-chip img {
+  .hero-aaai img {
     height: 36px;
+  }
+
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero-deck {
+    font-size: 1.1rem;
   }
 }
