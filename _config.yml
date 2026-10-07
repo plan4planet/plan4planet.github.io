@@ -26,20 +26,5 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# -----------------------------------------------------------------------------
-# Theme Activation
-# -----------------------------------------------------------------------------
-theme: minima
-
-# -----------------------------------------------------------------------------
-# Minima Theme Customization
-# -----------------------------------------------------------------------------
-minima:
-  # Automatically switch between light/dark mode based on system settings
-  skin: solarized
-
-  # Standard date formatting (e.g., "Jul 7, 2026")
-  date_format: "%b %-d, %Y"
-
 google_analytics: G-VSGECY5X2H
 
