@@ -1,0 +1,12 @@
+.collapsible-section,
+.call-for-participation {
+  margin: 24px 0;
+}
+
+.collapsible-section summary,
+.call-for-participation summary {
+  cursor: pointer;
+  color: var(--color-brand);
+  font-size: 1.2rem;
+  font-weight: 700;
+}

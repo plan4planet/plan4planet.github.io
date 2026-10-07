@@ -1,0 +1,14 @@
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 16px 0 24px;
+}
+
+.sponsor-logos img {
+  display: block;
+  width: min(300px, 100%);
+  height: auto;
+}

@@ -4,3 +4,13 @@
 
 @import "tokens";
 @import "vendor/minima";
+@import "base";
+@import
+  "components/hero",
+  "components/domains",
+  "components/buttons",
+  "components/callout",
+  "components/collapsible",
+  "components/sponsors",
+  "components/speakers",
+  "components/footer";

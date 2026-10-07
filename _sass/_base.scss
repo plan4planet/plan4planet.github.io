@@ -1,0 +1,22 @@
+// Site-wide element tweaks on top of the vendored minima base.
+body {
+  font-family: var(--font-text);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+// Centered small print, e.g. the "No Google account?" line under the Connect buttons.
+.note-center {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+// The logo floated beside the intro paragraphs on the home page.
+.intro-logo {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  max-width: 30%;
+}
