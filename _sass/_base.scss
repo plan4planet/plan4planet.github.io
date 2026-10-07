@@ -32,10 +32,19 @@ a:visited {
   color: var(--color-ink);
 }
 
-// Section rhythm: every top-level section heading gets the same breathing room above it.
+// Section headings: large enough to read as section breaks, with the same room above each one.
 .page-content h2 {
-  margin-top: 2.25em;
-  margin-bottom: 0.6em;
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.page-content h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
 }
 
 .page-content h2:first-child {
