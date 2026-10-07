@@ -1,7 +1,4 @@
 # Supporting organizations. Entries with `sponsor: true` appear under "Thanks to our Sponsors" on the home page.
-- name: "Association for the Advancement of Artificial Intelligence (AAAI)"
-  link: "https://aaai.org/"
-  logo: "https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-FullColor.png"
 - name: "Hixon Center for Climate and the Environment at Harvey Mudd College"
   link: "https://www.hmc.edu/hixon-center/"
   logo: "/assets/images/HMC-HIXON.png"
