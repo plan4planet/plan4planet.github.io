@@ -3,7 +3,7 @@
 - name: "Connect"
   link: "/#connect"
 - name: "Speakers"
-  link: "/#confirmed-speakers"
+  link: "/speakers/"
 - name: "Papers"
   link: "/papers/"
 - name: "Schedule"
