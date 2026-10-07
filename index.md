@@ -14,9 +14,10 @@ layout: home
   </a>
 </div>
 
-<!--<div style="text-align: center; color:#003973">
-<span style="font-size: 1.2em; font-weight: 500; text-align: center;">⏳ Early registration deadline: October 2</span>
-</div>-->
+<!-- Announcement bar. Uncomment to show one line under the hero, for example a deadline or a new page.
+Keep it to one sentence; link the thing being announced. Delete or re-comment when it is out of date.
+<p class="announcement"><span class="announcement-label">New</span> The <a href="{{ '/schedule/' | relative_url }}">schedule</a> is out.</p>
+-->
 
 <img class="intro-logo" src="{{ '/assets/images/plan4planet.png' | relative_url }}" alt="Planning for a Better Planet Logo" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
