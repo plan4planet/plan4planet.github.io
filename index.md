@@ -144,7 +144,7 @@ To help us provide robust, vibrant, and valuable reviews and feedback for submis
 - ~~October 2: Early Registration deadline~~
 - November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA
 
-## Registration and Attendance
+## Attend
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
 
 <div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 16px 0 24px;">
