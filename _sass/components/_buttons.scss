@@ -15,8 +15,8 @@
   margin-bottom: 12px;
 }
 
-.action-links a,
-.action-links .btn {
+// Anchors only: the disabled badge (a span) stays a plain block, as it always was.
+.action-links a {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
