@@ -5,7 +5,7 @@
 - name: "Speakers"
   link: "/#confirmed-speakers"
 - name: "Papers"
-  link: "/#accepted-papers"
+  link: "/papers/"
 - name: "Schedule"
   link: "/#tentative-schedule"
 - name: "Contact"
