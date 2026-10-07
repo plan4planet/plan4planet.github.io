@@ -1,6 +1,6 @@
-# plan4planet.org
+# Plan4Planet
 
-Website for the 2026 AAAI Fall Symposium on Planning for a Better Planet (Nov 5-7, 2026, Arlington, VA). Live at https://www.plan4planet.org.
+Website for the 2026 AAAI Fall Symposium on _Planning for a Better Planet_ (Nov 5-7, 2026, Arlington, VA). Live at https://www.plan4planet.org.
 
 The site is plain Markdown, built and hosted by GitHub Pages. To update the live site, edit the Markdown files on the `main` branch directly.
 Note: You do *not* need to run `jekyll build` or install anything for this to work. See below if you want to preview your work locally before you push to the repo.
