@@ -161,7 +161,7 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 {% include channel-buttons.html %}
 
 ## Organizing Committee
-{% include committee-cards.html %}
+{% include committee-roster.html %}
 
 ## Thanks to our Sponsors
 <div class="sponsor-logos">

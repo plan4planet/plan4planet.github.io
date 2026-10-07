@@ -1,6 +1,6 @@
-# Organizing committee, one entry per person, shown as cards on the home page.
+# Organizing committee, one entry per person, shown as a roster on the home page.
 # photo: a file in assets/images/committee/ (square, at least 200 x 200), or leave empty to show initials.
-# bio: two or three sentences. Leave empty to show "Bio to come".
+# role: optional, shown after the affiliation. bio: optional, two or three sentences, shown only when filled in.
 - name: "Jim Boerkoel"
   affiliation: "Harvey Mudd College"
   role: ""

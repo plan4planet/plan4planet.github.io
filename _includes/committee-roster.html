@@ -1,0 +1,31 @@
+{%- comment -%}
+Organizing committee roster, from _data/committee.yml. Photo or initials, name linked to the person's
+website, affiliation, and the role and bio when they are filled in.
+{%- endcomment -%}
+<ul class="roster">
+{%- for m in site.data.committee %}
+  {%- assign parts = m.name | split: " " %}
+  {%- assign first = parts | first %}
+  {%- assign last = parts | last %}
+  <li class="roster-item">
+    {%- if m.photo and m.photo != "" %}
+    <img class="roster-photo" src="{{ '/assets/images/committee/' | append: m.photo | relative_url }}" alt="" width="48" height="48">
+    {%- else %}
+    <span class="roster-initials" aria-hidden="true">{{ first | slice: 0 }}{{ last | slice: 0 }}</span>
+    {%- endif %}
+    <div class="roster-text">
+      <span class="roster-name">
+        {%- if m.website and m.website != "" -%}
+        <a href="{{ m.website }}" target="_blank" rel="noopener noreferrer">{{ m.name }}</a>
+        {%- else -%}
+        {{ m.name }}
+        {%- endif -%}
+      </span>
+      <span class="roster-affiliation">{{ m.affiliation }}{% if m.role and m.role != "" %}, {{ m.role }}{% endif %}</span>
+      {%- if m.bio and m.bio != "" %}
+      <p class="roster-bio">{{ m.bio }}</p>
+      {%- endif %}
+    </div>
+  </li>
+{%- endfor %}
+</ul>
