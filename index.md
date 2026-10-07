@@ -18,14 +18,14 @@ layout: home
 <span style="font-size: 1.2em; font-weight: 500; text-align: center;">⏳ Early registration deadline: October 2</span>
 </div>-->
 
-<img src="/assets/images/plan4planet.png" alt="Planning for a Better Planet Logo" style="float: right; margin-left: 15px; margin-bottom: 20px; max-width: 30%;" />
+<img class="intro-logo" src="{{ '/assets/images/plan4planet.png' | relative_url }}" alt="Planning for a Better Planet Logo" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
 <p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
-<div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 24px;">
-  <a href="https://aaai.getregistered.net/2026-fall-symposium/register" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none; text-align: center;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
-  <a href="https://groups.google.com/g/plan4planet-l/" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
-  <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
+<div class="action-links action-links--flush-top">
+  <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
+  <a class="btn btn-secondary" href="https://groups.google.com/g/plan4planet-l/"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
+  <a class="btn btn-bluesky" href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
 </div>
 
 <section class="domain-overview" aria-label="Research domains and problem areas">
@@ -91,20 +91,20 @@ Recognizing that research to address these foundational challenges is a long-ter
 - November 5-7: Fall Symposium Series, Westin Arlington, Arlington, Virginia, USA
 
 We invite submissions and participants from across the planning and climate domains who are interested in or have engaged in 
-<div style="border-left: 4px solid #003973; background: #eef3f8; padding: 10px 16px;">
+<div class="callout">
 
-<div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px;">
-<span style="flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; background: #003973; color: #ffffff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">1</span>
+<div class="step">
+<span class="step-number">1</span>
 <span>climate-inspired planning research,</span>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px;">
-<span style="flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; background: #003973; color: #ffffff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">2</span>
+<div class="step">
+<span class="step-number">2</span>
 <span>climate applications of planning methods, and</span>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 12px;">
-<span style="flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; background: #003973; color: #ffffff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">3</span>
+<div class="step">
+<span class="step-number">3</span>
 <span>identifying planning/decision-making challenges within climate domains (aka "problems in search of solutions").</span>
 </div>
 
@@ -144,10 +144,10 @@ To help us provide robust, vibrant, and valuable reviews and feedback for submis
 ## Attend
 Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
 
-<div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 16px 0 24px;">
-  <a href="https://aaai.getregistered.net/2026-fall-symposium/register" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none; text-align: center;"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
-  <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book your room!</a>
-  <span aria-disabled="true" title="The application deadline has passed" style="background: #9e9e9e; color: #f5f5f5; padding: 10px 16px; border-radius: 4px; text-align: center; cursor: not-allowed;"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Student travel grant<span class="deadline">Deadline: Sept. 25 (closed)</span></span>
+<div class="action-links">
+  <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
+  <a class="btn btn-brand" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book your room!</a>
+  <span class="btn btn-disabled" aria-disabled="true" title="The application deadline has passed"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Student travel grant<span class="deadline">Deadline: Sept. 25 (closed)</span></span>
 </div>
 
 <!--
@@ -158,13 +158,13 @@ The National Science Foundation has a Travel Grant for USA-based Students attend
 -->
 
 ## Connect
-<div class="action-links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 16px 0 12px;">
-  <a href="https://groups.google.com/g/plan4planet-l/" target="_blank" rel="noopener noreferrer" style="background: #285234; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
-  <a href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer" style="background: #0085ff; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
-  <a href="mailto:info@plan4planet.org" style="background: #003973; color: #ffffff; padding: 10px 16px; border-radius: 4px; text-decoration: none;"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email the organizers</a>
+<div class="action-links action-links--tight">
+  <a class="btn btn-secondary" href="https://groups.google.com/g/plan4planet-l/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-users" aria-hidden="true"></i> Join the mailing list</a>
+  <a class="btn btn-bluesky" href="https://bsky.app/profile/plan4planet.bsky.social" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Follow us on Bluesky</a>
+  <a class="btn btn-brand" href="mailto:info@plan4planet.org"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email the organizers</a>
 </div>
 
-<p style="text-align: center; font-size: 0.9rem;">No Google account? Join the list by sending a blank email to <a href="mailto:plan4planet-l+subscribe@googlegroups.com">plan4planet-l+subscribe@googlegroups.com</a>.</p>
+<p class="note-center">No Google account? Join the list by sending a blank email to <a href="mailto:plan4planet-l+subscribe@googlegroups.com">plan4planet-l+subscribe@googlegroups.com</a>.</p>
 
 ## Organizing Committee
 - [Jim Boerkoel](https://www.cs.hmc.edu/~boerkoel/), Harvey Mudd College
