@@ -1,0 +1,68 @@
+// Table of contents on section pages that set toc: true (the Papers page). On wide screens it sits
+// in the left margin and sticks while the content scrolls; on narrower ones it is a list above.
+.toc ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc li {
+  margin: 0 0 8px;
+  line-height: 1.35;
+}
+
+.toc a {
+  color: var(--color-ink-soft);
+  text-decoration: none;
+}
+
+.toc a:hover {
+  color: var(--color-brand);
+  text-decoration: underline;
+}
+
+// Narrow screens: the list sits above the content, wrapped in a tinted panel.
+.post.has-toc .toc {
+  margin: 0 0 28px;
+  padding: 14px 18px;
+  background: var(--color-surface);
+  border-left: 4px solid var(--color-secondary);
+  border-radius: var(--radius);
+}
+
+// Wide screens: the list hangs in the left margin, so the content column stays aligned with the
+// site header. 800px content plus 268px each side, hence the 1340px breakpoint.
+@media screen and (min-width: 1340px) {
+  .post.has-toc {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    column-gap: 48px;
+    align-items: start;
+    margin-left: -268px;
+  }
+
+  .post.has-toc .post-header {
+    grid-column: 2;
+  }
+
+  .post.has-toc .toc {
+    grid-column: 1;
+    grid-row: 2;
+    position: sticky;
+    top: 24px;
+    margin: 0;
+    padding: 4px 0 0 18px;
+    background: none;
+    border-left: 3px solid var(--color-rule);
+    border-radius: 0;
+  }
+
+  .post.has-toc .post-content {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  .post.has-toc .post-content > h3:first-child {
+    margin-top: 0;
+  }
+}
