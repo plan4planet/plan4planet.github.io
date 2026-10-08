@@ -9,9 +9,26 @@
   gap: 6px;
 }
 
+// The Google Groups fallback, folded away under the button. A disclosure rather than a tooltip:
+// it works on touch screens and with a keyboard, and the answer stays on the page once opened.
 .connect-note {
   margin: 10px 0 18px;
   color: var(--color-ink-soft);
+  font-size: 0.95rem;
+}
+
+.connect-note summary {
+  display: inline-block;
+  color: var(--color-link);
+  cursor: pointer;
+}
+
+.connect-note summary:hover {
+  text-decoration: underline;
+}
+
+.connect-note p {
+  margin: 6px 0 0;
 }
 
 .connect-channels {
