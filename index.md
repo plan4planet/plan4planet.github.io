@@ -152,7 +152,7 @@ The symposium runs November 5 to 7, 2026 at the Westin Arlington, Arlington, Vir
 <div class="cta">
   <div class="cta-primary">
     <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register</a>
-    <p class="cta-note">Rooms at the AAAI group rate can be booked until October 14, 2026.</p>
+    <p class="cta-note">Rooms at the AAAI group rate can be booked until October 9, 2026.</p>
   </div>
   <ul class="cta-links" aria-label="Attendance links">
     <li><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book a room at the Westin</a></li>
