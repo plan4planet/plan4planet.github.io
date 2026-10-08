@@ -4,13 +4,15 @@ links, the same treatment as the footer. A pending channel shows greyed out with
 {%- endcomment -%}
 <div class="connect">
   {%- for c in site.data.channels %}{% if c.primary %}
-  <a class="btn btn-brand" href="{{ c.url }}"{% unless c.url contains 'mailto:' %} target="_blank" rel="noopener noreferrer"{% endunless %}><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }}</a>
-  {%- if c.fallback_email %}
-  <details class="connect-note">
-    <summary>No Google account?</summary>
-    <p>Send a blank email to <a href="mailto:{{ c.fallback_email }}">{{ c.fallback_email }}</a> and you will be added to the list.</p>
-  </details>
-  {%- endif %}
+  <div class="connect-primary">
+    <a class="btn btn-brand" href="{{ c.url }}"{% unless c.url contains 'mailto:' %} target="_blank" rel="noopener noreferrer"{% endunless %}><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }}</a>
+    {%- if c.fallback_email %}
+    <details class="connect-note">
+      <summary>No Google account?</summary>
+      <p>Send a blank email to <a href="mailto:{{ c.fallback_email }}">{{ c.fallback_email }}</a> and you will be added to the list.</p>
+    </details>
+    {%- endif %}
+  </div>
   {%- endif %}{% endfor %}
   <ul class="connect-channels" aria-label="Other ways to reach us">
     {%- for c in site.data.channels %}{% unless c.primary %}
