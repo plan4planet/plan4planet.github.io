@@ -16,7 +16,7 @@ links, the same treatment as the footer. A pending channel shows greyed out with
     {%- for c in site.data.channels %}{% unless c.primary %}
     <li>
       {%- if c.pending %}
-      <span class="is-pending" title="Coming soon"><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }} (coming soon)</span>
+      <span class="is-pending" title="Coming soon"><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }}</span>
       {%- else %}
       <a href="{{ c.url }}"{% unless c.url contains 'mailto:' %} target="_blank" rel="noopener noreferrer"{% endunless %}><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }}</a>
       {%- endif %}
