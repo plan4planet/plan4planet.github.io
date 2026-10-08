@@ -147,12 +147,20 @@ To help us provide robust, vibrant, and valuable reviews and feedback for submis
 </details>
 
 ## Attend
-Please see the [AAAI 2026 Fall Symposium website](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/) for registration and attendance information.
+The symposium runs November 5 to 7, 2026 at the Westin Arlington, Arlington, Virginia, as part of the AAAI Fall Symposium Series. Registration is through AAAI and covers all three days.
 
-<div class="action-links">
-  <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register Today!</a>
-  <a class="btn btn-brand" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book your room!</a>
-  <span class="btn btn-disabled" aria-disabled="true" title="The application deadline has passed"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Student travel grant<span class="deadline">Deadline: Sept. 25 (closed)</span></span>
+<div class="cta">
+  <div class="cta-primary">
+    <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register</a>
+    <p class="cta-note">Rooms at the AAAI group rate can be booked until October 14, 2026.</p>
+  </div>
+  <ul class="cta-links" aria-label="Attendance links">
+    <li><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book a room at the Westin</a></li>
+    <li><a href="https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Registration fees, deadlines and venue details on the AAAI site</a></li>
+    <!-- Student travel grant, closed Sept. 25. Uncomment if a new round opens.
+    <li><a href="https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Student travel grant</a></li>
+    -->
+  </ul>
 </div>
 
 <!--
