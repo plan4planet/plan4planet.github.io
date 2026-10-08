@@ -1,0 +1,80 @@
+// Call-to-action block used by Attend and Connect: one button, optional note or disclosure beside it,
+// then the secondary links as a row of plain links.
+.cta {
+  margin: 16px 0 24px;
+}
+
+.cta-primary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  margin-bottom: 18px;
+}
+
+.cta-primary .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+// A side note beside the button: plain text, or a details element (disclosure rather than a tooltip:
+// it works on touch screens and with a keyboard, and the answer stays on the page once opened).
+.cta-note {
+  margin: 0;
+  color: var(--color-ink-soft);
+  font-size: 0.95rem;
+}
+
+.cta-note summary {
+  display: inline-block;
+  color: var(--color-link);
+  cursor: pointer;
+}
+
+.cta-note summary:hover {
+  text-decoration: underline;
+}
+
+.cta-note p {
+  margin: 6px 0 0;
+}
+
+// Once opened, the answer takes its own line under the button rather than squeezing beside it.
+.cta-note[open] {
+  flex-basis: 100%;
+}
+
+.cta-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cta-links a,
+.cta-links .is-pending {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.cta-links a:hover {
+  text-decoration: underline;
+}
+
+.cta-links .is-pending {
+  color: var(--color-muted);
+  cursor: default;
+}
+
+@media screen and (max-width: 640px) {
+  .cta-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

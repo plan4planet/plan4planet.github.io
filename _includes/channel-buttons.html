@@ -2,19 +2,19 @@
 Connect section, from _data/channels.yml. The primary channel is the one button; the others are plain
 links, the same treatment as the footer. A pending channel shows greyed out with "coming soon".
 {%- endcomment -%}
-<div class="connect">
+<div class="cta">
   {%- for c in site.data.channels %}{% if c.primary %}
-  <div class="connect-primary">
+  <div class="cta-primary">
     <a class="btn btn-brand" href="{{ c.url }}"{% unless c.url contains 'mailto:' %} target="_blank" rel="noopener noreferrer"{% endunless %}><i class="{{ c.icon }}" aria-hidden="true"></i> {{ c.name }}</a>
     {%- if c.fallback_email %}
-    <details class="connect-note">
+    <details class="cta-note">
       <summary>No Google account?</summary>
       <p>Send a blank email to <a href="mailto:{{ c.fallback_email }}">{{ c.fallback_email }}</a> and you will be added to the list.</p>
     </details>
     {%- endif %}
   </div>
   {%- endif %}{% endfor %}
-  <ul class="connect-channels" aria-label="Other ways to reach us">
+  <ul class="cta-links" aria-label="Other ways to reach us">
     {%- for c in site.data.channels %}{% unless c.primary %}
     <li>
       {%- if c.pending %}
