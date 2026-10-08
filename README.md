@@ -5,6 +5,8 @@ Website for the 2026 AAAI Fall Symposium on _Planning for a Better Planet_ (Nov 
 The site is plain Markdown, built and hosted by GitHub Pages. To update the live site, edit the Markdown files on the `main` branch directly.
 Note: You do *not* need to run `jekyll build` or install anything for this to work. See below if you want to preview your work locally before you push to the repo.
 
+Using an AI coding agent (Claude Code, Codex, Copilot, Cursor, and the like) to make changes? Ask it to read [AGENTS.md](AGENTS.md) first. It holds the build facts, the file map, and the rules the site relies on. Most agents pick it up on their own; Claude Code reads it through `CLAUDE.md`.
+
 ## What to edit
 
 | You want to change | Edit this file |
