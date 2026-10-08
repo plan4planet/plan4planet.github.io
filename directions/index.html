@@ -1,0 +1,287 @@
+---
+layout: null
+noindex: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Plan4Planet identity: three directions (v3)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&family=Source+Sans+3:wght@400;600&family=Spectral:wght@600;700&family=IBM+Plex+Sans:wght@400;600&family=Hanken+Grotesk:wght@500;700;800&family=Newsreader:wght@400;600;700&display=swap">
+<style>
+  :root { --doc-ink: #222; --doc-muted: #666; --doc-bg: #ececec; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--doc-bg); color: var(--doc-ink); font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .doc { max-width: 1040px; margin: 0 auto; padding: 32px 20px 64px; }
+  .doc > header { margin-bottom: 28px; }
+  .doc > header h1 { margin: 0 0 8px; font-size: 1.6rem; font-weight: 600; }
+  .doc > header p { margin: 0; color: var(--doc-muted); max-width: 70ch; }
+  .doc > header p + p { margin-top: 8px; }
+  .defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+  svg.mark { display: block; }
+
+  .direction { background: var(--paper); color: var(--ink); border: 1px solid var(--rule); border-radius: 10px; padding: 28px; margin: 0 0 28px; }
+  .direction h2 { margin: 0 0 4px; font: 700 1.7rem/1.1 var(--display); letter-spacing: -0.01em; }
+  .direction .concept { margin: 0 0 24px; max-width: 68ch; font-family: var(--text); color: var(--ink-soft); }
+
+  .grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 24px 32px; align-items: start; }
+  .block h3 { margin: 0 0 10px; font: 600 0.95rem/1.3 var(--display); color: var(--ink-soft); }
+
+  .lockup { display: flex; align-items: center; gap: 16px; padding: 22px 24px; background: #fff; border: 1px solid var(--rule); border-radius: 8px; }
+  .lockup svg { width: 56px; height: 56px; flex-shrink: 0; }
+  .lockup .word { font: 700 2.1rem/1 var(--display); letter-spacing: -0.02em; color: var(--ink); }
+  .lockup .word .four { color: var(--four); }
+  .lockup .tag { display: block; margin-top: 6px; font: 400 0.95rem/1.2 var(--text); color: var(--ink-soft); }
+
+  .sizes { display: flex; align-items: flex-end; gap: 24px; padding: 16px 24px; background: #fff; border: 1px solid var(--rule); border-radius: 8px; }
+  .sizes figure { margin: 0; text-align: center; font-size: 0.75rem; color: var(--ink-soft); }
+  .sizes svg { display: block; margin: 0 auto 6px; }
+  .sizes .dark { background: var(--brand); border-radius: 6px; padding: 10px; color: #fff; }
+
+  .swatches { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+  .swatch { border-radius: 6px; padding: 42px 8px 8px; font-size: 0.72rem; line-height: 1.25; border: 1px solid rgba(0,0,0,0.08); }
+  .swatch span { display: block; font-weight: 600; }
+
+  .type { background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 18px 22px; }
+  .type .display { font: 700 1.9rem/1.1 var(--display); letter-spacing: -0.015em; margin: 0 0 10px; color: var(--ink); }
+  .type .body { font: 400 1rem/1.55 var(--text); margin: 0 0 12px; color: var(--ink); max-width: 60ch; }
+  .type .names { font-size: 0.8rem; color: var(--ink-soft); margin: 0; }
+
+  .hero { display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: center; padding: 20px 22px; background: var(--brand); color: #fff; border-radius: var(--radius); }
+  .hero svg { width: 48px; height: 48px; color: #fff; }
+  .hero h4 { margin: 0; font: 700 1.5rem/1.1 var(--display); letter-spacing: -0.015em; }
+  .hero p { margin: 6px 0 0; font: 400 0.95rem/1.4 var(--text); opacity: 0.92; }
+  .hero .cta { display: inline-block; margin-top: 12px; padding: 8px 14px; background: var(--accent); color: var(--ink); border-radius: var(--btn-radius); font: 600 0.9rem/1 var(--text); }
+
+  .tile { aspect-ratio: 1200 / 630; background: var(--brand); color: #fff; border-radius: 6px; padding: 7% 8%; display: flex; flex-direction: column; justify-content: space-between; }
+  .tile .top { display: flex; align-items: center; gap: 12px; }
+  .tile .top svg { width: 40px; height: 40px; color: #fff; }
+  .tile .top .word { font: 700 1.5rem/1 var(--display); letter-spacing: -0.02em; }
+  .tile .top .word .four { color: var(--accent); }
+  .tile .headline { font: 700 1.6rem/1.15 var(--display); letter-spacing: -0.015em; max-width: 18ch; }
+  .tile .meta { font: 400 0.85rem/1.3 var(--text); opacity: 0.85; }
+
+  .card { background: #fff; border: 1px solid var(--rule); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); }
+  .card header { display: flex; align-items: center; gap: 14px; padding: 14px 16px; background: var(--brand); color: #fff; border-bottom: 4px solid var(--secondary); }
+  .card .initials { width: 44px; height: 44px; border-radius: 50%; background: var(--surface); color: var(--secondary); display: flex; align-items: center; justify-content: center; font: 700 1rem/1 var(--display); }
+  .card header strong { display: block; font: 700 1.1rem/1.2 var(--display); }
+  .card header small { display: block; font: 600 0.78rem/1.3 var(--text); letter-spacing: 0.03em; text-transform: uppercase; opacity: 0.9; }
+  .card p { margin: 0; padding: 14px 16px 16px; font: 400 0.92rem/1.5 var(--text); color: var(--ink-soft); }
+
+  .verdict { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 8px; font-family: var(--text); }
+  .verdict h3 { margin: 0 0 6px; }
+  .verdict p { margin: 0; color: var(--ink-soft); }
+  .open { display: inline-block; margin-top: 20px; padding: 10px 16px; background: var(--brand); color: #fff; text-decoration: none; border-radius: var(--btn-radius); font: 600 0.95rem/1 var(--text); }
+  .open:hover { background: var(--brand-strong); }
+
+  @media (max-width: 760px) {
+    .grid, .verdict { grid-template-columns: 1fr; }
+    .swatches { grid-template-columns: repeat(3, 1fr); }
+    .direction { padding: 20px 16px; }
+  }
+
+  .dir-a { --brand: #1e5a3c; --brand-strong: #163f2b; --secondary: #3f7a52; --accent: #e8842b; --four: #c0621a; --ink: #16231d; --ink-soft: #3c4a42; --paper: #f3f5f0; --surface: #e2ece3; --rule: #cdd8cf; --shadow: 0 2px 6px rgba(30,90,60,.14); --radius: 6px; --radius-lg: 10px; --btn-radius: 6px; --display: "Work Sans", sans-serif; --text: "Source Sans 3", sans-serif; }
+  .dir-b { --brand: #0e2a47; --brand-strong: #091d33; --secondary: #1f7a6f; --accent: #f2c14e; --four: #9a6f08; --ink: #0b1b2b; --ink-soft: #3a4a5a; --paper: #eef2f5; --surface: #dfe7ee; --rule: #c5d0db; --shadow: 0 1px 3px rgba(14,42,71,.18); --radius: 2px; --radius-lg: 3px; --btn-radius: 2px; --display: "Spectral", Georgia, serif; --text: "IBM Plex Sans", sans-serif; }
+  .dir-c { --brand: #1b2a33; --brand-strong: #111c22; --secondary: #4a6b7c; --accent: #8fb02c; --four: #6f8a23; --ink: #1b2a33; --ink-soft: #44525a; --paper: #f2f3ef; --surface: #e5e8e1; --rule: #cfd5d2; --shadow: 0 2px 6px rgba(27,42,51,.14); --radius: 3px; --radius-lg: 6px; --btn-radius: 3px; --display: "Hanken Grotesk", sans-serif; --text: "Newsreader", Georgia, serif; }
+</style>
+</head>
+<body>
+
+<!-- The three marks, embedded so this file works offline. Colour versions and one-colour versions. -->
+<svg class="defs" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="mark-a" viewBox="0 0 64 64">
+    <g fill="none" stroke="#1e5a3c" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M32 54 L19 38 M19 38 L11 22 M19 38 L26 22 M45 38 L52 22"/></g>
+    <path d="M32 54 L45 38 L38 22" fill="none" stroke="#e8842b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#1e5a3c"><circle cx="11" cy="22" r="4"/><circle cx="26" cy="22" r="4"/><circle cx="52" cy="22" r="4"/><circle cx="19" cy="38" r="4.5"/><circle cx="32" cy="54" r="5.5"/></g>
+    <circle cx="45" cy="38" r="4.5" fill="#e8842b"/><circle cx="38" cy="22" r="5" fill="#e8842b"/>
+  </symbol>
+  <symbol id="mark-a-mono" viewBox="0 0 64 64">
+    <g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M32 54 L19 38 M19 38 L11 22 M19 38 L26 22 M45 38 L52 22"/></g>
+    <path d="M32 54 L45 38 L38 22" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="currentColor"><circle cx="11" cy="22" r="4"/><circle cx="26" cy="22" r="4"/><circle cx="52" cy="22" r="4"/><circle cx="19" cy="38" r="4.5"/><circle cx="32" cy="54" r="5.5"/><circle cx="45" cy="38" r="5"/><circle cx="38" cy="22" r="5.5"/></g>
+  </symbol>
+  <symbol id="mark-b" viewBox="0 0 64 64">
+    <path d="M4 52 A42 42 0 0 1 60 52" fill="none" stroke="#0e2a47" stroke-width="4" stroke-linecap="round"/>
+    <path d="M14 45 C22 24 36 14 50 18" fill="none" stroke="#2a9d8f" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="14" cy="45" r="4.5" fill="#0e2a47"/><circle cx="50" cy="18" r="5.5" fill="#f2c14e" stroke="#0e2a47" stroke-width="2.5"/>
+  </symbol>
+  <symbol id="mark-b-mono" viewBox="0 0 64 64">
+    <path d="M4 52 A42 42 0 0 1 60 52" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    <path d="M14 45 C22 24 36 14 50 18" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="14" cy="45" r="4.5" fill="currentColor"/><circle cx="50" cy="18" r="5.5" fill="none" stroke="currentColor" stroke-width="3"/>
+  </symbol>
+  <symbol id="mark-c" viewBox="0 0 64 64">
+    <clipPath id="globe-c"><circle cx="32" cy="32" r="27"/></clipPath>
+    <g clip-path="url(#globe-c)" fill="#1b2a33"><rect x="0" y="9" width="34" height="7" rx="2"/><rect x="24" y="19" width="40" height="7" rx="2"/><rect x="0" y="29" width="26" height="7" rx="2"/><rect x="30" y="29" width="34" height="7" rx="2" fill="#8fb02c"/><rect x="10" y="39" width="38" height="7" rx="2"/><rect x="22" y="49" width="30" height="7" rx="2"/></g>
+    <circle cx="32" cy="32" r="27" fill="none" stroke="#1b2a33" stroke-width="2.5"/>
+  </symbol>
+  <symbol id="mark-c-mono" viewBox="0 0 64 64">
+    <clipPath id="globe-c-mono"><circle cx="32" cy="32" r="27"/></clipPath>
+    <g clip-path="url(#globe-c-mono)" fill="currentColor"><rect x="0" y="9" width="34" height="7" rx="2"/><rect x="24" y="19" width="40" height="7" rx="2"/><rect x="0" y="29" width="26" height="7" rx="2"/><rect x="30" y="29" width="34" height="7" rx="2" opacity="0.55"/><rect x="10" y="39" width="38" height="7" rx="2"/><rect x="22" y="49" width="30" height="7" rx="2"/></g>
+    <circle cx="32" cy="32" r="27" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  </symbol>
+</svg>
+
+<div class="doc">
+  <header>
+    <h1>Plan4Planet identity: three directions (v3)</h1>
+    <p>Each direction is a complete system: mark, wordmark, palette, type pair, and three applications (website hero, link-preview tile, speaker card). The identity is for Plan4Planet as a continuing community, so nothing in it names the 2026 symposium or AAAI; those belong on event pages and templates built with it.</p>
+    <p>Each one is also applied to the real site. Open the link at the end of a panel; the choice is remembered per tab, so you can keep three tabs open and compare.</p>
+  </header>
+
+  <!-- A -->
+  <section class="direction dir-a">
+    <h2>A. Chosen path</h2>
+    <p class="concept">A search tree with one route picked out: the thing a planner actually computes, and still a tree, so it keeps a thread of continuity with the symposium's first logo. Academic, warm, a little playful.</p>
+    <div class="grid">
+      <div class="block"><h3>Lockup</h3>
+        <div class="lockup"><svg class="mark"><use href="#mark-a"/></svg><div><span class="word">Plan<span class="four">4</span>Planet</span><span class="tag">Planning for a Better Planet</span></div></div>
+      </div>
+      <div class="block"><h3>Holds at small sizes</h3>
+        <div class="sizes">
+          <figure><svg class="mark" width="64" height="64"><use href="#mark-a"/></svg>64 px</figure>
+          <figure><svg class="mark" width="32" height="32"><use href="#mark-a"/></svg>32 px</figure>
+          <figure><svg class="mark" width="16" height="16"><use href="#mark-a"/></svg>16 px</figure>
+          <figure class="dark"><svg class="mark" width="40" height="40" style="color:#fff"><use href="#mark-a-mono"/></svg>reverse</figure>
+        </div>
+      </div>
+      <div class="block"><h3>Palette</h3>
+        <div class="swatches">
+          <div class="swatch" style="background:#1e5a3c;color:#fff"><span>Forest</span>#1e5a3c</div>
+          <div class="swatch" style="background:#3f7a52;color:#fff"><span>Moss</span>#3f7a52</div>
+          <div class="swatch" style="background:#e8842b"><span>Ember</span>#e8842b</div>
+          <div class="swatch" style="background:#e2ece3"><span>Surface</span>#e2ece3</div>
+          <div class="swatch" style="background:#f3f5f0"><span>Paper</span>#f3f5f0</div>
+          <div class="swatch" style="background:#16231d;color:#fff"><span>Ink</span>#16231d</div>
+        </div>
+      </div>
+      <div class="block"><h3>Type</h3>
+        <div class="type">
+          <p class="display">Where to put scarce adaptation money is a planning problem.</p>
+          <p class="body">A branch of AI has spent fifty years on exactly that: reasoning under uncertainty, constrained optimisation, coordination among many agents. Plan4Planet brings those researchers and climate domain experts into one room.</p>
+          <p class="names">Work Sans for headings. Source Sans 3 for text. Both on Google Fonts.</p>
+        </div>
+      </div>
+      <div class="block"><h3>Website hero</h3>
+        <div class="hero"><svg class="mark"><use href="#mark-a-mono"/></svg><div><h4>Planning for a Better Planet</h4><p>AI planning researchers and climate domain experts, working on climate decisions together.</p><span class="cta">Join the community</span></div></div>
+      </div>
+      <div class="block"><h3>Link-preview tile (1200 x 630)</h3>
+        <div class="tile"><div class="top"><svg class="mark"><use href="#mark-a-mono"/></svg><span class="word">Plan<span class="four">4</span>Planet</span></div><div class="headline">Planning for a Better Planet</div><div class="meta">AI planning and climate decisions. plan4planet.org</div></div>
+      </div>
+      <div class="block"><h3>Speaker card</h3>
+        <div class="card"><header><div class="initials">CG</div><div><strong>Carla P. Gomes</strong><small>Cornell University</small></div></header><p>Directs the Institute for Computational Sustainability. Constraint reasoning, optimisation, and machine learning for large-scale environmental and societal problems.</p></div>
+      </div>
+      <div class="block verdict">
+        <div><h3>Fits</h3><p>The planning community recognises itself; approachable for practitioners; distinct from AAAI navy and from generic climate-tech green. The tree keeps continuity with the first logo without its clutter.</p></div>
+        <div><h3>Risks</h3><p>Orange on green can read "outdoorsy" if overused, so the ember stays on one element per surface. The tree must keep its one highlighted path or it becomes a generic network diagram.</p></div>
+      </div>
+    </div>
+    <a class="open" href="{{ '/?skin=a' | relative_url }}">Open the site in direction A</a>
+  </section>
+
+  <!-- B -->
+  <section class="direction dir-b">
+    <h2>B. Horizon</h2>
+    <p class="concept">A planet's edge with a plotted trajectory: the plan drawn as an arc over the world, ending in a decision point. Scientific, institutional, the register agencies and funders find most credible.</p>
+    <div class="grid">
+      <div class="block"><h3>Lockup</h3>
+        <div class="lockup"><svg class="mark"><use href="#mark-b"/></svg><div><span class="word">Plan<span class="four">4</span>Planet</span><span class="tag">Planning for a Better Planet</span></div></div>
+      </div>
+      <div class="block"><h3>Holds at small sizes</h3>
+        <div class="sizes">
+          <figure><svg class="mark" width="64" height="64"><use href="#mark-b"/></svg>64 px</figure>
+          <figure><svg class="mark" width="32" height="32"><use href="#mark-b"/></svg>32 px</figure>
+          <figure><svg class="mark" width="16" height="16"><use href="#mark-b"/></svg>16 px</figure>
+          <figure class="dark"><svg class="mark" width="40" height="40" style="color:#fff"><use href="#mark-b-mono"/></svg>reverse</figure>
+        </div>
+      </div>
+      <div class="block"><h3>Palette</h3>
+        <div class="swatches">
+          <div class="swatch" style="background:#0e2a47;color:#fff"><span>Night</span>#0e2a47</div>
+          <div class="swatch" style="background:#1f7a6f;color:#fff"><span>Teal</span>#1f7a6f</div>
+          <div class="swatch" style="background:#f2c14e"><span>Gold</span>#f2c14e</div>
+          <div class="swatch" style="background:#dfe7ee"><span>Surface</span>#dfe7ee</div>
+          <div class="swatch" style="background:#eef2f5"><span>Paper</span>#eef2f5</div>
+          <div class="swatch" style="background:#0b1b2b;color:#fff"><span>Ink</span>#0b1b2b</div>
+        </div>
+      </div>
+      <div class="block"><h3>Type</h3>
+        <div class="type">
+          <p class="display">Where to put scarce adaptation money is a planning problem.</p>
+          <p class="body">A branch of AI has spent fifty years on exactly that: reasoning under uncertainty, constrained optimisation, coordination among many agents. Plan4Planet brings those researchers and climate domain experts into one room.</p>
+          <p class="names">Spectral for headings. IBM Plex Sans for text. Both on Google Fonts.</p>
+        </div>
+      </div>
+      <div class="block"><h3>Website hero</h3>
+        <div class="hero"><svg class="mark"><use href="#mark-b-mono"/></svg><div><h4>Planning for a Better Planet</h4><p>AI planning researchers and climate domain experts, working on climate decisions together.</p><span class="cta">Join the community</span></div></div>
+      </div>
+      <div class="block"><h3>Link-preview tile (1200 x 630)</h3>
+        <div class="tile"><div class="top"><svg class="mark"><use href="#mark-b-mono"/></svg><span class="word">Plan<span class="four">4</span>Planet</span></div><div class="headline">Planning for a Better Planet</div><div class="meta">AI planning and climate decisions. plan4planet.org</div></div>
+      </div>
+      <div class="block"><h3>Speaker card</h3>
+        <div class="card"><header><div class="initials">CG</div><div><strong>Carla P. Gomes</strong><small>Cornell University</small></div></header><p>Directs the Institute for Computational Sustainability. Constraint reasoning, optimisation, and machine learning for large-scale environmental and societal problems.</p></div>
+      </div>
+      <div class="block verdict">
+        <div><h3>Fits</h3><p>Credibility with agencies, development banks, and funders. The serif gives documents a journal and policy-brief feel, and a dark tile stands out in LinkedIn feeds.</p></div>
+        <div><h3>Risks</h3><p>The most conventional of the three. The trajectory must stay a single clean arc, or the mark reads as a generic chart.</p></div>
+      </div>
+    </div>
+    <a class="open" href="{{ '/?skin=b' | relative_url }}">Open the site in direction B</a>
+  </section>
+
+  <!-- C -->
+  <section class="direction dir-c">
+    <h2>C. Schedule globe</h2>
+    <p class="concept">A circle built from schedule bars: a Gantt chart that is also a planet with latitude bands. Policy and economics, calm and tabular, the one that sits comfortably next to a think-tank report.</p>
+    <div class="grid">
+      <div class="block"><h3>Lockup</h3>
+        <div class="lockup"><svg class="mark"><use href="#mark-c"/></svg><div><span class="word">Plan<span class="four">4</span>Planet</span><span class="tag">Planning for a Better Planet</span></div></div>
+      </div>
+      <div class="block"><h3>Holds at small sizes</h3>
+        <div class="sizes">
+          <figure><svg class="mark" width="64" height="64"><use href="#mark-c"/></svg>64 px</figure>
+          <figure><svg class="mark" width="32" height="32"><use href="#mark-c"/></svg>32 px</figure>
+          <figure><svg class="mark" width="16" height="16"><use href="#mark-c"/></svg>16 px</figure>
+          <figure class="dark"><svg class="mark" width="40" height="40" style="color:#fff"><use href="#mark-c-mono"/></svg>reverse</figure>
+        </div>
+      </div>
+      <div class="block"><h3>Palette</h3>
+        <div class="swatches">
+          <div class="swatch" style="background:#1b2a33;color:#fff"><span>Slate</span>#1b2a33</div>
+          <div class="swatch" style="background:#4a6b7c;color:#fff"><span>Steel</span>#4a6b7c</div>
+          <div class="swatch" style="background:#8fb02c"><span>Leaf</span>#8fb02c</div>
+          <div class="swatch" style="background:#e5e8e1"><span>Surface</span>#e5e8e1</div>
+          <div class="swatch" style="background:#f2f3ef"><span>Paper</span>#f2f3ef</div>
+          <div class="swatch" style="background:#6f8a23;color:#fff"><span>Olive</span>#6f8a23</div>
+        </div>
+      </div>
+      <div class="block"><h3>Type</h3>
+        <div class="type">
+          <p class="display">Where to put scarce adaptation money is a planning problem.</p>
+          <p class="body">A branch of AI has spent fifty years on exactly that: reasoning under uncertainty, constrained optimisation, coordination among many agents. Plan4Planet brings those researchers and climate domain experts into one room.</p>
+          <p class="names">Hanken Grotesk for headings. Newsreader for text. Both on Google Fonts.</p>
+        </div>
+      </div>
+      <div class="block"><h3>Website hero</h3>
+        <div class="hero"><svg class="mark"><use href="#mark-c-mono"/></svg><div><h4>Planning for a Better Planet</h4><p>AI planning researchers and climate domain experts, working on climate decisions together.</p><span class="cta">Join the community</span></div></div>
+      </div>
+      <div class="block"><h3>Link-preview tile (1200 x 630)</h3>
+        <div class="tile"><div class="top"><svg class="mark"><use href="#mark-c-mono"/></svg><span class="word">Plan<span class="four">4</span>Planet</span></div><div class="headline">Planning for a Better Planet</div><div class="meta">AI planning and climate decisions. plan4planet.org</div></div>
+      </div>
+      <div class="block"><h3>Speaker card</h3>
+        <div class="card"><header><div class="initials">CG</div><div><strong>Carla P. Gomes</strong><small>Cornell University</small></div></header><p>Directs the Institute for Computational Sustainability. Constraint reasoning, optimisation, and machine learning for large-scale environmental and societal problems.</p></div>
+      </div>
+      <div class="block verdict">
+        <div><h3>Fits</h3><p>The policy and economics audience the symposium most wants to add. Prints well in one colour. The mark is the most original of the three and says "schedule" and "planet" at once.</p></div>
+        <div><h3>Risks</h3><p>The quietest register, so the AI side may find it dry. The bars must stay clearly a schedule or they become generic stripes.</p></div>
+      </div>
+    </div>
+    <a class="open" href="{{ '/?skin=c' | relative_url }}">Open the site in direction C</a>
+  </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+// Direction B: Horizon. A trajectory plotted over a planet's edge. Scientific, institutional.
+// Display: Spectral. Text: IBM Plex Sans.
+html[data-skin="b"] {
+  --color-brand: #0e2a47;
+  --color-brand-strong: #091d33;
+  --color-secondary: #1f7a6f;
+  --color-accent: #f2c14e;
+  --color-on-brand: #ffffff;
+
+  --color-ink: #0b1b2b;
+  --color-ink-soft: #3a4a5a;
+  --color-muted: #9aa6b4;
+  --color-muted-soft: #f3f5f7;
+
+  --color-paper: #eef2f5;
+  --color-surface: #dfe7ee;
+  --color-surface-2: #e8eef3;
+  --color-rule: #c5d0db;
+
+  --color-link: #0e2a47;
+  --color-link-visited: #1f7a6f;
+  --color-header-rule: #0e2a47;
+  --color-site-title: #0b1b2b;
+  --color-four: #9a6f08;
+
+  --shadow-brand: 0 1px 3px rgba(14, 42, 71, 0.18);
+  --radius: 2px;
+  --radius-lg: 3px;
+
+  --font-display: "Spectral", Georgia, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-text: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html[data-skin="b"] .site-title {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+html[data-skin="b"] h1,
+html[data-skin="b"] h2,
+html[data-skin="b"] h3 {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+html[data-skin="b"] .event-hero h1 {
+  font-weight: 700;
+}

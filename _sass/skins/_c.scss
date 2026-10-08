@@ -1,0 +1,49 @@
+// Direction C: Schedule globe. A planet built from schedule bars. Policy and economics, calm and tabular.
+// Display: Hanken Grotesk. Text: Newsreader.
+html[data-skin="c"] {
+  --color-brand: #1b2a33;
+  --color-brand-strong: #111c22;
+  --color-secondary: #4a6b7c;
+  --color-accent: #8fb02c;
+  --color-on-brand: #ffffff;
+
+  --color-ink: #1b2a33;
+  --color-ink-soft: #44525a;
+  --color-muted: #9ea7ab;
+  --color-muted-soft: #f3f4f1;
+
+  --color-paper: #f2f3ef;
+  --color-surface: #e5e8e1;
+  --color-surface-2: #ebeee8;
+  --color-rule: #cfd5d2;
+
+  --color-link: #1b2a33;
+  --color-link-visited: #4a6b7c;
+  --color-header-rule: #1b2a33;
+  --color-site-title: #1b2a33;
+  --color-four: #6f8a23;
+
+  --shadow-brand: 0 2px 6px rgba(27, 42, 51, 0.14);
+  --radius: 3px;
+  --radius-lg: 6px;
+
+  --font-display: "Hanken Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-text: "Newsreader", Georgia, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html[data-skin="c"] .site-title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+html[data-skin="c"] h1,
+html[data-skin="c"] h2,
+html[data-skin="c"] h3 {
+  font-weight: 800;
+  letter-spacing: -0.015em;
+}
+
+html[data-skin="c"] body {
+  font-size: 17px;
+  line-height: 1.55;
+}

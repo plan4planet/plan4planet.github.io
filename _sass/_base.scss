@@ -42,6 +42,22 @@ a:visited {
   font-weight: 500;
 }
 
+// Wordmark: "Plan4Planet" with the 4 carrying the accent in the skins.
+.wordmark .four {
+  color: var(--color-four);
+}
+
+// Brand marks: one <img> per skin is in the markup; only the active skin's mark shows.
+.brand-mark[data-skin] {
+  display: none;
+}
+
+html[data-skin="a"] .brand-mark[data-skin="a"],
+html[data-skin="b"] .brand-mark[data-skin="b"],
+html[data-skin="c"] .brand-mark[data-skin="c"] {
+  display: block;
+}
+
 // Heading scale: three weights on the site (400 text, 600 emphasis, 700 headings), no light cuts.
 // Page titles on the section pages match the hero title rather than minima's regular-weight 42px.
 .post-title {
@@ -73,12 +89,18 @@ a:visited {
 // The mark floated beside the intro paragraphs on the home page.
 .intro-logo {
   float: right;
-  max-width: 30%;
-  margin: 0 0 20px 15px;
+  width: 120px;
+  max-width: 120px;
+  margin: 4px 0 16px 24px;
 }
 
 @media screen and (max-width: 640px) {
   .intro-logo {
+    display: none;
+  }
+
+  // Also hide the per-skin marks on phones: the display rule above would otherwise re-show them.
+  html[data-skin] .intro-logo.brand-mark {
     display: none;
   }
 

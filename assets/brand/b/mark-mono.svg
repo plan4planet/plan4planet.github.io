@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Plan4Planet mark, one colour">
+  <path d="M4 52 A42 42 0 0 1 60 52" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+  <path d="M14 45 C22 24 36 14 50 18" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="14" cy="45" r="4.5" fill="currentColor"/>
+  <circle cx="50" cy="18" r="5.5" fill="none" stroke="currentColor" stroke-width="3"/>
+</svg>

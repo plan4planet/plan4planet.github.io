@@ -29,7 +29,9 @@ Re-comment when it is out of date.
 </div>
 -->
 
-<img class="intro-logo" src="{{ '/assets/images/plan4planet.png' | relative_url }}" alt="Planning for a Better Planet Logo" />
+<img class="intro-logo brand-mark" data-skin="a" src="{{ '/assets/brand/a/mark.svg' | relative_url }}" alt="Plan4Planet mark" />
+<img class="intro-logo brand-mark" data-skin="b" src="{{ '/assets/brand/b/mark.svg' | relative_url }}" alt="Plan4Planet mark" />
+<img class="intro-logo brand-mark" data-skin="c" src="{{ '/assets/brand/c/mark.svg' | relative_url }}" alt="Plan4Planet mark" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
 <p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 

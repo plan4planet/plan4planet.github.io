@@ -1,0 +1,48 @@
+// Direction A: Chosen path. A search tree with one route picked out. Academic, warm, a little playful.
+// Display: Work Sans. Text: Source Sans 3.
+html[data-skin="a"] {
+  --color-brand: #1e5a3c;
+  --color-brand-strong: #163f2b;
+  --color-secondary: #3f7a52;
+  --color-accent: #e8842b;
+  --color-on-brand: #ffffff;
+
+  --color-ink: #16231d;
+  --color-ink-soft: #3c4a42;
+  --color-muted: #9aa59f;
+  --color-muted-soft: #f3f4f1;
+
+  --color-paper: #f3f5f0;
+  --color-surface: #e2ece3;
+  --color-surface-2: #ecf1ec;
+  --color-rule: #cdd8cf;
+
+  --color-link: #1e5a3c;
+  --color-link-visited: #3f7a52;
+  --color-header-rule: #1e5a3c;
+  --color-site-title: #16231d;
+  --color-four: #c0621a;
+
+  --shadow-brand: 0 2px 6px rgba(30, 90, 60, 0.14);
+  --radius: 6px;
+  --radius-lg: 10px;
+
+  --font-display: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-text: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html[data-skin="a"] .site-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+html[data-skin="a"] h1,
+html[data-skin="a"] h2,
+html[data-skin="a"] h3 {
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+html[data-skin="a"] body {
+  font-size: 17px;
+}

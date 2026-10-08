@@ -5,7 +5,23 @@
   {%- if site.noindex %}
   <meta name="robots" content="noindex, nofollow">
   {%- endif %}
+  <script>
+    // Identity preview: ?skin=a|b|c picks a direction and is remembered per tab,
+    // so following links keeps the chosen skin. Runs before the stylesheet to avoid a flash.
+    (function () {
+      var key = "p4p-skin", skin = null;
+      try {
+        var q = new URLSearchParams(location.search).get("skin");
+        if (q && /^[abc]$/.test(q)) { sessionStorage.setItem(key, q); skin = q; }
+        else { skin = sessionStorage.getItem(key); }
+      } catch (e) {}
+      document.documentElement.setAttribute("data-skin", skin || "a");
+    })();
+  </script>
   {%- seo -%}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&family=Source+Sans+3:wght@400;500;600&family=Spectral:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=Hanken+Grotesk:wght@500;700;800&family=Newsreader:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">

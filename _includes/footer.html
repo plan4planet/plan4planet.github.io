@@ -2,9 +2,11 @@
   <div class="wrapper">
 
     <div class="footer-brand">
-      <img class="footer-mark" src="{{ '/assets/images/plan4planet.png' | relative_url }}" alt="">
+      <img class="footer-mark brand-mark" data-skin="a" src="{{ '/assets/brand/a/mark.svg' | relative_url }}" alt="">
+      <img class="footer-mark brand-mark" data-skin="b" src="{{ '/assets/brand/b/mark.svg' | relative_url }}" alt="">
+      <img class="footer-mark brand-mark" data-skin="c" src="{{ '/assets/brand/c/mark.svg' | relative_url }}" alt="">
       <div>
-        <span class="wordmark">Plan4Planet</span>
+        <span class="wordmark">Plan<span class="four">4</span>Planet</span>
         <p class="footer-tagline">{{ site.footer_tagline | default: site.description | escape }}</p>
       </div>
     </div>

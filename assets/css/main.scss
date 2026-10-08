@@ -18,3 +18,10 @@
   "components/committee",
   "components/toc",
   "components/footer";
+
+// Identity directions under review. Each redefines the tokens for html[data-skin="x"].
+// When one is chosen, fold it into _tokens.scss and delete the rest.
+@import
+  "skins/a",
+  "skins/b",
+  "skins/c";
