@@ -1,25 +1,4 @@
-// Rows of pill buttons (hero, Attend).
-.action-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin: 16px 0 24px;
-}
-
-.action-links--flush-top {
-  margin-top: 0;
-}
-
-// Anchors only: the disabled badge (a span) stays a plain block, as it always was.
-.action-links a {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-}
-
+// Pill buttons. The rows they sit in are styled by their section (hero, cta, announcement).
 .btn {
   padding: 10px 16px;
   border-radius: var(--radius);
@@ -28,7 +7,7 @@
   color: var(--color-on-brand);
 }
 
-// Outrank the base a:visited and a:hover rules, which the old inline styles used to beat.
+// Outrank the base a:visited and a:hover rules.
 .btn:visited,
 .btn:hover {
   color: var(--color-on-brand);
@@ -37,23 +16,4 @@
 
 .btn-brand {
   background: var(--color-brand);
-}
-
-.btn-secondary {
-  background: var(--color-secondary);
-}
-
-.btn-disabled {
-  background: var(--color-muted);
-  color: var(--color-muted-soft);
-  cursor: not-allowed;
-}
-
-.action-links .deadline {
-  display: block;
-  flex-basis: 100%;
-  margin-top: -4px;
-  font-size: 0.75em;
-  opacity: 0.85;
-  text-align: center;
 }
