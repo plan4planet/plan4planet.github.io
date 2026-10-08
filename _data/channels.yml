@@ -22,6 +22,6 @@
   icon: "fa-brands fa-x-twitter"
 - name: "Follow on LinkedIn"
   short: "LinkedIn"
-  url: ""
+  url: "https://www.linkedin.com/company/plan4planet"
   icon: "fa-brands fa-linkedin"
-  pending: true
+  # pending: true
