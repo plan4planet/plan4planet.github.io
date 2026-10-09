@@ -11,10 +11,15 @@ logo: /assets/images/plan4planet.png
 # Enforce a large image display format for Twitter/X cards
 twitter:
   card: summary_large_image
+  username: plan4planet_org
 
 social:
   name: 2026 Fall Symposium on Planning for a Better Planet
   url: "https://plan4planet.org"
+  links:
+    - https://bsky.app/profile/plan4planet.bsky.social
+    - https://x.com/plan4planet_org
+    - https://www.linkedin.com/company/plan4planet
 
 # Sets a default fallback image for all pages on the site
 defaults:
