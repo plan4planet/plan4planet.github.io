@@ -1,0 +1,60 @@
+{%- comment -%}
+Event structured data for search engines, home page only. Update the performer list when the speakers page changes.
+{%- endcomment -%}
+{%- if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Planning for a Better Planet, AAAI Fall Symposium 2026",
+    "description": "AI planning and reasoning researchers and climate experts, working on the decisions a changing climate demands. Part of the AAAI Fall Symposium Series 2026.",
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-07",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "url": "{{ '/' | absolute_url }}",
+    "image": ["{{ '/assets/images/plan4planet_share.png' | absolute_url }}"],
+    "location": {
+      "@type": "Place",
+      "name": "The Westin Arlington Gateway",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "801 N Glebe Rd",
+        "addressLocality": "Arlington",
+        "addressRegion": "VA",
+        "postalCode": "22203",
+        "addressCountry": "US"
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Plan4Planet",
+      "url": "{{ '/' | absolute_url }}",
+      "email": "info@plan4planet.org"
+    },
+    "superEvent": {
+      "@type": "Event",
+      "name": "AAAI Fall Symposium Series 2026",
+      "url": "https://aaai.org/conference/fall-symposia/2026-fall-symposium-series-2/",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Association for the Advancement of Artificial Intelligence",
+        "url": "https://aaai.org/"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://aaai.getregistered.net/2026-fall-symposium/register",
+      "availability": "https://schema.org/InStock"
+    },
+    "performer": [
+      {"@type": "Person", "name": "Joanmarie Del Vecchio", "affiliation": {"@type": "Organization", "name": "William & Mary"}},
+      {"@type": "Person", "name": "Carla P. Gomes", "affiliation": {"@type": "Organization", "name": "Cornell University"}},
+      {"@type": "Person", "name": "Stéphane Hallegatte", "affiliation": {"@type": "Organization", "name": "World Bank Group"}},
+      {"@type": "Person", "name": "Luis E. Ortiz", "affiliation": {"@type": "Organization", "name": "George Mason University"}},
+      {"@type": "Person", "name": "Biplav Srivastava", "affiliation": {"@type": "Organization", "name": "University of South Carolina"}},
+      {"@type": "Person", "name": "Stephen Wissow", "affiliation": {"@type": "Organization", "name": "University of New Hampshire"}}
+    ]
+  }
+  </script>
+{%- endif %}
