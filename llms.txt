@@ -1,0 +1,24 @@
+# Plan4Planet
+
+> Plan4Planet is a community at the intersection of AI planning and climate decisions: automated planning and scheduling, multi-agent coordination, mechanism design, optimization, operations research and reasoning under uncertainty, applied to climate mitigation, adaptation, climate science and climate policy. Its first event is Planning for a Better Planet, an AAAI Fall Symposium 2026, held November 5 to 7, 2026 at the Westin Arlington in Arlington, Virginia, USA.
+
+Key facts:
+
+- Event: Planning for a Better Planet, AAAI Fall Symposium 2026, part of the AAAI Fall Symposium Series 2026.
+- Dates: November 5 to 7, 2026. Venue: The Westin Arlington Gateway, 801 N Glebe Rd, Arlington, VA 22203, USA.
+- Registration: https://aaai.getregistered.net/2026-fall-symposium/register (through AAAI, covers all three days).
+- Organizing committee: Jim Boerkoel (Harvey Mudd College), Charles Dawson (Emerald AI), Jeremy Frank (NASA Ames Research Center), Alice Lépissier (Green Finance AI).
+- Contact: info@plan4planet.org. Mailing list: https://groups.google.com/g/plan4planet-l/
+
+## Pages
+
+- [Home](https://plan4planet.org/): what the symposium is about, AI and climate research domains, goals, and how to attend.
+- [Speakers](https://plan4planet.org/speakers/): invited speakers with affiliations and bios.
+- [Accepted papers](https://plan4planet.org/papers/): accepted papers grouped by theme.
+- [Schedule](https://plan4planet.org/schedule/): the program.
+
+## Social
+
+- Bluesky: https://bsky.app/profile/plan4planet.bsky.social
+- X: https://x.com/plan4planet_org
+- LinkedIn: https://www.linkedin.com/company/plan4planet
