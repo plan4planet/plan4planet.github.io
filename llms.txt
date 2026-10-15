@@ -12,10 +12,10 @@ Key facts:
 
 ## Pages
 
-- [Home](https://plan4planet.org/): what the symposium is about, AI and climate research domains, goals, and how to attend.
-- [Speakers](https://plan4planet.org/speakers/): invited speakers with affiliations and bios.
-- [Accepted papers](https://plan4planet.org/papers/): accepted papers grouped by theme.
-- [Schedule](https://plan4planet.org/schedule/): the program.
+- [Home](https://www.plan4planet.org/): what the symposium is about, AI and climate research domains, goals, and how to attend.
+- [Speakers](https://www.plan4planet.org/speakers/): invited speakers with affiliations and bios.
+- [Accepted papers](https://www.plan4planet.org/papers/): accepted papers grouped by theme.
+- [Schedule](https://www.plan4planet.org/schedule/): the program.
 
 ## Social
 

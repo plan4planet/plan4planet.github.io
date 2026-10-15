@@ -2,23 +2,53 @@
 layout: page
 title: Tentative Schedule
 permalink: /schedule/
+toc: true
 ---
 
-_Coming Soon!_
+<p class="schedule-note">Draft program, subject to change. Invited talks run 30 minutes plus 10 minutes of questions; accepted-paper talks run 10 minutes each. Speaker bios are on the <a href="{{ '/speakers/' | relative_url }}">speakers page</a> and paper authors on the <a href="{{ '/papers/' | relative_url }}">papers page</a>.</p>
 
-<!--
-_(subject to change)_
-Each session will include invited speakers, short talks by authors of submitted papers, and Q&A, and will end with facilitated small-group discussions with share-outs.
-
-- Day 1, Morning: Planning For Climate Understanding
-  - *Discussion questions: How can planning research help improve the scope, scale, and cost of climate data to support climate modeling and environmental monitoring? How can planning research leverage recent advances in ML-based climate models?*
-- Day 1, Afternoon: Planning for Climate Mitigation
-  - *Discussion questions: Are there opportunities to plan research to transfer to relatively understudied areas, for instance, by applying multi-agent coordination methods from robotics to industrial process control? What forms of engagement among researchers, industry, funding agencies, and policymakers can support a productive research agenda in this area?  What role can research on multi-agent coordination, mechanism design, and planning play in the economic and policy dimensions of mitigation — including carbon markets, emissions trading scheme design, corporate carbon accounting, and the equitable phase-out of fossil fuel infrastructure?*
-- Day 2, Morning: Planning for Climate Adaptation
-  - *Discussion questions: Are there directions for foundational planning research that can support adaptation? How can the planning community help translate research into accessible tools for communities and policymakers dealing with climate adaptation? What role does planning play in institutional decision-making under climate uncertainty --- including resilient infrastructure siting, managed retreat, resource allocation in stressed water and food systems, and equitable disaster recovery?*
-- Day 2, Afternoon: Building AI x Climate Research Communities
-    - Possible workshop on navigating the geopolitical, social, or policy contexts within climate work in order to have a positive impact.
-    - *Discussion questions: What do we want in a community of climate-inspired planning researchers? How do we create a community that supports both applied and foundational research under an umbrella of climate motivation?*
-- Day 3, Morning: Community Discussion of Next Steps & Action Items
--->
-
+{% for day in site.data.schedule %}
+<h3 id="{{ day.id }}"><span class="schedule-day">{{ day.day }}:</span> {{ day.date }}</h3>
+<ol class="schedule">
+  {%- for slot in day.slots %}
+  <li class="schedule-slot{% unless slot.items %} schedule-break{% endunless %}">
+    <span class="schedule-time">{{ slot.time }}</span>
+    <div class="schedule-session">
+      <h4>{{ slot.title }}</h4>
+      {%- if slot.subtitle %}
+      <p class="schedule-subtitle">{{ slot.subtitle }}</p>
+      {%- endif %}
+      {%- if slot.items %}
+      <ul class="schedule-items">
+        {%- for item in slot.items %}
+        <li>
+          {{ item.label }}{% if item.speaker %}: <a href="{{ '/speakers/' | relative_url }}">{{ item.speaker }}</a>{% endif %}
+          {%- if item.talk %}
+          <span class="schedule-talk">“{{ item.talk }}”</span>
+          {%- endif %}
+          {%- if item.papers %}
+          <ul class="schedule-papers">
+            {%- for paper in item.papers %}
+            <li><span class="schedule-paper-title">{{ paper.title }}</span> <span class="schedule-paper-authors">{{ paper.authors }}</span></li>
+            {%- endfor %}
+          </ul>
+          {%- endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- if slot.prompts %}
+      <details class="schedule-prompts">
+        <summary>Example discussion questions</summary>
+        <ul>
+          {%- for prompt in slot.prompts %}
+          <li>{{ prompt }}</li>
+          {%- endfor %}
+        </ul>
+      </details>
+      {%- endif %}
+    </div>
+  </li>
+  {%- endfor %}
+</ol>
+{% endfor %}
