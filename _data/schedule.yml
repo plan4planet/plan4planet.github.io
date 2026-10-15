@@ -1,0 +1,170 @@
+# Draft program, rendered on /schedule/ (pages/schedule.md).
+# Source: the "Draft program" tab of the speaker-info Google Doc.
+#
+# Each day has a list of slots. A slot with only `time` and `title` renders as a break row.
+# Session items: `label` (required), then optional `speaker` (links to /speakers/), `talk` (confirmed
+# talk titles only), and `papers` (accepted-paper talks, as on /papers/). Optional `prompts` on a
+# session: example discussion questions, shown in a collapsed list.
+
+- day: Day 1
+  date: Thursday, November 5
+  id: day-1
+  slots:
+    - time: 9:00–10:30
+      title: Welcome
+      items:
+        - label: Welcome remarks
+        - label: Small-group introductions
+        - label: Planning overview
+          speaker: Stephen Wissow
+        - label: Round-robin introductions
+    - time: 10:30–11:00
+      title: Break
+    - time: 11:00–12:30
+      title: Planning and Delivering Adaptation
+      items:
+        - label: Invited talk
+          speaker: Luis E. Ortiz
+        - label: Accepted papers
+          papers:
+            - authors: Dash and Sarangi
+              title: Explainable and Robust Representation-Aware Planning for Climate-Health Adaptation in India
+            - authors: Dutta and Moharir
+              title: Compound-Hazard Feasibility Gaps in Climate Adaptation Planning
+            - authors: Dutta and Moharir
+              title: "Can This Climate Plan Actually Be Implemented? Testing Climate Plan Executability under Institutional Constraints"
+        - label: Moderated questions
+        - label: Small-group discussion
+      prompts:
+        - "What adaptation-related needs might policymakers and communities have (e.g., resilient infrastructure siting, resource allocation, disaster recovery)?"
+        - "How can we translate research into accessible tools for communities and policymakers?"
+        - "What are other ways that planning research can help adaptation?"
+    - time: 12:30–2:00
+      title: Lunch (on your own)
+    - time: 2:00–3:30
+      title: Energy and Computation
+      items:
+        - label: Invited talk
+          speaker: Carla P. Gomes
+        - label: Warm-up partner discussion
+        - label: Accepted papers
+          papers:
+            - authors: Georgievski
+              title: "AI Planning as Solution and as Consumer: Computational Energy as a Planning Resource"
+            - authors: Abdelnour et al.
+              title: "MicrogridOS: Agent-Orchestrated Generation of 80% Microgrid Designs for Energy Access"
+            - authors: Chen et al.
+              title: "Refined Thompson Learning for Adaptive Bandits: Power-Efficient Flexibility Scheduling Across Data Centers"
+        - label: Moderated questions
+        - label: Small-group discussion
+      prompts:
+        - "What are your biggest questions about climate mitigation?"
+        - "Are there opportunities for planning research to transfer to relatively understudied areas, such as multi-agent coordination for industrial process control or task planning for residential electrification?"
+    - time: 3:30–4:00
+      title: Break
+    - time: 4:00–5:00
+      title: Session to be announced
+      items:
+        - label: Details to come
+    - time: 5:30–6:30
+      title: AAAI reception
+
+- day: Day 2
+  date: Friday, November 6
+  id: day-2
+  slots:
+    - time: 9:00–10:30
+      title: Measuring a Changing Planet
+      items:
+        - label: Invited talk
+          speaker: Joanmarie Del Vecchio
+        - label: Small-group discussion
+        - label: Accepted papers
+          papers:
+            - authors: Reed et al.
+              title: Toward Adaptive Planning for Autonomous Glider Observations of Subsurface Marine Heatwaves
+            - authors: Shaffer et al.
+              title: Physics-Guided Multi-Robot Planning for Climate Sensing
+            - authors: Murray et al.
+              title: "Planning Wildlife Monitoring Under Ecological Uncertainty: Scenario-Based Sensor Placement for Resource-Constrained Conservation Programs"
+        - label: Moderated questions
+      prompts:
+        - "How can planning research help improve the scope, scale, and cost of climate data to support climate modeling and environmental monitoring?"
+        - "How can planning research leverage recent advances in ML-based climate models, and what new planning challenges does their widespread use expose?"
+    - time: 10:30–11:00
+      title: Break
+    - time: 11:00–12:30
+      title: Goals and Governance
+      subtitle: "Whose Objective? The Hidden Choices in Planning for Climate"
+      items:
+        - label: Invited talk
+          speaker: Stéphane Hallegatte
+        - label: Accepted papers
+          papers:
+            - authors: Yang
+              title: "From Delegates to Trustees: Aligning LLM Planners with Absent Stakeholders in Climate Decision-Making"
+            - authors: Wozny et al.
+              title: "Stress-Testing CBAM under Export Reallocation with RICE-M: A Multi-Agent Reinforcement Learning Climate-Economic Model with MRIO-Calibrated Trade"
+            - authors: Yang and Aiersilan
+              title: "Reinforcement Learning from Ecological Feedback (RLEF): A Framework for Aligning Language-Model Planning with Planetary Boundaries"
+        - label: Panel with moderated questions
+      prompts:
+        - "Whose losses does the objective count, and with what weights? How much does the future count, and who sets the discount factor?"
+        - "How should a planner decide when the probabilities themselves are contested?"
+        - "What role can planning research (multi-agent coordination, mechanism design) play in the economic and policy dimensions of mitigation, such as carbon markets, emissions trading design, corporate carbon accounting, and the equitable phase-out of fossil fuel infrastructure?"
+    - time: 12:30–2:00
+      title: Lunch (on your own)
+    - time: 2:00–3:30
+      title: Planning Tools for Climate Users
+      items:
+        - label: Invited talk
+          speaker: Biplav Srivastava
+          talk: Some Lessons from Smart Transportation to Help Plan for a Better Planet
+        - label: Small-group discussion
+        - label: Accepted papers
+          papers:
+            - authors: Dogan et al.
+              title: Recentering Care in Climate Data Work as Integral for Climate AI
+            - authors: Vaidya et al.
+              title: "Data Fragmentation as a Critical Bottleneck in Disaster Response Planning: The EVAC-AI Case Study for Flood Risk Assessment"
+            - authors: Alikana et al.
+              title: "What Aggregate Accuracy Hides: A Failure-Mode Analysis of Language-Guided Disaster Segmentation for Mitigation Planning"
+        - label: Moderated questions
+      prompts:
+        - "How do some of these lessons apply to your own area of planning and climate work?"
+    - time: 3:30–4:00
+      title: Break
+    - time: 4:00–5:00
+      title: Strength of Weak Ties
+      items:
+        - label: "Small-group discussions: cross-field connections and gaps"
+        - label: "Small-group discussions: future interests and research directions"
+        - label: Brainstorming groups on shared future-work topics
+      prompts:
+        - "Who have you met here for the first time who works in a different planning subfield, or a different climate field?"
+        - "What connections jump out at you from the talks and discussions? What connections are missing?"
+        - "What topics would you like to explore in your own research coming out of this symposium?"
+    - time: 5:30–6:30
+      title: AAAI plenary
+
+- day: Day 3
+  date: Saturday, November 7
+  id: day-3
+  slots:
+    - time: 9:00–10:30
+      title: Community Discussion
+      items:
+        - label: "Framing: a community of practice for climate-oriented planning research"
+        - label: Facilitated discussions, with share-outs
+      prompts:
+        - "What do we want in a community of climate-inspired planning researchers?"
+        - "How do we create a community that supports both applied and foundational research under an umbrella of climate motivation?"
+        - "What engagement between researchers, industry, funding agencies, and policymakers is needed to support climate-oriented planning research?"
+    - time: 10:30–11:00
+      title: Break
+    - time: 11:00–12:30
+      title: Closing and Next Steps
+      items:
+        - label: Options for growing the community
+        - label: Feedback for the organizers
+        - label: Next steps and volunteers
