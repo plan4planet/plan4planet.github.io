@@ -41,7 +41,5 @@ toc: true
 ### ⚡ Energy Systems and Decarbonization
 - **AI Planning as Solution and as Consumer: Computational Energy as a Planning Resource**  
   Ilche Georgievski (University of Stuttgart)
-- **MicrogridOS: Agent-Orchestrated Generation of 80% Microgrid Designs for Energy Access**  
-  Vladimir Abdelnour, Nathan Johnson, and James Nelson (Arizona State University)
 - **Refined Thompson Learning for Adaptive Bandits: Power-Efficient Flexibility Scheduling Across Data Centers**  
   Zixi Chen, Yifu Ding, Ruicheng Ao, David Simchi-Levi, and Thomas Magnanti (Massachusetts Institute of Technology)

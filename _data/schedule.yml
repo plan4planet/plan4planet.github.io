@@ -50,8 +50,6 @@
           papers:
             - authors: Georgievski
               title: "AI Planning as Solution and as Consumer: Computational Energy as a Planning Resource"
-            - authors: Abdelnour et al.
-              title: "MicrogridOS: Agent-Orchestrated Generation of 80% Microgrid Designs for Energy Access"
             - authors: Chen et al.
               title: "Refined Thompson Learning for Adaptive Bandits: Power-Efficient Flexibility Scheduling Across Data Centers"
         - label: Moderated questions
