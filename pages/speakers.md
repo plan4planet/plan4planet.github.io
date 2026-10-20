@@ -51,7 +51,17 @@ permalink: /speakers/
         <p class="speaker-title">Assistant Professor, Atmospheric, Oceanic, and Earth Sciences</p>
       </div>
     </header>
-    <p class="speaker-bio">Luis Ortiz is co-Director of the Virginia Climate Center at George Mason and Acting State Climatologist for Virginia. He studies how cities interact with the atmosphere in a changing climate, and how those interactions affect people and infrastructure. His work uses high-resolution dynamical and statistical modeling of urban weather and climate to analyze impacts ranging from energy demand to exposure to weather extremes.</p>
+    <div class="speaker-body">
+      <p class="speaker-talk"><span>Talk</span> Modeling Urban Climates: Challenges and Opportunities with AI</p>
+      <details class="speaker-abstract">
+        <summary>Abstract</summary>
+        <blockquote>
+          <p>Modeling the climate of cities is a challenging problem. Built environments have complex, fine-scale heterogeneous 3D layouts and unique material properties that differ substantially from natural landscapes. This complexity introduces a challenge for city-scale planning: understanding the effect of urban patterns on local weather is a non-trivial task requiring detailed building data in addition to larger-scale climate patterns.</p>
+          <p>In this talk I will introduce the physics of urban climate and offer a brief introduction to traditional modeling paradigms. I will then showcase recent work from our group on addressing these challenges using AI techniques tailored to urban-scale climate modeling aimed at supporting urban planning. I will introduce uMORPH, a global urban canopy dataset, and early applications in downscaling climate fields to neighborhood scales.</p>
+        </blockquote>
+      </details>
+      <p class="speaker-bio">Luis Ortiz is co-Director of the Virginia Climate Center at George Mason and Acting State Climatologist for Virginia. He studies how cities interact with the atmosphere in a changing climate, and how those interactions affect people and infrastructure. His work uses high-resolution dynamical and statistical modeling of urban weather and climate to analyze impacts ranging from energy demand to exposure to weather extremes.</p>
+    </div>
     <a class="speaker-link" href="https://science.gmu.edu/directory/luis-ortiz" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
   </article>
   <article class="speaker-card">

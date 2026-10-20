@@ -25,6 +25,7 @@
       items:
         - label: Invited talk
           speaker: Luis E. Ortiz
+          talk: "Modeling Urban Climates: Challenges and Opportunities with AI"
         - label: Accepted papers
           papers:
             - authors: Dash and Sarangi
