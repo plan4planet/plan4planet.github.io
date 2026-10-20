@@ -1,0 +1,42 @@
+// Collapsible abstract, shared by speaker cards and the papers list. Collapsed by default so
+// long abstracts don't stretch a card row or bury the list; when open it reads as a quoted block.
+// Each page sets the outer margin (.speaker-abstract, .paper-abstract).
+.abstract summary {
+  cursor: pointer;
+  color: var(--color-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.abstract blockquote {
+  margin: 8px 0 0;
+  padding: 8px 12px;
+  background: var(--color-surface-2);
+  border-left: 3px solid var(--color-rule);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 1rem;
+  letter-spacing: normal;
+}
+
+.abstract p {
+  margin: 0 0 6px;
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.abstract p:last-child {
+  margin-bottom: 0;
+}
+
+.paper-list li {
+  margin-bottom: 12px;
+}
+
+.paper-abstract {
+  margin: 4px 0 0;
+  max-width: 72ch;
+}

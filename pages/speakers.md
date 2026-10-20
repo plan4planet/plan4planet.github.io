@@ -53,7 +53,7 @@ permalink: /speakers/
     </header>
     <div class="speaker-body">
       <p class="speaker-talk"><span>Talk</span> Modeling Urban Climates: Challenges and Opportunities with AI</p>
-      <details class="speaker-abstract">
+      <details class="abstract speaker-abstract">
         <summary>Abstract</summary>
         <blockquote>
           <p>Modeling the climate of cities is a challenging problem. Built environments have complex, fine-scale heterogeneous 3D layouts and unique material properties that differ substantially from natural landscapes. This complexity introduces a challenge for city-scale planning: understanding the effect of urban patterns on local weather is a non-trivial task requiring detailed building data in addition to larger-scale climate patterns.</p>

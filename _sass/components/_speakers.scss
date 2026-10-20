@@ -99,41 +99,9 @@
   letter-spacing: 0.06em;
 }
 
-// Optional talk abstract, collapsed by default so long abstracts don't stretch the card row.
-// Lines up with the talk title; when open it reads as a quoted block.
+// Talk abstract (styles in _abstract.scss), lined up with the talk title.
 .speaker-abstract {
   margin: 8px 20px 0 33px;
-}
-
-.speaker-abstract summary {
-  cursor: pointer;
-  color: var(--color-secondary);
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.speaker-abstract blockquote {
-  margin: 8px 0 0;
-  padding: 8px 12px;
-  background: var(--color-surface-2);
-  border-left: 3px solid var(--color-rule);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  font-size: 1rem;
-  letter-spacing: normal;
-}
-
-.speaker-abstract p {
-  margin: 0 0 6px;
-  color: var(--color-ink-soft);
-  font-size: 0.85rem;
-  font-style: italic;
-  line-height: 1.45;
-}
-
-.speaker-abstract p:last-child {
-  margin-bottom: 0;
 }
 
 .speaker-bio {
