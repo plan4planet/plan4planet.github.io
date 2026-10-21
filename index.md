@@ -6,7 +6,7 @@ layout: home
   <div class="hero-text">
     <p class="hero-kicker">AAAI Fall Symposium 2026</p>
     <h1>Planning for a Better Planet</h1>
-    <p class="hero-deck">AI planning researchers and climate experts, working on the decisions a changing climate demands.</p>
+    <p class="hero-deck">AI planning researchers and climate experts, tackling the decisions climate change demands.</p>
     <ul class="hero-facts">
       <li><i class="fa-regular fa-calendar" aria-hidden="true"></i> November 5 to 7, 2026</li>
       <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> <a href="https://www.google.com/maps/search/?api=1&query=The+Westin+Arlington+Gateway%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA+22203" target="_blank" rel="noopener noreferrer">Westin Arlington, Arlington, Virginia</a></li>
