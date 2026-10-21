@@ -66,7 +66,7 @@ permalink: /speakers/
   </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
-      <span class="speaker-initials" aria-hidden="true">BS</span>
+      <img class="speaker-photo" src="{{ '/assets/images/speakers/biplav-srivastava.jpg' | relative_url }}" alt="Biplav Srivastava" width="56" height="56">
       <div>
         <h3>Biplav Srivastava</h3>
         <p class="speaker-affiliation">University of South Carolina</p>
@@ -81,7 +81,7 @@ permalink: /speakers/
           <p>In this position paper, we argue that for using planning techniques for a better planet, one can benefit from lessons learnt from previous efforts in using computational and Artificial Intelligence (AI) methods for sustainability problems. Focusing on transportation, we provide a brief overview of promising initiatives in the past in developing and developed countries around the world, and highlight their key ideas. We then use this experience to draw lessons on the socio-technical conditions when AI-based methods may work for climate change (and when not). The lessons emphasize the need to engage stakeholders, grow open data and skill ecosystem, and communicate with sensitivity to sponsors. We argue that planning provides a powerful tool for addressing the challenges of climate change but success needs careful practical considerations that were not emphasized in the past.</p>
         </blockquote>
       </details>
-      <p class="speaker-bio">Biplav Srivastava's research aims to help people make rational decisions despite poor data, changing goals, and limited resources, with work spanning neuro-symbolic planning, trusted AI, and sensor and open-data applications for smarter communities in areas such as water, energy, and transportation. He is an ACM Distinguished Scientist, an AAAI Senior Member, and an IEEE Senior Member.</p>
+      <p class="speaker-bio">Biplav Srivastava is a Professor of Computer Science at the AI Institute and Department of Computer Science at the University of South Carolina (USC) which he joined in 2020 after two decades in industrial research. He has worked on tackling research problems in sustainability using AI and planning methods from around the world since 2010, leading to many publications, tutorials, and prototypes. <em>Trustworthy AI, aligned to human values and sustainable development, is the need of the hour.</em> He directs the <a href="https://ai4society.github.io/" target="_blank" rel="noopener noreferrer">AI for Society</a> group at USC that is working on promoting goal-oriented, ethical, human-machine collaboration using learning and reasoning.</p>
     </div>
     <a class="speaker-link" href="https://sites.google.com/site/biplavsrivastava/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
   </article>
