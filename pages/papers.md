@@ -3,6 +3,7 @@ layout: page
 title: Accepted Papers
 permalink: /papers/
 toc: true
+description: "Accepted papers at the AAAI Fall Symposium on Planning for a Better Planet: climate adaptation, disaster response, policy, environmental monitoring and energy."
 ---
 
 {% for section in site.data.papers %}

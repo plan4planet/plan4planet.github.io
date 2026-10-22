@@ -1,5 +1,6 @@
 ---
 layout: home
+description: "AAAI Fall Symposium 2026, Nov 5–7 in Arlington, VA. AI planning researchers and climate experts tackling the decisions a changing climate demands."
 ---
 
 <header class="hero">

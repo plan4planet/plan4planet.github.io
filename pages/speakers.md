@@ -2,6 +2,7 @@
 layout: page
 title: Confirmed Speakers
 permalink: /speakers/
+description: "Invited speakers at the AAAI Fall Symposium on Planning for a Better Planet, including Carla Gomes, Stéphane Hallegatte and Biplav Srivastava, with talks and bios."
 ---
 
 

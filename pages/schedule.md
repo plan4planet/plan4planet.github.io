@@ -3,6 +3,7 @@ layout: page
 title: Tentative Schedule
 permalink: /schedule/
 toc: true
+description: "The three-day program for Planning for a Better Planet, AAAI Fall Symposium 2026 (Nov 5–7, Arlington, VA): invited talks, paper sessions and community discussions."
 ---
 
 <p class="schedule-note">Draft program, subject to change. Invited talks run 30 minutes plus 10 minutes of questions; accepted-paper talks run 10 minutes each. Speaker bios are on the <a href="{{ '/speakers/' | relative_url }}">speakers page</a> and paper authors on the <a href="{{ '/papers/' | relative_url }}">papers page</a>.</p>
