@@ -15,7 +15,16 @@ permalink: /speakers/
         <p class="speaker-title">Assistant Professor of Geology</p>
       </div>
     </header>
-    <p class="speaker-bio">Joanmarie Del Vecchio is a geomorphologist who uses field observations and remotely sensed data from satellites and drones to study how landscapes respond to a changing climate. Her work spans permafrost landscapes, surface processes, and computational and "big data" approaches to Earth science, including models for identifying Arctic landforms and studies of how permafrost thaw shapes rivers, erosion, and vegetation.</p>
+    <div class="speaker-body">
+      <p class="speaker-talk"><span>Talk</span> Algorithms for the Anthropocene: The Promise and Pitfalls of Machine Learning in a Changing Arctic</p>
+      <details class="abstract speaker-abstract">
+        <summary>Abstract</summary>
+        <blockquote>
+          <p>The Arctic is warming faster than any other region on Earth, raising the risk that carbon long stored in frozen soils will be released to the atmosphere and further intensify climate warming. The scale and inaccessibility of the Arctic mean remote characterization is the rule, rather than the exception, and recent advancements in satellite imaging, computing infrastructure, and machine learning promise to harness a "big data" approach to mapping permafrost landscape change. But what data and knowledge are needed to move from just seeing change to understanding its causes and consequences? In this talk, I will present our recent progress in studying changing permafrost landscapes, highlighting the complementary strengths of building and testing conceptual models alongside computational analysis.</p>
+        </blockquote>
+      </details>
+      <p class="speaker-bio">Joanmarie Del Vecchio is a geomorphologist who uses field observations and remotely sensed data from satellites and drones to study how landscapes respond to a changing climate. Her work spans permafrost landscapes, surface processes, and computational and "big data" approaches to Earth science, including models for identifying Arctic landforms and studies of how permafrost thaw shapes rivers, erosion, and vegetation.</p>
+    </div>
     <a class="speaker-link" href="https://www.wm.edu/as/geology/people/faculty/delvecchio_j.php" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
   </article>
   <article class="speaker-card">
