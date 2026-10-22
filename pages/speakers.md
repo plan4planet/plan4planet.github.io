@@ -10,7 +10,7 @@ permalink: /speakers/
     <header class="speaker-card-header">
       <img class="speaker-photo" src="{{ '/assets/images/speakers/joanmarie-del-vecchio.jpg' | relative_url }}" alt="Joanmarie Del Vecchio" width="56" height="56">
       <div>
-        <h3>Joanmarie Del Vecchio</h3>
+        <h3>Joanmarie Del Vecchio <span class="speaker-pronouns">(she/her)</span></h3>
         <p class="speaker-affiliation">William &amp; Mary</p>
         <p class="speaker-title">Assistant Professor of Geology</p>
       </div>
@@ -55,7 +55,7 @@ permalink: /speakers/
     <header class="speaker-card-header">
       <img class="speaker-photo" src="{{ '/assets/images/speakers/luis-ortiz.jpg' | relative_url }}" alt="Luis E. Ortiz" width="56" height="56">
       <div>
-        <h3>Luis E. Ortiz</h3>
+        <h3>Luis E. Ortiz <span class="speaker-pronouns">(he/him)</span></h3>
         <p class="speaker-affiliation">George Mason University</p>
         <p class="speaker-title">Assistant Professor, Atmospheric, Oceanic, and Earth Sciences</p>
       </div>

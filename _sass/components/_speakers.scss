@@ -63,6 +63,15 @@
   line-height: 1.2;
 }
 
+// Optional pronouns after the name, shown only when the speaker has given them.
+.speaker-pronouns {
+  font-family: var(--font-text);
+  font-size: 0.85rem;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0.85;
+}
+
 .speaker-affiliation {
   margin: 4px 0 0;
   font-size: 0.95rem;
