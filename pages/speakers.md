@@ -8,7 +8,7 @@ permalink: /speakers/
 <div class="speaker-cards">
   <article class="speaker-card">
     <header class="speaker-card-header">
-      <span class="speaker-initials" aria-hidden="true">JD</span>
+      <img class="speaker-photo" src="{{ '/assets/images/speakers/joanmarie-del-vecchio.jpg' | relative_url }}" alt="Joanmarie Del Vecchio" width="56" height="56">
       <div>
         <h3>Joanmarie Del Vecchio</h3>
         <p class="speaker-affiliation">William &amp; Mary</p>
