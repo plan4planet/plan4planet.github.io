@@ -21,13 +21,12 @@ layout: home
   </a>
 </header>
 
-<!-- Announcement. Uncomment to show one under the hero: a label, one sentence, and a button that does the thing.
-Re-comment when it is out of date.
+<!-- Announcement under the hero: a label, one sentence, and a button that does the thing.
+Comment it out when it is out of date. -->
 <div class="announcement">
-  <p><span class="announcement-label">New</span> The programme is out: three keynotes, two panels, and twenty-four papers across the three days.</p>
+  <p><span class="announcement-label">New</span> The program is posted: six invited talks, a full slate of accepted papers, and opportunities for community building every day.</p>
   <a class="btn btn-brand" href="{{ '/schedule/' | relative_url }}">See the schedule</a>
 </div>
--->
 
 ## A changing planet demands better plans
 
