@@ -11,7 +11,7 @@ toc: true
 <h3 id="{{ day.id }}"><span class="schedule-day">{{ day.day }}:</span> {{ day.date }}</h3>
 <ol class="schedule">
   {%- for slot in day.slots %}
-  <li class="schedule-slot{% unless slot.items %} schedule-break{% endunless %}">
+  <li class="schedule-slot{% unless slot.items %} schedule-break{% endunless %}" id="{{ day.id }}-{{ slot.time | split: '–' | first | remove: ':' }}">
     <span class="schedule-time">{{ slot.time }}</span>
     <div class="schedule-session">
       <h4>{{ slot.title }}</h4>

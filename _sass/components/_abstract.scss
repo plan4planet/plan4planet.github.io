@@ -36,6 +36,20 @@
   margin-bottom: 12px;
 }
 
+// When and where a paper is presented, linked to its session on the schedule.
+.paper-session {
+  display: block;
+  margin-top: 2px;
+  color: var(--color-ink-soft);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.paper-session:hover {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
 .paper-abstract {
   margin: 4px 0 0;
   max-width: 72ch;
