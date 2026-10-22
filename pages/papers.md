@@ -9,7 +9,7 @@ toc: true
 <h3 id="{{ section.id }}">{{ section.heading }}</h3>
 <ul class="paper-list">
   {%- for paper in section.papers %}
-  <li>
+  <li id="paper-{{ paper.number }}">
     <strong>{{ paper.title | escape }}</strong><br>
     {{ paper.authors | escape }}
     {%- if paper.abstract %}

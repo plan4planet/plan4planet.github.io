@@ -29,7 +29,9 @@ toc: true
           {%- if item.papers %}
           <ul class="schedule-papers">
             {%- for paper in item.papers %}
-            <li><span class="schedule-paper-title">{{ paper.title }}</span> <span class="schedule-paper-authors">{{ paper.authors }}</span></li>
+            {%- assign paper_number = nil %}
+            {%- for section in site.data.papers %}{% for accepted in section.papers %}{% if accepted.title == paper.title %}{% assign paper_number = accepted.number %}{% endif %}{% endfor %}{% endfor %}
+            <li><span class="schedule-paper-title">{% if paper_number %}<a href="{{ '/papers/' | relative_url }}#paper-{{ paper_number }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</span> <span class="schedule-paper-authors">{{ paper.authors }}</span></li>
             {%- endfor %}
           </ul>
           {%- endif %}

@@ -27,8 +27,9 @@
 <script>
   function expandHashTarget() {
     const target = document.getElementById(window.location.hash.slice(1));
-    if (target instanceof HTMLDetailsElement) {
-      target.open = true;
+    const details = target instanceof HTMLDetailsElement ? target : target?.querySelector(":scope > details");
+    if (details) {
+      details.open = true;
     }
   }
 
