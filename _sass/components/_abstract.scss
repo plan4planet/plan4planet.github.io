@@ -28,7 +28,16 @@
   line-height: 1.45;
 }
 
-.abstract p:last-child {
+.abstract ol,
+.abstract ul {
+  margin: 0 0 6px 20px;
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.abstract > blockquote > :last-child {
   margin-bottom: 0;
 }
 

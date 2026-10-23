@@ -104,7 +104,25 @@ description: "Invited speakers at the AAAI Fall Symposium on Planning for a Bett
         <p class="speaker-title">Doctoral Candidate, Computer Science</p>
       </div>
     </header>
-    <p class="speaker-bio">Stephen Wissow is a PhD candidate in Computer Science at the University of New Hampshire, collaborates with the MIT-IBM Watson AI Lab, and will give an introduction to AI planning for researchers across disciplines. Their research develops heuristic search algorithms for automated planning under resource constraints, focusing on how cost models influence planning speed and on balancing exploration and exploitation, the latter recognized with an Outstanding Paper Award at ECAI 2024. They are interested in the problem setting posed by renewable-heavy power grids, where energy availability fluctuates and long-running algorithms must reconcile partial plans with accrued world changes.</p>
+    <div class="speaker-body">
+      <p class="speaker-talk"><span>Talk</span> Deciding What to Do? Try Planning!</p>
+      <details class="abstract speaker-abstract">
+        <summary>Abstract</summary>
+        <blockquote>
+          <p>Planning is the core AI subfield that addresses the problem of deciding what to do in order to achieve a goal.</p>
+          <p>In particular, it is a "model-based approach to action selection": a planner produces a solution that informs what sequence of actions to execute in order to achieve the goal.</p>
+          <p>The model encodes answers to four key questions:</p>
+          <ol>
+            <li>How does the world work, and in particular does a given action always have the same effect?</li>
+            <li>How much of the world can the planner observe?</li>
+            <li>Can (or must!) execution begin before planning is complete?</li>
+            <li>Can the world change during the planning process?</li>
+          </ol>
+          <p>However you answer these questions, there is an actively researched area of planning ready to help you solve problems!</p>
+        </blockquote>
+      </details>
+      <p class="speaker-bio">Stephen Wissow is a PhD candidate in Computer Science at the University of New Hampshire, collaborates with the MIT-IBM Watson AI Lab, and will give an introduction to AI planning for researchers across disciplines. Their research develops heuristic search algorithms for automated planning under resource constraints, focusing on how cost models influence planning speed and on balancing exploration and exploitation, the latter recognized with an Outstanding Paper Award at ECAI 2024. They are interested in the problem setting posed by renewable-heavy power grids, where energy availability fluctuates and long-running algorithms must reconcile partial plans with accrued world changes.</p>
+    </div>
     <a class="speaker-link" href="https://www.cs.unh.edu/~sjw1000/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
   </article>
 </div>
