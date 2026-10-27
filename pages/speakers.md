@@ -97,6 +97,18 @@ description: "Invited speakers at the AAAI Fall Symposium on Planning for a Bett
   </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
+      <span class="speaker-initials" aria-hidden="true">SW</span>
+      <div>
+        <h3>Sacoby Wilson</h3>
+        <p class="speaker-affiliation">University of Maryland, College Park</p>
+        <p class="speaker-title">Professor, Global, Environmental, and Occupational Health; Director, T.H.E. E.J. Lab</p>
+      </div>
+    </header>
+    <p class="speaker-bio">Sacoby Wilson is an environmental health scientist at the University of Maryland School of Public Health, where he directs The Health, Environmental, and Economic Justice (T.H.E. E.J.) Lab. For more than 20 years he has worked in partnership with community-based organizations on environmental justice, exposure science, cumulative impacts, climate change, and community resilience, using community-based participatory research to translate research into action. He is Editor-in-Chief of the journal <em>Environmental Justice</em>, serves on the US EPA's Science Advisory Board, and received the 2025 Heinz Award for the Environment.</p>
+    <a class="speaker-link" href="https://sph.umd.edu/people/sacoby-wilson" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
+  </article>
+  <article class="speaker-card">
+    <header class="speaker-card-header">
       <img class="speaker-photo" src="{{ '/assets/images/speakers/stephen-wissow.jpg' | relative_url }}" alt="Stephen Wissow" width="56" height="56">
       <div>
         <h3>Stephen Wissow</h3>
