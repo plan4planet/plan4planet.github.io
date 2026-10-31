@@ -5,7 +5,7 @@
 Key facts:
 
 - Event: Planning for a Better Planet, AAAI Fall Symposium 2026, part of the AAAI Fall Symposium Series 2026.
-- Dates: November 5 to 7, 2026. Venue: The Westin Arlington Gateway, 801 N Glebe Rd, Arlington, VA 22203, USA.
+- Dates: November 5 to 7, 2026. Venue: The Westin Arlington, 801 N Glebe Rd, Arlington, VA 22203, USA (Fitzgerald Ballroom D, second floor).
 - Registration: https://aaai.getregistered.net/2026-fall-symposium/register (through AAAI, covers all three days).
 - Organizing committee: Jim Boerkoel (Harvey Mudd College), Charles Dawson (Emerald AI), Jeremy Frank (NASA Ames Research Center), Alice Lépissier (Green Finance AI).
 - Contact: info@plan4planet.org. Mailing list: https://groups.google.com/g/plan4planet-l/

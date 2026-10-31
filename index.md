@@ -10,7 +10,7 @@ description: "AAAI Fall Symposium 2026, Nov 5–7 in Arlington, VA. AI planning 
     <p class="hero-deck">AI planning researchers and climate experts, tackling the decisions a changing climate demands.</p>
     <ul class="hero-facts">
       <li><i class="fa-regular fa-calendar" aria-hidden="true"></i> November 5 to 7, 2026</li>
-      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> <a href="https://www.google.com/maps/search/?api=1&query=The+Westin+Arlington+Gateway%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA+22203" target="_blank" rel="noopener noreferrer">Westin Arlington, Arlington, Virginia</a></li>
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> <a href="https://www.google.com/maps/search/?api=1&query=The+Westin+Arlington%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA+22203" target="_blank" rel="noopener noreferrer">Westin Arlington, Arlington, Virginia</a></li>
     </ul>
     <div class="hero-actions">
       <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register</a>
