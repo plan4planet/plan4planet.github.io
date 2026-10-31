@@ -154,11 +154,10 @@ The symposium runs November 5 to 7, 2026 at the Westin Arlington, Arlington, Vir
 <div class="cta">
   <div class="cta-primary">
     <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register</a>
-    <p class="cta-note">Rooms at the AAAI group rate can be booked until October 9, 2026.</p>
   </div>
   <ul class="cta-links" aria-label="Attendance links">
-    <li><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1776205479949&key=GRP&app=resvlink" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-bed" aria-hidden="true"></i> Book a room at the Westin</a></li>
-    <li><a href="https://aaai.org/conference/fall-symposia/2026-fall-symposium-series/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Registration fees, deadlines and venue details on the AAAI site</a></li>
+    <li><a href="{{ '/attending/' | relative_url }}"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Room, travel, hotel and places to eat</a></li>
+    <li><a href="https://aaai.org/conference/fall-symposia/2026-fall-symposium-series-2/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Registration fees, deadlines and venue details on the AAAI site</a></li>
     <!-- Student travel grant, closed Sept. 25. Uncomment if a new round opens.
     <li><a href="https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Student travel grant</a></li>
     -->

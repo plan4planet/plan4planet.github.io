@@ -6,17 +6,7 @@ toc: true
 description: "The three-day program for Planning for a Better Planet, AAAI Fall Symposium 2026 (Nov 5–7, Arlington, VA): invited talks, paper sessions and community discussions."
 ---
 
-<p class="schedule-note">Draft program, subject to change. Invited talks run 30 minutes plus 10 minutes of questions; accepted-paper talks run 10 minutes each. Speaker bios are on the <a href="{{ '/speakers/' | relative_url }}">speakers page</a> and paper authors on the <a href="{{ '/papers/' | relative_url }}">papers page</a>.</p>
-
-<div class="callout schedule-venue">
-  <h3 id="know-before-you-go">Know before you go</h3>
-  <ul>
-    <li><strong>Room:</strong> Fitzgerald Ballroom D, second floor, the Westin Arlington (801 N Glebe Road, Arlington, VA 22203).</li>
-    <li><strong>Registration desk:</strong> second-floor pre-function area outside Fitzgerald Ballroom C. Opens 8:00 AM Thursday and 8:30 AM Friday and Saturday. Not registered yet? <a href="https://aaai.getregistered.net/2026-fall-symposium/register">Register through AAAI</a>.</li>
-    <li><strong>Food:</strong> beverages and light snacks at the breaks. Breakfast and lunch are not provided.</li>
-    <li><strong>Getting there:</strong> hotel parking is $40 per day (self-park or valet). The nearest Metro stop is Ballston-MU.</li>
-  </ul>
-</div>
+<p class="schedule-note">Draft program, subject to change. Invited talks run 30 minutes plus 10 minutes of questions; accepted-paper talks run 10 minutes each. Speaker bios are on the <a href="{{ '/speakers/' | relative_url }}">speakers page</a> and paper authors on the <a href="{{ '/papers/' | relative_url }}">papers page</a>. Room, registration, travel and places to eat are on the <a href="{{ '/attending/' | relative_url }}">attending page</a>.</p>
 
 {% for day in site.data.schedule %}
 <h3 id="{{ day.id }}"><span class="schedule-day">{{ day.day }}:</span> {{ day.date }}</h3>

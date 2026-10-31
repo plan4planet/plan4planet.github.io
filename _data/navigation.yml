@@ -1,5 +1,5 @@
-- name: "Attend"
-  link: "/#attend"
+- name: "Attending"
+  link: "/attending/"
 - name: "Speakers"
   link: "/speakers/"
 - name: "Papers"
