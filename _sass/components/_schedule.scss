@@ -5,6 +5,26 @@
   font-style: italic;
 }
 
+// "Know before you go" box above the program: room, registration desk, food, travel.
+.schedule-venue {
+  margin: 0 0 24px;
+}
+
+.schedule-venue h3 {
+  margin: 4px 0 6px;
+  color: var(--color-brand);
+  font-size: 1.05rem;
+}
+
+.schedule-venue ul {
+  margin: 0 0 4px 18px;
+}
+
+.schedule-venue li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
 .schedule {
   margin: 12px 0 36px;
   padding: 0;
