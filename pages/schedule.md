@@ -10,6 +10,9 @@ description: "The three-day program for Planning for a Better Planet, AAAI Fall 
 
 {% for day in site.data.schedule %}
 <h3 id="{{ day.id }}"><span class="schedule-day">{{ day.day }}:</span> {{ day.date }}</h3>
+{%- if day.room %}
+<p class="schedule-room"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> All sessions in {{ day.room }}. <a href="{{ '/attending/' | relative_url }}#getting-to-our-room">Map</a></p>
+{%- endif %}
 <ol class="schedule">
   {%- for slot in day.slots %}
   <li class="schedule-slot{% unless slot.items %} schedule-break{% endunless %}" id="{{ day.id }}-{{ slot.time | split: '–' | first | remove: ':' }}">

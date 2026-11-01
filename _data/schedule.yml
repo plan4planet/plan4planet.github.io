@@ -1,13 +1,14 @@
 # Draft program, rendered on /schedule/ (pages/schedule.md).
 # Source: the "Draft program" tab of the speaker-info Google Doc.
 #
-# Each day has a list of slots. A slot with only `time` and `title` renders as a break row.
+# Each day has a `room` (where its sessions are, shown under the day heading) and a list of slots. A slot with only `time` and `title` renders as a break row.
 # Session items: `label` (required), then optional `speaker` (links to /speakers/), `talk` (confirmed
 # talk titles only), and `papers` (accepted-paper talks, as on /papers/). Optional `prompts` on a
 # session: example discussion questions, shown in a collapsed list.
 
 - day: Day 1
   date: Thursday, November 5
+  room: Fitzgerald Ballroom D, second floor
   id: day-1
   slots:
     - time: 9:00–10:30
@@ -71,6 +72,7 @@
 
 - day: Day 2
   date: Friday, November 6
+  room: Fitzgerald Ballroom D, second floor
   id: day-2
   slots:
     - time: 9:00–10:30
@@ -151,6 +153,7 @@
 
 - day: Day 3
   date: Saturday, November 7
+  room: Fitzgerald Ballroom D, second floor
   id: day-3
   slots:
     - time: 9:00–10:30
