@@ -63,9 +63,14 @@
     - time: 3:30–4:00
       title: Coffee break and poster session
     - time: 4:00–5:00
-      title: Session to be announced
+      title: "Partnering Across Fields: Success Factors and Risks"
       items:
-        - label: Details to come
+        - label: Individual reflection, on sticky notes
+        - label: Small-group discussion
+        - label: Table share-outs of themes, which feed into Friday's facilitated session
+      prompts:
+        - "Our collaboration will be successful when…"
+        - "The greatest risk to the success of our collaboration could be…"
     - time: 5:30–6:30
       title: AAAI reception
       subtitle: Second-floor pre-function area, outside Fitzgerald Ballroom C
@@ -137,16 +142,13 @@
         - "How do some of these lessons apply to your own area of planning and climate work?"
     - time: 3:30–4:00
       title: Break
-    - time: 4:00–5:00
-      title: Strength of Weak Ties
+    - time: 4:00–5:15
+      title: "Meeting the Moment: Connection and the Call for Leadership"
       items:
-        - label: "Small-group discussions: cross-field connections and gaps"
-        - label: "Small-group discussions: future interests and research directions"
-        - label: Brainstorming groups on shared future-work topics
-      prompts:
-        - "Who have you met here for the first time who works in a different planning subfield, or a different climate field?"
-        - "What connections jump out at you from the talks and discussions? What connections are missing?"
-        - "What topics would you like to explore in your own research coming out of this symposium?"
+        - label: "Connect as people: a short warm-up"
+        - label: "Connect as collaborators: a talent and ideas marketplace, then a gallery walk to find shared interests"
+        - label: "Connect as co-leaders: barriers to collaboration across AI planning and climate research, and how to address them"
+        - label: Synthesis, and a look ahead to Saturday's community discussion
     - time: 5:30–6:30
       title: AAAI plenary
       subtitle: Fitzgerald Ballroom C
