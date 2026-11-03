@@ -108,6 +108,7 @@
       items:
         - label: Invited talk
           speaker: Stéphane Hallegatte
+          talk: "How Many People Are at High Risk from Climate Hazards? The Data and Methodological Challenge"
         - label: Accepted papers
           papers:
             - authors: Yang

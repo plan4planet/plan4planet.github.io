@@ -58,7 +58,16 @@ description: "Invited speakers at the AAAI Fall Symposium on Planning for a Bett
         <p class="speaker-title">Chief Economic Adviser, Climate</p>
       </div>
     </header>
-    <p class="speaker-bio">Stéphane Hallegatte is Chief Economic Adviser for Climate at the World Bank Group, which he joined in 2012 after a decade of research in environmental economics and climate science at Météo-France, CIRED, and Stanford University. His work focuses on the economics of resilient, low-emission development, natural disasters and risk management, and how climate policies affect jobs, incomes, and poverty. He was a lead author of the IPCC Fifth Assessment Report and has led World Bank reports on green growth, decarbonization, and climate resilience.</p>
+    <div class="speaker-body">
+      <p class="speaker-talk"><span>Talk</span> How Many People Are at High Risk from Climate Hazards? The Data and Methodological Challenge</p>
+      <details class="abstract speaker-abstract">
+        <summary>Abstract</summary>
+        <blockquote>
+          <p>How many people are at high risk from climate hazards? Who are they and where do they live? How can they be made less vulnerable? These questions are essential to target risk management interventions but create data and methodological challenges. Assessing vulnerability means combining georeferenced environmental and socioeconomic data for the hazard, exposure, vulnerability, and resilience. New satellite and hydrology-elevation models give much better insight into hazards and exposure, but key limits remain. Linking geographic data to household characteristics is more difficult, because of limits to socioeconomic data, making it necessary to combine modeling and data analyses. Two solutions will be proposed, with different balances between data and models: an agent-based model to simulate responses to asset and income losses, applied to the Philippines and at global scale. And a simpler, but more transparent approach at the global level.</p>
+        </blockquote>
+      </details>
+      <p class="speaker-bio">Stéphane Hallegatte is Chief Economic Adviser for Climate at the World Bank Group, which he joined in 2012 after a decade of research in environmental economics and climate science at Météo-France, CIRED, and Stanford University. His work focuses on the economics of resilient, low-emission development, natural disasters and risk management, and how climate policies affect jobs, incomes, and poverty. He was a lead author of the IPCC Fifth Assessment Report and has led World Bank reports on green growth, decarbonization, and climate resilience.</p>
+    </div>
     <a class="speaker-link" href="https://www.worldbank.org/en/about/people/stephane-hallegatte" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
   </article>
   <article class="speaker-card">
