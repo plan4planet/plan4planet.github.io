@@ -116,11 +116,26 @@ Everything below is in Ballston, within roughly a 10-minute walk of the hotel, a
   <li><strong><a href="https://www.thesaltline.com/location/the-salt-line-ballston/" target="_blank" rel="noopener noreferrer">The Salt Line</a></strong> <span class="dining-where">(4040 Wilson Blvd)</span><br>Seafood and oyster bar with plenty of seating.<br><span class="dining-links">0.3 mi · 7 min walk · <a href="https://www.google.com/maps/dir/?api=1&amp;origin=The+Westin+Arlington%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA&amp;destination=The+Salt+Line%2C+4040+Wilson+Blvd%2C+Arlington%2C+VA&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Walking directions</a> · <a href="https://www.yelp.com/biz/the-salt-line-ballston-arlington" target="_blank" rel="noopener noreferrer">Yelp ★ 3.9</a></span></li>
 </ul>
 
+#### Groceries and essentials
+
+The Westin is reported to have a small market for snacks and drinks; ask the front desk. For groceries, toiletries or a pharmacy:
+
+<ul class="dining-list">
+  <li><strong><a href="https://www.target.com/sl/arlington-ballston/3257" target="_blank" rel="noopener noreferrer">Target</a></strong> <span class="dining-where">(740 N Glebe Rd)</span><br>Small-format store with grab-and-go groceries, snacks, toiletries, and a CVS pharmacy inside.<br><span class="dining-links">0.1 mi · 2 min walk · <a href="https://www.google.com/maps/dir/?api=1&amp;origin=The+Westin+Arlington%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA&amp;destination=Target%2C+740+N+Glebe+Rd%2C+Arlington%2C+VA&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Walking directions</a></span></li>
+  <li><strong>Harris Teeter</strong> <span class="dining-where">(624 N Glebe Rd)</span><br>Full grocery store, with prepared foods and a Starbucks inside.<br><span class="dining-links">0.2 mi · 5 min walk · <a href="https://www.google.com/maps/dir/?api=1&amp;origin=The+Westin+Arlington%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA&amp;destination=Harris+Teeter%2C+624+N+Glebe+Rd%2C+Arlington%2C+VA&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Walking directions</a></span></li>
+  <li><strong><a href="https://www.cvs.com/store-locator/arlington-va-pharmacies/4238-wilson-blvd-ballston-commons-1831-arlington-va-22203/storeid=1833" target="_blank" rel="noopener noreferrer">CVS Pharmacy</a></strong> <span class="dining-where">(Ballston Quarter, 4238 Wilson Blvd)</span><br>Pharmacy, over-the-counter medicine and toiletries.<br><span class="dining-links">0.3 mi · 5 min walk · <a href="https://www.google.com/maps/dir/?api=1&amp;origin=The+Westin+Arlington%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA&amp;destination=CVS+Pharmacy%2C+4238+Wilson+Blvd%2C+Arlington%2C+VA&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Walking directions</a></span></li>
+</ul>
+
 #### Dietary needs at a glance
 
 - 🌱 **Vegan and vegetarian:** Life Alive, True Food Kitchen, Silver Diner, Immigrant Food.
 - 🚫🌾 **Gluten-free:** Life Alive, True Food Kitchen, and Silver Diner mark gluten-free dishes.
 - **Halal:** Olive Lebanese Eatery.
+- **Other dietary needs:** [let us know](#accessibility-and-other-needs), and we'll help you find options.
+
+### Accessibility and other needs
+
+If anything would make it easier for you to take part, such as mobility or hearing access, dietary needs, or a quiet space, email us at [info@plan4planet.org](mailto:info@plan4planet.org). We'll do what we can, working with AAAI and the hotel. The earlier we hear, the more we can arrange.
 
 ### Code of conduct
 
