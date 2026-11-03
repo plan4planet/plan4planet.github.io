@@ -20,6 +20,7 @@
 
 .footer-brand {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 14px;
   margin-bottom: 20px;
@@ -71,12 +72,13 @@
   cursor: default;
 }
 
-// The symposium series this event belongs to, below the channels.
+// The symposium series this event belongs to, at the right end of the brand row;
+// it wraps below the brand on narrow screens.
 .footer-series {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  margin-top: 24px;
+  margin-left: auto;
   color: var(--color-ink-soft);
   text-decoration: none;
 }
@@ -90,6 +92,10 @@
 @media screen and (max-width: 640px) {
   .footer-brand {
     align-items: flex-start;
+  }
+
+  .footer-series {
+    margin-left: 0;
   }
 
   .footer-channels {
