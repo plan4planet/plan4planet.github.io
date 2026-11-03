@@ -37,7 +37,16 @@ description: "Invited speakers at the AAAI Fall Symposium on Planning for a Bett
         <p class="speaker-title">Ronald C. and Antonia V. Nielsen Professor of Computing and Information Science</p>
       </div>
     </header>
-    <p class="speaker-bio">Carla Gomes directs the Institute for Computational Sustainability and co-directs the Cornell University AI for Science Institute. Her research combines constraint reasoning, optimization, and machine learning for large-scale combinatorial problems, with a focus on computational methods for environmental, economic, and societal challenges. She is a Fellow of AAAI and a Schmidt AI2050 Senior Fellow.</p>
+    <div class="speaker-body">
+      <p class="speaker-talk"><span>Talk</span> Computational Sustainability: Computing for a Better World and a Sustainable Future</p>
+      <details class="abstract speaker-abstract">
+        <summary>Abstract</summary>
+        <blockquote>
+          <p>Artificial intelligence (AI) is opening new avenues for scientific discovery and addressing complex societal challenges. I will discuss our work in computational sustainability, an interdisciplinary field that develops computational models and methods to help balance environmental, economic, and societal needs. I will outline a knowledge-centric AI agenda that integrates first-principles reasoning with data-driven learning to advance prediction, discovery, and decision-making. For prediction, our framework supports multi-entity modeling across domains, including species distributions, materials properties, and soil organic carbon. For discovery, Deep Reasoning Networks tackle inverse problems such as inferring crystal structures from X-ray diffraction data, with Sudoku variants providing an intuitive illustration of the approach. For high-stakes decision-making, I will present planning approaches for the United Nations’ 30×30 biodiversity conservation goal and hydropower expansion in the Amazon Basin. These approaches support value alignment by making trade-offs explicit and incorporating stakeholder priorities. Together, these examples illustrate how knowledge-centric AI can accelerate scientific discovery and inform sustainable decisions aligned with human values.</p>
+        </blockquote>
+      </details>
+      <p class="speaker-bio">Carla Gomes is the Ronald C. and Antonia V. Nielsen Professor of Computing and Information Science at Cornell University, director of the Institute for Computational Sustainability, and co-director of the Cornell AI for Science Institute. Her research integrates AI reasoning, optimization, and machine learning to advance scientific discovery and sustainable decision-making. She helped establish the field of Computational Sustainability and led two NSF Expeditions in Computing. Gomes received her Ph.D. from the University of Edinburgh and is a recipient of the AAAI Feigenbaum Prize and the ACM/AAAI Allen Newell Award. She is a Schmidt AI2050 Senior Fellow and a Fellow of AAAI, ACM, and AAAS.</p>
+    </div>
     <a class="speaker-link" href="https://www.cs.cornell.edu/gomes/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
   </article>
   <article class="speaker-card">
