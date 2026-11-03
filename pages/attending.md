@@ -118,8 +118,8 @@ Everything below is in Ballston, within roughly a 10-minute walk of the hotel, a
 
 #### Dietary needs at a glance
 
-- **Vegan and vegetarian:** Life Alive, True Food Kitchen, Silver Diner, Immigrant Food.
-- **Gluten-free:** Life Alive, True Food Kitchen, and Silver Diner mark gluten-free dishes.
+- 🌱 **Vegan and vegetarian:** Life Alive, True Food Kitchen, Silver Diner, Immigrant Food.
+- 🚫🌾 **Gluten-free:** Life Alive, True Food Kitchen, and Silver Diner mark gluten-free dishes.
 - **Halal:** Olive Lebanese Eatery.
 
 ### Code of conduct
