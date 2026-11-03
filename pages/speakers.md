@@ -30,7 +30,7 @@ description: "Invited speakers at the AAAI Fall Symposium on Planning for a Bett
   </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
-      <span class="speaker-initials" aria-hidden="true">CG</span>
+      <img class="speaker-photo" src="{{ '/assets/images/speakers/carla-gomes.jpg' | relative_url }}" alt="Carla P. Gomes" width="56" height="56">
       <div>
         <h3>Carla P. Gomes</h3>
         <p class="speaker-affiliation">Cornell University</p>
