@@ -71,6 +71,22 @@
   cursor: default;
 }
 
+// The symposium series this event belongs to, below the channels.
+.footer-series {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  color: var(--color-ink-soft);
+  text-decoration: none;
+}
+
+.footer-series img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
 @media screen and (max-width: 640px) {
   .footer-brand {
     align-items: flex-start;

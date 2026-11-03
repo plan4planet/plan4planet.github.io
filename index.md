@@ -17,8 +17,8 @@ description: "AAAI Fall Symposium 2026, Nov 5–7 in Arlington, VA. AI planning 
       <a class="hero-link" href="#connect">Join the mailing list</a>
     </div>
   </div>
-  <a class="hero-aaai" href="https://aaai.org/" target="_blank" rel="noopener noreferrer" aria-label="AAAI, Association for the Advancement of Artificial Intelligence">
-    <img src="https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-FullColor.png" alt="AAAI, Association for the Advancement of Artificial Intelligence">
+  <a class="hero-aaai" href="https://aaai.org/conference/fall-symposia/2026-fall-symposium-series-2/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/images/aaai-symposium-series.svg' | relative_url }}" alt="AAAI Symposium Series" width="194" height="64">
   </a>
 </header>
 
