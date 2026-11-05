@@ -84,6 +84,7 @@
     - number: "7165"
       title: "AI Planning as Solution and as Consumer: Computational Energy as a Planning Resource"
       authors: "Ilche Georgievski (University of Stuttgart)"
+      pdf: "https://ilche.mk/wp-content/uploads/papers/Georgievski_2026_AAAI_Plan4Planet.pdf"
       abstract: |
         The energy consumption of software has become an environmental concern, and Green AI promotes reporting energy use alongside performance metrics. AI planning has entered this discussion through work that measures planners in benchmark settings. This paper examines the energy consumption of AI planning as it is deployed, using building automation as an example. We distinguish two roles of planning in climate domains: an outward role, in which plans act on a physical system, and an inward role, in which deliberation consumes energy. When the outward effect is itself energy, as consumed by deliberation, the net effect of planning becomes assessable. We analyse this consumption, whose structure offers no reuse in current practice: domain models are validated by repeated planner runs, and plans are typically computed at every invocation. We locate energy use across the development life cycle, propose computational energy as a first-class planning resource, and outline the resulting research challenges.
     - number: "2054"
