@@ -159,6 +159,9 @@
     - time: 4:00–5:15
       title: "Meeting the Moment: Connection and the Call for Leadership"
       items:
+        - label: Facilitator
+          speaker: Lauren Thomas Ewing
+          anchor: lauren-thomas-ewing
         - label: "Connect as people: a short warm-up"
         - label: "Connect as collaborators: a talent and ideas marketplace, then a gallery walk to find shared interests"
         - label: "Connect as co-leaders: barriers to collaboration across AI planning and climate research, and how to address them"

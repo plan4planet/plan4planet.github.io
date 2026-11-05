@@ -28,6 +28,21 @@ description: "Invited speakers at the AAAI Fall Symposium on Planning for a Bett
     </div>
     <a class="speaker-link" href="https://www.wm.edu/as/geology/people/faculty/delvecchio_j.php" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
   </article>
+  <article class="speaker-card" id="lauren-thomas-ewing">
+    <header class="speaker-card-header">
+      <img class="speaker-photo" src="{{ '/assets/images/speakers/lauren-thomas-ewing.jpg' | relative_url }}" alt="Lauren Thomas Ewing" width="56" height="56">
+      <div>
+        <h3>Lauren Thomas Ewing, PCC</h3>
+        <p class="speaker-affiliation">LTE Coaching</p>
+        <p class="speaker-title">Strategic Advisor &amp; Executive Coach; Facilitator, Plan4Planet</p>
+      </div>
+    </header>
+    <div class="speaker-body">
+      <p class="speaker-talk"><span>Facilitates</span> Meeting the Moment: Connection and the Call for Leadership</p>
+      <p class="speaker-bio">Lauren Thomas Ewing, PCC, is a strategic advisor and executive coach for innovative, results-focused leaders who want to lead in a way that is both human-centered and rigorous about results. Through LTE Coaching, she partners with clients across corporate, technology, and public-sector organizations, combining one-on-one coaching, executive team workshops, and consulting for their most pressing leadership challenges. She focuses on leadership presence and influence, executive team alignment, and leading through change, including how AI changes what leadership requires. Lauren brings 20+ years of experience from Deloitte, Booz Allen Hamilton, senior HR and strategy roles at Google, and an Operating Partner role at Google Ventures. She holds degrees from Harvard and The Fuqua School of Business at Duke.</p>
+    </div>
+    <a class="speaker-link" href="https://laurenthomasewing.com/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
+  </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
       <img class="speaker-photo" src="{{ '/assets/images/speakers/carla-gomes.jpg' | relative_url }}" alt="Carla P. Gomes" width="56" height="56">
