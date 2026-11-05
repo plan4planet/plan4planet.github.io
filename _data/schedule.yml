@@ -15,13 +15,13 @@
       title: Welcome
       items:
         - label: Welcome remarks
-        - label: "Small-group introductions: what you hope to get from the symposium"
+        - label: "Small-group introductions: what you bring, and what you hope to find"
         - label: Planning overview
           speaker: Stephen Wissow
           talk: "Deciding What to Do? Try Planning!"
         - label: Round-robin introductions in new groups, with a first look at Thursday afternoon's questions
       prompts:
-        - "What do you hope to get out of this symposium?"
+        - "What's one thing you bring to this room, and one thing you're hoping to find here?"
         - "Think of a collaboration across fields that worked well, or didn't. What made the difference?"
     - time: 10:30–11:00
       title: Coffee break and poster session
