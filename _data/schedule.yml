@@ -19,6 +19,10 @@
         - label: Planning overview
           speaker: Stephen Wissow
           talk: "Deciding What to Do? Try Planning!"
+        - label: "Framing talk: Alice Lépissier (organizing committee)"
+          talk: "Try Planning! But Whose Plan? The hidden choices in planning for climate"
+          abstract: >-
+            Planning sits downstream of estimation and prediction: those supply the model of the world, and planning decides what to do given it. That position introduces a choice the other paradigms never confront, namely whose welfare the objective counts. This talk, for planners without a climate background, sets out why climate is a "wicked" problem that resists formulation, and why its justice problem has three dimensions: across people, across time, and across states of the world. Every planning objective aggregates along the same three axes, and the standard defaults, a scalar reward with equal weights, an expectation over uncertainty, and a discount factor chosen for convergence, are normative positions dressed as technical settings. The talk closes with two kinds of humility, about the model and about the objective, and five questions to carry through the symposium.
         - label: Round-robin introductions in new groups, with a first look at Thursday afternoon's questions
       prompts:
         - "What's one thing you bring to this room, and one thing you're hoping to find here?"

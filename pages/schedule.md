@@ -30,6 +30,12 @@ description: "The three-day program for Planning for a Better Planet, AAAI Fall 
           {%- if item.talk %}
           <span class="schedule-talk">“{{ item.talk }}”</span>
           {%- endif %}
+          {%- if item.abstract %}
+          <details class="schedule-prompts">
+            <summary>Abstract</summary>
+            <p>{{ item.abstract }}</p>
+          </details>
+          {%- endif %}
           {%- if item.papers %}
           <ul class="schedule-papers">
             {%- for paper in item.papers %}
