@@ -72,6 +72,27 @@ description: "Invited speakers at the AAAI Fall Symposium on Planning for a Bett
   </article>
   <article class="speaker-card">
     <header class="speaker-card-header">
+      <img class="speaker-photo" src="{{ '/assets/images/speakers/alice-lepissier.jpg' | relative_url }}" alt="Alice Lépissier" width="56" height="56">
+      <div>
+        <h3>Alice Lépissier</h3>
+        <p class="speaker-affiliation">Green Finance AI</p>
+        <p class="speaker-title">Founder; Organizing Committee, Plan4Planet</p>
+      </div>
+    </header>
+    <div class="speaker-body">
+      <p class="speaker-talk"><span>Talk</span> Try Planning! But Whose Plan? The hidden choices in planning for climate</p>
+      <details class="abstract speaker-abstract">
+        <summary>Abstract</summary>
+        <blockquote>
+          <p>Planning sits downstream of estimation and prediction: those supply the model of the world, and planning decides what to do given it. That position introduces a choice the other paradigms never confront, namely whose welfare the objective counts. This talk, for planners without a climate background, sets out why climate is a “wicked” problem that resists formulation, and why its justice problem has three dimensions: across people, across time, and across states of the world. Every planning objective aggregates along the same three axes, and the standard defaults, a scalar reward with equal weights, an expectation over uncertainty, and a discount factor chosen for convergence, are normative positions dressed as technical settings. The talk closes with two kinds of humility, about the model and about the objective, and five questions to carry through the symposium.</p>
+        </blockquote>
+      </details>
+      <p class="speaker-bio">Alice Lépissier is a computational social scientist working at the intersection of AI, climate policy, and sustainable finance. She has worked on climate and development for fifteen years, applying econometrics and machine learning to the politics and effectiveness of climate policy, to climate risk in financial markets, and to dirty money: her methods for measuring illicit financial flows out of developing countries were adopted by the United Nations and the African Union. She co-organized the 2023 AAAI Fall Symposium on AI for a climate-smart, sustainable future and has served as a juror, instructor, and grant reviewer for Climate Change AI, Mila, and Microsoft. She is the founder of Green Finance AI and holds a PhD from the University of California, Santa Barbara.</p>
+    </div>
+    <a class="speaker-link" href="https://alicelepissier.com/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
+  </article>
+  <article class="speaker-card">
+    <header class="speaker-card-header">
       <img class="speaker-photo" src="{{ '/assets/images/speakers/luis-ortiz.jpg' | relative_url }}" alt="Luis E. Ortiz" width="56" height="56">
       <div>
         <h3>Luis E. Ortiz <span class="speaker-pronouns">(he/him)</span></h3>
