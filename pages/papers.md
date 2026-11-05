@@ -11,7 +11,11 @@ description: "Accepted papers at the AAAI Fall Symposium on Planning for a Bette
 <ul class="paper-list">
   {%- for paper in section.papers %}
   <li id="paper-{{ paper.number }}">
-    <strong>{{ paper.title | escape }}</strong><br>
+    <strong>{{ paper.title | escape }}</strong>
+    {%- if paper.pdf %}
+    {%- if paper.pdf contains '://' %}{% assign pdf_url = paper.pdf %}{% else %}{% assign pdf_url = '/assets/papers/' | append: paper.pdf | relative_url %}{% endif %}
+    <a class="paper-pdf" href="{{ pdf_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Preprint</a>
+    {%- endif %}<br>
     {{ paper.authors | escape }}
     {%- assign session = nil %}
     {%- for day in site.data.schedule %}{% for slot in day.slots %}{% for item in slot.items %}{% for scheduled in item.papers %}{% if scheduled.title == paper.title %}{% assign session = slot %}{% assign session_day = day %}{% endif %}{% endfor %}{% endfor %}{% endfor %}{% endfor %}

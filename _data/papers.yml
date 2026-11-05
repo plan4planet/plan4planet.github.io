@@ -1,5 +1,7 @@
 # Accepted papers, grouped by theme. Rendered by pages/papers.md.
 # number is the EasyChair submission number; abstracts come from the EasyChair export.
+# Optional pdf: a full URL (arXiv, author page, ojs.aaai.org) or a file name in assets/papers/.
+# Add one only with permission: authors opt in (public tier) by sending a link to their own posted copy.
 - id: disaster-and-hazard-adaptation
   heading: "⛈️ Disaster and Hazard Adaptation"
   papers:
