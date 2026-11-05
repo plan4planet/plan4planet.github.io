@@ -15,12 +15,14 @@
       title: Welcome
       items:
         - label: Welcome remarks
-        - label: Small-group introductions
+        - label: "Small-group introductions: what you hope to get from the symposium"
         - label: Planning overview
           speaker: Stephen Wissow
           talk: "Deciding What to Do? Try Planning!"
-        - label: "Community-engaged research: overview and group exercise"
-          speaker: Sacoby Wilson
+        - label: Round-robin introductions in new groups, with a first look at Thursday afternoon's questions
+      prompts:
+        - "What do you hope to get out of this symposium?"
+        - "Think of a collaboration across fields that worked well, or didn't. What made the difference?"
     - time: 10:30–11:00
       title: Coffee break and poster session
     - time: 11:00–12:30
@@ -65,14 +67,16 @@
     - time: 3:30–4:00
       title: Coffee break and poster session
     - time: 4:00–5:00
-      title: "Partnering Across Fields: Success Factors and Risks"
+      title: "Community Engagement and Partnering Across Fields"
       items:
+        - label: "Community-engaged research: grassroots engagement and environmental justice"
+          speaker: Sacoby Wilson
         - label: Individual reflection, on sticky notes
         - label: Small-group discussion
         - label: Table share-outs of themes, which feed into Friday's facilitated session
       prompts:
-        - "Our collaboration will be successful when…"
-        - "The greatest risk to the success of our collaboration could be…"
+        - "How will we know our collaboration is going successfully? What are the indicators?"
+        - "What is the greatest risk to the success of our collaboration?"
     - time: 5:30–6:30
       title: AAAI reception
       subtitle: Second-floor pre-function area, outside Fitzgerald Ballroom C
