@@ -70,7 +70,7 @@ description: "Invited speakers at the AAAI Fall Symposium on Planning for a Bett
     </div>
     <a class="speaker-link" href="https://www.worldbank.org/en/about/people/stephane-hallegatte" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>
   </article>
-  <article class="speaker-card">
+  <article class="speaker-card" id="alice-lepissier">
     <header class="speaker-card-header">
       <img class="speaker-photo" src="{{ '/assets/images/speakers/alice-lepissier.jpg' | relative_url }}" alt="Alice Lépissier" width="56" height="56">
       <div>
