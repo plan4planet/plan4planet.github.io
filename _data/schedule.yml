@@ -37,12 +37,10 @@
         - label: Invited talk
           speaker: Luis E. Ortiz
           talk: "Modeling Urban Climates: Challenges and Opportunities with AI"
-        - label: Accepted papers
+        - label: Accepted paper
           papers:
             - authors: Dutta and Moharir
               title: Compound-Hazard Feasibility Gaps in Climate Adaptation Planning
-            - authors: Dutta and Moharir
-              title: "Can This Climate Plan Actually Be Implemented? Testing Climate Plan Executability under Institutional Constraints"
         - label: Moderated questions
         - label: Small-group discussion
       prompts:
@@ -75,6 +73,10 @@
     - time: 4:00–5:00
       title: "Community Engagement and Partnering Across Fields"
       items:
+        - label: Accepted paper, moved from the morning session
+          papers:
+            - authors: Dutta and Moharir
+              title: "Can This Climate Plan Actually Be Implemented? Testing Climate Plan Executability under Institutional Constraints"
         - label: "Community-engaged research: grassroots engagement and environmental justice"
           speaker: Sacoby Wilson
         - label: Individual reflection, on sticky notes
