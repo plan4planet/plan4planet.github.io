@@ -27,6 +27,9 @@ description: "The three-day program for Planning for a Better Planet, AAAI Fall 
         {%- for item in slot.items %}
         <li>
           {{ item.label }}{% if item.speaker %}: <a href="{{ '/speakers/' | relative_url }}{% if item.anchor %}#{{ item.anchor }}{% endif %}">{{ item.speaker }}</a>{% endif %}
+          {%- if item.slides %}
+          · <a href="{{ '/assets/slides/' | append: item.slides | relative_url }}"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Slides (PDF)</a>
+          {%- endif %}
           {%- if item.talk %}
           <span class="schedule-talk">“{{ item.talk }}”</span>
           {%- endif %}

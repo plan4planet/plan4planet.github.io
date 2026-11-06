@@ -15,6 +15,7 @@
       title: Welcome
       items:
         - label: Welcome remarks
+          slides: plan4planet-welcome.pdf
         - label: "Small-group introductions: what you bring, and what you hope to find"
         - label: Planning overview
           speaker: Stephen Wissow
