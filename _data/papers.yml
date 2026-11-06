@@ -2,6 +2,7 @@
 # number is the EasyChair submission number; abstracts come from the EasyChair export.
 # Optional pdf: a full URL (arXiv, author page, ojs.aaai.org) or a file name in assets/papers/.
 # Add one only with permission: authors opt in (public tier) by sending a link to their own posted copy.
+# Optional related: a full URL for a different paper by the same authors that gives useful background. Never use pdf: for this.
 - id: disaster-and-hazard-adaptation
   heading: "⛈️ Disaster and Hazard Adaptation"
   papers:
@@ -66,6 +67,7 @@
     - number: "0971"
       title: "Toward Adaptive Planning for Autonomous Glider Observations of Subsurface Marine Heatwaves"
       authors: "Charlotte Z. Reed, Victor-Alexandru Darvariu (University of Oxford, Oxford Robotics Institute), Helen L. Johnson (University of Oxford, Department of Earth Sciences), and Nick Hawes (University of Oxford, Oxford Robotics Institute)"
+      related: "https://arxiv.org/abs/2602.19315"
       abstract: |
         Marine heatwaves (MHWs) are increasing in frequency, duration, and intensity. The subsurface structure of MHWs remains poorly understood despite its importance for the ocean and climate sciences. Underwater glider robots, which traverse the entire water column, enable observations of subsurface temperatures. However, while autonomous navigation planning methods for gliders have recently been validated operationally, they rely on navigation to static pre-specified targets. This is unsuitable for monitoring MHWs, which are dynamic phenomena that evolve in time and space. In this work, we propose a planning approach for enabling gliders to observe MHWs. We discuss both operational and scientific requirements for such an approach, which are informed by our recent navigation planning system and analysis of MHWs in the North Sea. We propose a three-layer architecture that incorporates temperature anomaly prediction, scientific task scoring, and task planning based on scores and feasibility estimates. Lastly, we discuss our plans for evaluating the proposed system and the key research questions.
     - number: "8177"

@@ -15,6 +15,9 @@ description: "Accepted papers at the AAAI Fall Symposium on Planning for a Bette
     {%- if paper.pdf %}
     {%- if paper.pdf contains '://' %}{% assign pdf_url = paper.pdf %}{% else %}{% assign pdf_url = '/assets/papers/' | append: paper.pdf | relative_url %}{% endif %}
     <a class="paper-pdf" href="{{ pdf_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Preprint</a>
+    {%- endif %}
+    {%- if paper.related %}
+    <a class="paper-pdf" href="{{ paper.related }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link" aria-hidden="true"></i> Related paper</a>
     {%- endif %}<br>
     {{ paper.authors | escape }}
     {%- assign session = nil %}
