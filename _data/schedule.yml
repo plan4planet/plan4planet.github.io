@@ -147,6 +147,7 @@
         - label: Invited talk
           speaker: Biplav Srivastava
           talk: Some Lessons from Smart Transportation and Beyond to Help Plan for a Better Planet
+          slides: srivastava-lessons-smart-transportation.pdf
         - label: Small-group discussion
         - label: Accepted papers
           papers:
