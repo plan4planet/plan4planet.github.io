@@ -4,7 +4,8 @@
 # Each day has a `room` (where its sessions are, shown under the day heading) and a list of slots. A slot with only `time` and `title` renders as a break row.
 # Session items: `label` (required), then optional `speaker` (links to /speakers/), `talk` (confirmed
 # talk titles only), and `papers` (accepted-paper talks, as on /papers/). Optional `prompts` on a
-# session: example discussion questions, shown in a collapsed list.
+# session: example discussion questions, shown in a collapsed list. Optional `outcomes` on a session:
+# what came out of it, with a `summary` line and `items` of `name` plus optional `detail`, shown in a collapsed list.
 
 - day: Day 1
   date: Thursday, November 5
@@ -172,6 +173,25 @@
         - label: "Connect as collaborators: a talent and ideas marketplace, then a gallery walk to find shared interests"
         - label: "Connect as co-leaders: barriers to collaboration across AI planning and climate research, and how to address them"
         - label: Synthesis, and a look ahead to Saturday's community discussion
+      outcomes:
+        summary: "Success factors for the community of practice, curated by Lauren"
+        items:
+          - name: Shared vision/goals
+            detail: alignment of purpose and path forward
+          - name: Visibility and contact
+            detail: frequency and quality of connections
+          - name: Mutual trust and understanding
+            detail: appreciating each others’ domain
+          - name: Innovation
+            detail: diversity of thought to dispel groupthink
+          - name: Coordination
+            detail: putting together a joint body of work
+          - name: Outreach and awareness
+            detail: needs assessment
+          - name: Representation
+            detail: getting agenda time at each others’ conferences
+          - name: Timeliness
+            detail: giving tools and info to those who need it when they need it
     - time: 5:30–6:30
       title: AAAI plenary
       subtitle: Fitzgerald Ballroom C

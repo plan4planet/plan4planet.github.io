@@ -62,6 +62,16 @@ description: "The three-day program for Planning for a Better Planet, AAAI Fall 
         </ul>
       </details>
       {%- endif %}
+      {%- if slot.outcomes %}
+      <details class="schedule-prompts">
+        <summary>{{ slot.outcomes.summary }}</summary>
+        <ul>
+          {%- for outcome in slot.outcomes.items %}
+          <li><strong>{{ outcome.name }}</strong>{% if outcome.detail %} ({{ outcome.detail }}){% endif %}</li>
+          {%- endfor %}
+        </ul>
+      </details>
+      {%- endif %}
     </div>
   </li>
   {%- endfor %}
