@@ -6,6 +6,8 @@ toc: true
 description: "Practical details for Planning for a Better Planet, AAAI Fall Symposium 2026: our room at the Westin Arlington, registration, travel, and places to eat nearby in Ballston."
 ---
 
+<p class="callout">The symposium took place November 5 to 7, 2026. This page is kept for reference; the talks, slides and session outcomes are on the <a href="{{ '/schedule/' | relative_url }}">program page</a>.</p>
+
 ### Know before you go
 
 <div class="callout attending-glance">
@@ -60,8 +62,6 @@ All symposium rooms are on the second floor of the Westin. We're in Fitzgerald B
 ### Registration
 
 Registration is through AAAI and covers one symposium for all three days, the electronic proceedings, coffee breaks, and Thursday's opening reception.
-
-<p><a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register</a></p>
 
 - **Fees** (late rate, after October 2): $495 for AAAI members, $660 for nonmembers, $325 for student members, and $435 for nonmember students. AAAI also offers registration bundled with membership. See the [AAAI symposium page](https://aaai.org/conference/fall-symposia/2026-fall-symposium-series-2/) for all options.
 - **Desk hours:** Thursday 8:00 AM–5:00 PM, Friday 8:30 AM–5:00 PM, Saturday 8:30–11:00 AM, in the second-floor pre-function area outside Fitzgerald Ballroom C.
