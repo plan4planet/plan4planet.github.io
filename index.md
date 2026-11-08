@@ -13,7 +13,7 @@ description: "AAAI Fall Symposium 2026, Nov 5–7 in Arlington, VA. AI planning 
       <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> <a href="https://www.google.com/maps/search/?api=1&query=The+Westin+Arlington%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA+22203" target="_blank" rel="noopener noreferrer">Westin Arlington, Arlington, Virginia</a></li>
     </ul>
     <div class="hero-actions">
-      <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register</a>
+      <a class="btn btn-brand" href="{{ '/papers/' | relative_url }}"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Read the papers</a>
       <a class="hero-link" href="#connect">Join the mailing list</a>
     </div>
   </div>
@@ -25,15 +25,15 @@ description: "AAAI Fall Symposium 2026, Nov 5–7 in Arlington, VA. AI planning 
 <!-- Announcement under the hero: a label, one sentence, and a button that does the thing.
 Comment it out when it is out of date. -->
 <div class="announcement">
-  <p><span class="announcement-label">New</span> The program is posted: six invited talks, a full slate of accepted papers, and opportunities for community building every day.</p>
-  <a class="btn btn-brand" href="{{ '/schedule/' | relative_url }}">See the schedule</a>
+  <p><span class="announcement-label">Thank you</span> to everyone who joined us in Arlington. Talk slides and what came out of the community sessions are on the program page.</p>
+  <a class="btn btn-brand" href="{{ '/schedule/' | relative_url }}">See the program</a>
 </div>
 
 ## A changing planet demands better plans
 
 <img class="intro-logo" src="{{ '/assets/images/plan4planet.png' | relative_url }}" alt="Planning for a Better Planet Logo" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
-<p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong> brings together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aims to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
+<p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong> brought together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aimed to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 
 <section class="domain-overview" aria-label="Research domains and problem areas">
   <div class="domain-group">
@@ -148,16 +148,17 @@ To help us provide robust, vibrant, and valuable reviews and feedback for submis
 
 </details>
 
-## Attend
-The symposium runs November 5 to 7, 2026 at the Westin Arlington, Arlington, Virginia, as part of the AAAI Fall Symposium Series. Registration is through AAAI and covers all three days.
+## The symposium
+The symposium ran November 5 to 7, 2026 at the Westin Arlington, Arlington, Virginia, as part of the AAAI Fall Symposium Series.
 
 <div class="cta">
   <div class="cta-primary">
-    <a class="btn btn-brand" href="https://aaai.getregistered.net/2026-fall-symposium/register"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Register</a>
+    <a class="btn btn-brand" href="{{ '/schedule/' | relative_url }}"><i class="fa-solid fa-calendar-days" aria-hidden="true"></i> See the program</a>
   </div>
-  <ul class="cta-links" aria-label="Attendance links">
-    <li><a href="{{ '/attending/' | relative_url }}"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Room, travel, hotel and places to eat</a></li>
-    <li><a href="https://aaai.org/conference/fall-symposia/2026-fall-symposium-series-2/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Registration fees, deadlines and venue details on the AAAI site</a></li>
+  <ul class="cta-links" aria-label="Symposium links">
+    <li><a href="{{ '/speakers/' | relative_url }}"><i class="fa-solid fa-microphone" aria-hidden="true"></i> Invited speakers</a></li>
+    <li><a href="{{ '/papers/' | relative_url }}"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Accepted papers</a></li>
+    <li><a href="https://aaai.org/conference/fall-symposia/2026-fall-symposium-series-2/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> The AAAI Fall Symposium Series</a></li>
     <!-- Student travel grant, closed Sept. 25. Uncomment if a new round opens.
     <li><a href="https://aaaiforms.wufoo.com/forms/qv8tec00y333xd/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Student travel grant</a></li>
     -->
