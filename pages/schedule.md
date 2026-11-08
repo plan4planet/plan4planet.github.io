@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Tentative Schedule
+title: Program
 permalink: /schedule/
 toc: true
 description: "The three-day program for Planning for a Better Planet, AAAI Fall Symposium 2026 (Nov 5–7, Arlington, VA): invited talks, paper sessions and community discussions."
 ---
 
-<p class="schedule-note">Draft program, subject to change. Invited talks run 30 minutes plus 10 minutes of questions; accepted-paper talks run 10 minutes each. Speaker bios are on the <a href="{{ '/speakers/' | relative_url }}">speakers page</a> and paper authors on the <a href="{{ '/papers/' | relative_url }}">papers page</a>. Room, registration, travel and places to eat are on the <a href="{{ '/attending/' | relative_url }}">attending page</a>.</p>
+<p class="schedule-note">The program as it ran. Invited talks were 30 minutes plus 10 minutes of questions, and accepted-paper talks 10 minutes each. Slides are linked where speakers shared them. Speaker bios are on the <a href="{{ '/speakers/' | relative_url }}">speakers page</a> and paper authors on the <a href="{{ '/papers/' | relative_url }}">papers page</a>. Room, registration, travel and places to eat are on the <a href="{{ '/attending/' | relative_url }}">attending page</a>.</p>
 
 {% for day in site.data.schedule %}
 <h3 id="{{ day.id }}"><span class="schedule-day">{{ day.day }}:</span> {{ day.date }}</h3>

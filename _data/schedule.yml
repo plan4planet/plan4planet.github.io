@@ -1,5 +1,5 @@
-# Draft program, rendered on /schedule/ (pages/schedule.md).
-# Source: the "Draft program" tab of the speaker-info Google Doc.
+# The program as it ran, rendered on /schedule/ (pages/schedule.md).
+# Originally from the "Draft program" tab of the speaker-info Google Doc.
 #
 # Each day has a `room` (where its sessions are, shown under the day heading) and a list of slots. A slot with only `time` and `title` renders as a break row.
 # Session items: `label` (required), then optional `speaker` (links to /speakers/), `talk` (confirmed
@@ -142,7 +142,6 @@
         - "What role can planning research (multi-agent coordination, mechanism design) play in the economic and policy dimensions of mitigation, such as carbon markets, emissions trading design, corporate carbon accounting, and the equitable phase-out of fossil fuel infrastructure?"
     - time: 12:30–2:00
       title: Lunch (off site)
-      subtitle: "Tentatively a joint lunch with the Parsimonious SciML symposium: small groups from both symposia head out to lunch together. Details to be announced."
     - time: 2:00–3:30
       title: Planning Tools for Climate Users
       items:
