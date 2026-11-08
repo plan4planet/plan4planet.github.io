@@ -5,7 +5,8 @@
 # Session items: `label` (required), then optional `speaker` (links to /speakers/), `talk` (confirmed
 # talk titles only), and `papers` (accepted-paper talks, as on /papers/). Optional `prompts` on a
 # session: example discussion questions, shown in a collapsed list. Optional `outcomes` on a session:
-# what came out of it, with a `summary` line and `items` of `name` plus optional `detail`, shown in a collapsed list.
+# what came out of it, a list of groups, each with a `summary` line and `items` of `name` plus optional
+# `detail`, each group shown in its own collapsed list.
 
 - day: Day 1
   date: Thursday, November 5
@@ -174,24 +175,37 @@
         - label: "Connect as co-leaders: barriers to collaboration across AI planning and climate research, and how to address them"
         - label: Synthesis, and a look ahead to Saturday's community discussion
       outcomes:
-        summary: "Success factors for the community of practice, curated by Lauren"
-        items:
-          - name: Shared vision/goals
-            detail: alignment of purpose and path forward
-          - name: Visibility and contact
-            detail: frequency and quality of connections
-          - name: Mutual trust and understanding
-            detail: appreciating each others’ domain
-          - name: Innovation
-            detail: diversity of thought to dispel groupthink
-          - name: Coordination
-            detail: putting together a joint body of work
-          - name: Outreach and awareness
-            detail: needs assessment
-          - name: Representation
-            detail: getting agenda time at each others’ conferences
-          - name: Timeliness
-            detail: giving tools and info to those who need it when they need it
+        - summary: "Success factors for the community of practice, curated by Lauren"
+          items:
+            - name: Shared vision/goals
+              detail: alignment of purpose and path forward
+            - name: Visibility and contact
+              detail: frequency and quality of connections
+            - name: Mutual trust and understanding
+              detail: appreciating each others’ domain
+            - name: Innovation
+              detail: diversity of thought to dispel groupthink
+            - name: Coordination
+              detail: putting together a joint body of work
+            - name: Outreach and awareness
+              detail: needs assessment
+            - name: Representation
+              detail: getting agenda time at each others’ conferences
+            - name: Timeliness
+              detail: giving tools and info to those who need it when they need it
+        - summary: "What would make the community of practice valuable to you? Answers from the room"
+          items:
+            - name: Publications and public scholarship
+            - name: Research projects
+            - name: Getting resources into the hands of policy makers
+            - name: A shared understanding of planning and climate research methodologies, broadly
+            - name: A focus on specific project work with a clear scope
+            - name: Funding opportunities and philanthropy
+            - name: Connection to policy makers and communities
+            - name: Representing the work to outside stakeholders
+            - name: Solving real-world problems, and impact
+            - name: Making progress on the problem of applied negotiation
+            - name: A home for projects people are passionate about but have no clear place for
     - time: 5:30–6:30
       title: AAAI plenary
       subtitle: Fitzgerald Ballroom C
