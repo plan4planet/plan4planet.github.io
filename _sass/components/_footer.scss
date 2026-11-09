@@ -98,8 +98,8 @@
     margin-left: 0;
   }
 
+  // Links wrap in rows, as on wider screens, with room between rows for thumbs.
   .footer-channels {
-    flex-direction: column;
-    gap: 10px;
+    gap: 12px 20px;
   }
 }
