@@ -2,6 +2,7 @@
 # number is the EasyChair submission number; abstracts come from the EasyChair export.
 # Optional pdf: a full URL (arXiv, author page, ojs.aaai.org) or a file name in assets/papers/.
 # Add one only with permission: authors opt in (public tier) by sending a link to their own posted copy.
+# Optional pdf_label: link text in place of "Preprint", e.g. when the author's copy needs an access request.
 # Optional related: a full URL for a different paper by the same authors that gives useful background. Never use pdf: for this.
 - id: disaster-and-hazard-adaptation
   heading: "⛈️ Disaster and Hazard Adaptation"
