@@ -115,6 +115,7 @@
               title: Physics-Guided Multi-Robot Planning for Climate Sensing
             - authors: Murray et al.
               title: "Planning Wildlife Monitoring Under Ecological Uncertainty: Scenario-Based Sensor Placement for Resource-Constrained Conservation Programs"
+              slides: murray-planning-wildlife-monitoring.pdf
         - label: Moderated questions
       prompts:
         - "How can planning research help improve the scope, scale, and cost of climate data to support climate modeling and environmental monitoring?"
