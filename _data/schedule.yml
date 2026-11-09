@@ -40,6 +40,7 @@
       title: Planning and Delivering Adaptation
       items:
         - label: Invited talk
+          slides: ortiz-modeling-urban-climates.pdf
           speaker: Luis E. Ortiz
           talk: "Modeling Urban Climates: Challenges and Opportunities with AI"
         - label: Accepted paper
