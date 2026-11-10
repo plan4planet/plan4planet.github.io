@@ -23,12 +23,12 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .footer-mark {
-  width: 40px;
-  height: 40px;
+  width: 64px;
+  height: 64px;
   flex-shrink: 0;
 }
 
@@ -41,8 +41,17 @@
 
 .footer-tagline {
   margin: 4px 0 0;
-  color: var(--color-ink-soft);
+  font-weight: 600;
+  color: var(--color-brand);
   max-width: 60ch;
+}
+
+// The two selling points, their own row under the brand lockup so they stay on
+// one line and the AAAI block keeps its place at the right of the row above.
+.footer-pitch {
+  margin: 0 0 20px;
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
 }
 
 .footer-channels {
@@ -85,7 +94,7 @@
 
 .footer-series img {
   display: block;
-  height: 40px;
+  height: 64px;
   width: auto;
 }
 

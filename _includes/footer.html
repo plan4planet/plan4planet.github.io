@@ -9,9 +9,11 @@
       </div>
       <a class="footer-series" href="https://aaai.org/conference/fall-symposia/2026-fall-symposium-series-2/" target="_blank" rel="noopener noreferrer">
         <span>Part of the</span>
-        <img src="{{ '/assets/images/aaai-symposium-series.svg' | relative_url }}" alt="AAAI Symposium Series" width="121" height="40">
+        <img src="{{ '/assets/images/aaai-symposium-series.svg' | relative_url }}" alt="AAAI Symposium Series" width="194" height="64">
       </a>
     </div>
+
+    <p class="footer-pitch">{{ site.footer_pitch | escape }}</p>
 
     <ul class="footer-channels" aria-label="Contact and social links">
       {%- for c in site.data.channels %}

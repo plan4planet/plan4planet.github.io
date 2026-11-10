@@ -7,6 +7,7 @@ description: "🌍 Planning for a Better Planet | 🏛️ 2026 AAAI Fall Symposi
 meta_description: "The 2026 AAAI Fall Symposium on Planning for a Better Planet (Nov 5-7, Arlington, VA) brings together AI planning researchers, sustainability scientists, and climate domain experts to collaborate on real-world environmental challenges, climate modeling, and resource optimization."
 url: "https://www.plan4planet.org"
 footer_tagline: "AI planning for climate decisions."
+footer_pitch: "Verifiable plans, not hallucinated ones. No data center required."
 logo: /assets/images/plan4planet.png 
 
 # Enforce a large image display format for Twitter/X cards
