@@ -1,6 +1,6 @@
 # Plan4Planet
 
-> Plan4Planet is a community at the intersection of AI planning and climate decisions: automated planning and scheduling, multi-agent coordination, mechanism design, optimization, operations research and reasoning under uncertainty, applied to climate mitigation, adaptation, climate science and climate policy. Its first event is Planning for a Better Planet, an AAAI Fall Symposium 2026, held November 5 to 7, 2026 at the Westin Arlington in Arlington, Virginia, USA.
+> Plan4Planet is a community at the intersection of AI planning and climate decisions: automated planning and scheduling, multi-agent coordination, mechanism design, optimization, operations research and reasoning under uncertainty, applied to climate mitigation, adaptation, climate science and climate policy. Its positioning line: verifiable climate decisions, not hallucinated ones, without a data center's energy footprint. Its first event is Planning for a Better Planet, an AAAI Fall Symposium 2026, held November 5 to 7, 2026 at the Westin Arlington in Arlington, Virginia, USA.
 
 Key facts:
 
