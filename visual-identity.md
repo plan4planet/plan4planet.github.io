@@ -9,6 +9,7 @@ Handing the job to an AI agent? Paste this file into the prompt. The HTML templa
 - Plan4Planet is the community. One word, numeral 4, capital P twice. Never "Plan 4 Planet", "Plan-4-Planet" or "Plan for Planet".
 - Planning for a Better Planet is the event. The full event name is "Planning for a Better Planet, AAAI Fall Symposium 2026", with the AAAI words in that order.
 - Tagline: "AI planning for climate decisions." With the full stop.
+- Positioning line: "Verifiable, not hallucinated. Without a data center's energy footprint." It carries the two selling points: these methods can be verified, and they do not need a data center's worth of electricity to run. Use it under the tagline wherever there is room for a second line, such as an email signature.
 - Facts to carry verbatim: November 5 to 7, 2026. Westin Arlington, Arlington, Virginia. plan4planet.org.
 
 ## Wordmark
@@ -54,6 +55,7 @@ Green is the accent and nothing else. If a design has more green than navy, it i
 - Tinted surface panels for the call to action, never coloured backgrounds behind body text.
 - No gradients, no drop shadows beyond the light card shadow (0 2px 6px rgba(0,57,115,0.12)), no rounded corners beyond 4 to 6 px.
 - The AAAI logo appears full colour, unrecoloured, with clear space, only on event material, never altered.
+- Email signature (assets/identity/email-signature.html): green rule, wordmark, then the tagline in Source Sans 600 navy, then the positioning line in ink soft, then the links. The navy tagline is deliberate here, because the signature needs a middle step of hierarchy once the event name comes out of it.
 
 ## Writing
 
