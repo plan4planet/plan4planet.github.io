@@ -8,7 +8,7 @@ Handing the job to an AI agent? Paste this file into the prompt. The HTML templa
 
 - Plan4Planet is the community. One word, numeral 4, capital P twice. Never "Plan 4 Planet", "Plan-4-Planet" or "Plan for Planet".
 - Planning for a Better Planet is the event. The full event name is "Planning for a Better Planet, AAAI Fall Symposium 2026", with the AAAI words in that order.
-- Tagline: "AI planning for climate decisions." With the full stop.
+- Tagline: "AI planning for climate decisions." With the full stop, except in the browser and search-result title of the site, where it is set without it (the tagline key in _config.yml).
 - Positioning line: "Verifiable climate decisions, not hallucinated ones." and "Without a data center's energy footprint." It carries the two selling points: these methods can be verified, and they do not need a data center's worth of electricity to run. It sits under the tagline. Set it on two lines where there is room, as in the email signature, and run the two sentences together on one line where there is not.
 - Facts to carry verbatim: November 5 to 7, 2026. Westin Arlington, Arlington, Virginia. plan4planet.org.
 
