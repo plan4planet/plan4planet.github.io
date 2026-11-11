@@ -60,6 +60,7 @@
       title: Energy and Computation
       items:
         - label: Invited talk
+          slides: gomes-computational-sustainability.pdf
           speaker: Carla P. Gomes
           talk: "Computational Sustainability: Computing for a Better World and a Sustainable Future"
         - label: Warm-up partner discussion
