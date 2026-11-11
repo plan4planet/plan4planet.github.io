@@ -104,6 +104,7 @@
       title: Measuring a Changing Planet
       items:
         - label: Invited talk
+          slides: delvecchio-algorithms-for-the-anthropocene.pdf
           speaker: Joanmarie Del Vecchio
           talk: "Algorithms for the Anthropocene: The Promise and Pitfalls of Machine Learning in a Changing Arctic"
         - label: Small-group discussion
