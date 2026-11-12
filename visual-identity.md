@@ -57,6 +57,60 @@ Green is the accent and nothing else. If a design has more green than navy, it i
 - The AAAI logo appears full colour, unrecoloured, with clear space, only on event material, never altered.
 - Email signature (assets/identity/email-signature.html): green rule, wordmark, then the tagline in Source Sans 600 navy, then the two positioning lines in ink soft, then the links. The navy tagline is deliberate here, because the signature needs a middle step of hierarchy once the event name comes out of it.
 
+## Google Slides
+
+The reference deck is the symposium welcome deck, assets/slides/plan4planet-welcome.pdf. New decks should look like it. Sizes below are in points for the default Google Slides page (Widescreen 16:9, 10 x 5.625 in, 720 x 405 pt).
+
+- Fonts: pick Work Sans and Source Sans 3 from More fonts. Set them once in Slide > Edit theme, so every layout uses them.
+- Margins: 48 pt on every side. Nothing but the cover bar and full-bleed backgrounds goes past them.
+- Backgrounds: light slides use #f7f9fb (a slightly cooler paper that projects better than #fdfdfd). One navy (#003973) statement slide per section at most. That is the only place body text sits on a colour.
+
+| Element | Font | Size | Colour |
+|---|---|---|---|
+| Kicker (one short line above the title, typed in capitals) | Source Sans 3 Bold | 12 pt | green #3f8a46 on light, light green #a9d6ae on navy |
+| Cover title | Work Sans Bold | 42 pt | navy |
+| Statement title (navy slide) | Work Sans Bold | 36 pt | paper #fdfdfd |
+| Slide title | Work Sans Bold | 28 pt | navy |
+| Card title | Work Sans Bold | 15 pt | navy |
+| Lead text, statements | Source Sans 3 Regular | 16 pt | ink soft on light, #d4e2ef on navy |
+| Card text and bullets | Source Sans 3 Regular | 11 to 12 pt, never under 10 | ink soft |
+| Card label (day, step, category) | Source Sans 3 Bold, capitals | 10 pt | steel blue |
+
+The kicker is the slide's one green label, which keeps green within the accent rule above. Google Slides has no letter-spacing control, so type kickers and labels in capitals and leave the spacing at default.
+
+Layouts to build in the theme (Slide > Edit theme):
+
+1. Cover: light background, a 12 pt navy bar down the full left edge, kicker, cover title, a line of facts (dates, place, room) in lead text, and the tree logo large on the right. On event decks the AAAI Symposium Series logo sits under the facts.
+2. Statement: navy background, kicker, statement title, one short paragraph. No logo.
+3. Title and body: kicker and slide title stacked at the top left, body below.
+4. Cards: kicker and title, then two to four cards in a row. Each card: paper fill, 0.5 pt rule-colour border (#c9d6e3), a 3 pt top border in navy, steel blue or green (in that order when cards stand for a sequence), corners rounded about 6 pt, 15 pt inner padding.
+5. Section break: same as Statement, title only.
+
+Habits: one idea per slide. Titles name the topic in the same grammar throughout. Speaker notes carry the script, not the slide. No slide numbers on the cover. No clip art, no stock icons beyond Google Slides' own simple shapes, no slide transitions other than fade.
+
+## Google Docs
+
+For memos, plans, handouts and anything shared in the Plan4Planet shared drive. The Community Directory Doc follows the same palette.
+
+- Page: Letter, 1 in margins, or Pageless for documents that are read on screen only.
+- Set the styles once, then Format > Paragraph styles > Options > Save as my default styles, so new documents start with them.
+
+| Style | Font | Size | Colour | Spacing |
+|---|---|---|---|---|
+| Title | Work Sans Bold | 26 pt | navy | 0 before, 4 after |
+| Subtitle | Source Sans 3 Regular | 13 pt | ink soft #3d4a57 | 0 before, 16 after |
+| Heading 1 | Work Sans Bold | 18 pt | navy | 20 before, 6 after |
+| Heading 2 | Work Sans Bold | 14 pt | navy | 16 before, 4 after |
+| Heading 3 | Source Sans 3 Bold | 12 pt | steel blue #2f6690 | 12 before, 4 after |
+| Normal text | Source Sans 3 Regular | 11 pt | ink #14212e | line spacing 1.15, 6 after |
+
+- Links: steel blue #2f6690, underlined (the Google Docs default blue is not ours).
+- Tables: header row filled with surface #e9f0f6 and set in Source Sans 3 Bold; borders 0.5 pt in rule #c9d6e3; cell padding 5 pt.
+- Callouts: a one-cell table filled with surface 2 #f1f5f9, no border, or a 3 pt left border in navy for a note that must be seen.
+- Header: the tree logo about 0.4 in tall beside the wordmark, on the first page only (Different first page). Footer: plan4planet.org on the left, the page number on the right, Source Sans 3 9 pt, ink soft.
+- Kickers work the same way as in Slides: typed in capitals, Source Sans 3 Bold 10 pt, steel blue, above the title. Docs has no letter spacing either.
+- Green appears only in the wordmark's 4 and, at most, one small label. Never as heading colour or table fill.
+
 ## Writing
 
 - Plain, direct, short sentences. No em dashes. No bold or italics inside copy that will be pasted elsewhere.
