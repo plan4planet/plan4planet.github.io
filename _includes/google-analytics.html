@@ -1,12 +1,43 @@
 <script>
-if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+if (!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function () {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
+    document.head.appendChild(s);
+  })();
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}');
 
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
+  // One "link_click" event per link click, with where on the page it was.
+  // GA4's enhanced measurement already records outbound clicks and file
+  // downloads (slides, PDFs); this adds internal links and the page area.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    // Area: a data-track label if present, else menu/hero/footer, else the
+    // nearest heading above the link (e.g. "Connect", or a session title).
+    var tagged = a.closest('[data-track]');
+    var area = tagged ? tagged.getAttribute('data-track')
+      : a.closest('.site-header') ? 'menu'
+      : a.closest('.hero') ? 'hero'
+      : a.closest('.site-footer') ? 'footer'
+      : '';
+    if (!area) {
+      var hs = document.querySelectorAll('main h1, main h2, main h3');
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING) area = hs[i].textContent.trim();
+      }
+      area = (area || 'top').slice(0, 60);
+    }
+    gtag('event', 'link_click', {
+      link_text: (a.textContent || a.getAttribute('aria-label') || '').trim().replace(/\s+/g, ' ').slice(0, 100),
+      link_url: a.href,
+      link_area: area,
+      page_path: location.pathname
+    });
+  }, true);
 }
 </script>
-  
