@@ -2,7 +2,7 @@
 
 Use this when you make anything that carries the Plan4Planet name: a slide, a poster, a social card, a document, a web page. It is short on purpose. The names, the wordmark rule, the colours and the two fonts are the whole identity. Everything else here is habit.
 
-Handing the job to an AI agent? Paste this file into the prompt. The HTML templates and the render script that produced the poster, the share card and the speaker cards are in the Assets folder under Comms / Branding in the Plan4Planet shared drive (kit subfolder); they render with headless Chrome. Ask the agent to keep every rule here and to ask before adding a colour, a font or a decoration.
+Handing the job to an AI agent? Paste this file into the prompt. The HTML templates and the render script that produced the poster, the share card and the speaker cards are in the steering group's private repo (tools/identity-kit); the rendered images are in the Plan4Planet shared drive under Comms / Branding/Assets/kit. They render with headless Chrome. Ask the agent to keep every rule here and to ask before adding a colour, a font or a decoration.
 
 ## Names
 
