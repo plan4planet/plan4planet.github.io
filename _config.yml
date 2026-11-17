@@ -35,3 +35,14 @@ plugins:
 
 google_analytics: G-VSGECY5X2H
 
+
+# Repo docs for people and AI agents: keep them in the repo, off the website.
+# Listing Gemfile and vendor too, since a custom exclude list replaces Jekyll's defaults.
+exclude:
+  - README.md
+  - AGENTS.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .claude
