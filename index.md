@@ -12,7 +12,7 @@ description: "Verifiable climate decisions, not hallucinated ones. Without a dat
     <p class="hero-deck">A community of AI planning researchers and climate experts, tackling the decisions a changing climate demands.</p>
     <p class="hero-pitch">
       <span>Verifiable plans, not hallucinated ones.</span>
-      <span>Optimizing care for people and planet.</span>
+      <span>Optimized for people and planet.</span>
       <span>No data center required.</span>
     </p>
     <div class="hero-actions">
