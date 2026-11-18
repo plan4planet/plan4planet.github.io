@@ -4,34 +4,47 @@ description: "Verifiable climate decisions, not hallucinated ones. Without a dat
 ---
 
 <header class="hero">
-  <div class="hero-text">
-    <p class="hero-kicker">AAAI Fall Symposium 2026</p>
+  <div class="hero-title">
+    <p class="hero-kicker">Plan4Planet</p>
     <h1>Planning for a Better Planet</h1>
-    <p class="hero-deck">AI planning researchers and climate experts, tackling the decisions a changing climate demands.</p>
+  </div>
+  <div class="hero-text">
+    <p class="hero-deck">A community of AI planning researchers and climate experts, tackling the decisions a changing climate demands.</p>
+    <p class="hero-pitch">
+      <span>Verifiable plans, not hallucinated ones.</span>
+      <span>Optimizing care for people and planet.</span>
+      <span>No data center required.</span>
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-brand" href="#connect"><i class="fa-solid fa-people-group" aria-hidden="true"></i> Join the community</a>
+      <a class="hero-link" href="{{ '/schedule/' | relative_url }}">Meet the community</a>
+    </div>
+  </div>
+  <img class="hero-logo" src="{{ '/assets/images/plan4planet.png' | relative_url }}" alt="Plan4Planet logo: a tree of gears and circuits rising from a city and fields">
+</header>
+
+<!-- Event feature under the hero: the community's events, newest first. Swap the copy when the next event is announced. -->
+<section class="event-feature" aria-labelledby="event-2026">
+  <div class="event-feature-text">
+    <p class="event-feature-kicker"><span class="announcement-label">Our first gathering</span></p>
+    <h2 id="event-2026">AAAI Fall Symposium 2026</h2>
     <ul class="hero-facts">
       <li><i class="fa-regular fa-calendar" aria-hidden="true"></i> November 5 to 7, 2026</li>
       <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> <a href="https://www.google.com/maps/search/?api=1&query=The+Westin+Arlington%2C+801+N+Glebe+Rd%2C+Arlington%2C+VA+22203" target="_blank" rel="noopener noreferrer">Westin Arlington, Arlington, Virginia</a></li>
     </ul>
+    <p>Thank you to everyone who joined us in Arlington. Talk slides and what came out of the community sessions are on the <a href="{{ '/schedule/' | relative_url }}">program page</a>.</p>
     <div class="hero-actions">
+      <a class="btn btn-brand" href="{{ '/speakers/' | relative_url }}"><i class="fa-solid fa-microphone" aria-hidden="true"></i> Meet the speakers</a>
       <a class="btn btn-brand" href="{{ '/papers/' | relative_url }}"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Read the papers</a>
-      <a class="hero-link" href="#connect">Join the mailing list</a>
     </div>
   </div>
   <a class="hero-aaai" href="https://aaai.org/conference/fall-symposia/2026-fall-symposium-series-2/" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/images/aaai-symposium-series.svg' | relative_url }}" alt="AAAI Symposium Series" width="194" height="64">
   </a>
-</header>
-
-<!-- Announcement under the hero: a label, one sentence, and a button that does the thing.
-Comment it out when it is out of date. -->
-<div class="announcement">
-  <p><span class="announcement-label">Thank you</span> to everyone who joined us in Arlington. Talk slides and what came out of the community sessions are on the program page.</p>
-  <a class="btn btn-brand" href="{{ '/schedule/' | relative_url }}">See the program</a>
-</div>
+</section>
 
 ## A changing planet demands better plans
 
-<img class="intro-logo" src="{{ '/assets/images/plan4planet.png' | relative_url }}" alt="Planning for a Better Planet Logo" />
 <p>Climate change demands fundamentally new approaches to decision-making. Where to invest scarce adaptation resources across competing priorities, how to design carbon markets that balance efficiency with equity, and how to coordinate across jurisdictions with vastly different historical responsibilities - these are, at their core, problems of reasoning under uncertainty, constrained optimization, and multi-agent coordination. </p>
 <p>The <strong>2026 Planning for a Better Planet AAAI Fall Symposium</strong> brought together AI planning and reasoning researchers with climate domain experts to tackle the challenge of making the planet a healthier, more sustainable place. This symposium aimed to gather both the AI and climate communities to discuss opportunities for climate-motivated planning research. This includes not only AI researchers sharing new algorithms and applications but also climate experts sharing successes and challenges from their own domains, with the goal of highlighting “problems in search of solutions” to drive future climate-oriented planning research.</p>
 

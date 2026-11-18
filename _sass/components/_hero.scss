@@ -1,14 +1,20 @@
-// Home page hero: typographic, on the page background. Kicker, title, one-sentence deck, the two
-// facts a visitor needs (when, where), the two actions, and the AAAI logo on the right.
+// Home page hero: typographic, on the page background. It introduces the community: kicker and
+// title across the full width, then the one-sentence deck, the three-line pitch (green rule, as in
+// the footer) and the actions, with the logo tucked beside them.
+// The event feature below it carries the event: name, facts (when, where), actions, AAAI logo.
 // AAAI brand rules: full-colour logo, never recoloured, clear space around it, linked to aaai.org.
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  align-items: start;
-  gap: 32px;
+  align-items: center;
+  gap: 0 32px;
   margin: 8px 0 32px;
   padding-bottom: 28px;
   border-bottom: 3px solid var(--color-brand);
+}
+
+.hero-title {
+  grid-column: 1 / -1;
 }
 
 .hero-kicker {
@@ -18,19 +24,35 @@
   font-weight: 600;
 }
 
+// The title fills the column on one line at every width: "Planning for a Better Planet" in Work Sans
+// 700 is about 13 times its font size wide, so the size is the column width over 13.3, capped so it
+// fits the 740px desktop column. Change the divisor if the title changes.
 .hero h1 {
-  margin: 0 0 14px;
-  max-width: 16ch;
+  margin: 0 0 16px;
   color: var(--color-brand);
-  font-size: 3rem;
+  font-size: min(3.5rem, calc((100vw - 32px) / 13.3));
+  white-space: nowrap;
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.025em;
 }
 
+.hero-pitch {
+  margin: 4px 0 18px;
+  padding-left: 16px;
+  border-left: 4px solid var(--color-accent);
+  color: var(--color-ink);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.hero-pitch span {
+  display: block;
+}
+
 .hero-deck {
   margin: 0 0 18px;
-  max-width: 44ch;
   color: var(--color-ink-soft);
   font-size: 1.2rem;
   line-height: 1.45;
@@ -87,6 +109,12 @@
   font-weight: 600;
 }
 
+.hero-logo {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
 .hero-aaai {
   display: block;
   padding: 6px 0;
@@ -100,23 +128,101 @@
 
 @media screen and (max-width: 640px) {
   .hero {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .hero-aaai {
-    order: -1;
+    gap: 0 16px;
   }
 
   .hero-aaai img {
     height: 48px;
   }
 
-  .hero h1 {
-    font-size: 2.1rem;
+  // Phones: the tree sits beside the deck; the pitch and the actions take the full width.
+  .hero-text {
+    display: contents;
+  }
+
+  .hero-deck {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .hero-logo {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+    width: 84px;
+  }
+
+  .hero-pitch,
+  .hero-actions {
+    grid-column: 1 / -1;
+  }
+
+  .hero-pitch {
+    padding-left: 12px;
+    font-size: 1.1rem;
   }
 
   .hero-deck {
     font-size: 1.1rem;
+  }
+}
+
+// Event feature: the community's current or most recent event, in a tinted panel under the hero.
+.event-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 32px;
+  margin: 0 0 36px;
+  padding: 24px 28px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+  border-left: 6px solid var(--color-accent);
+  border-radius: var(--radius);
+}
+
+.event-feature-kicker {
+  margin: 0 0 8px;
+  color: var(--color-secondary);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.event-feature h2 {
+  margin: 0 0 12px;
+  color: var(--color-brand);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.event-feature p {
+  margin: 0 0 18px;
+  max-width: 60ch;
+  color: var(--color-ink);
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.event-feature .hero-facts {
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 640px) {
+  .event-feature {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .event-feature .hero-aaai {
+    order: -1;
+  }
+
+  .event-feature .hero-aaai img {
+    height: 48px;
+  }
+
+  .event-feature h2 {
+    font-size: 1.6rem;
   }
 }
