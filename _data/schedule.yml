@@ -113,6 +113,7 @@
           papers:
             - authors: Reed et al.
               title: Toward Adaptive Planning for Autonomous Glider Observations of Subsurface Marine Heatwaves
+              slides: reed-adaptive-glider-planning-marine-heatwaves.pdf
             - authors: Shaffer et al.
               title: Physics-Guided Multi-Robot Planning for Climate Sensing
             - authors: Murray et al.
