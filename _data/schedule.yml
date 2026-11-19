@@ -130,6 +130,7 @@
       subtitle: "Who is at risk, who bears the cost, and whose interests enter the objective. Mitigation offers diffuse global benefits while imposing concentrated costs; adaptation funds reach some people and not others. These are normative questions, and this session surfaces them with a climate economist and three papers that each take one axis head-on."
       items:
         - label: Invited talk
+          slides: hallegatte-people-at-high-climate-risk.pdf
           speaker: Stéphane Hallegatte
           talk: "How Many People Are at High Risk from Climate Hazards? The Data and Methodological Challenge"
         - label: Accepted papers
