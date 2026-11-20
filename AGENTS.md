@@ -33,7 +33,7 @@ The website for Plan4Planet (plan4planet.org), a community at the intersection o
 
 1. Content changes go in Markdown or the `_data/` files. Prefer editing data files over editing HTML.
 2. No inline `style=""` attributes anywhere. Add a class and put the rule in the matching partial under `_sass/components/`.
-3. Every colour, font, radius and shadow comes from a token in `_sass/_tokens.scss`. Never hard-code a colour in a partial. Do not change token values without the site owner's agreement; the visual identity is managed separately.
+3. Every colour, font, radius and shadow comes from a token in `_sass/_tokens.scss`. Never hard-code a colour in a partial. Do not change token values without the site owner's agreement; the visual identity guide is `visual-identity.md` in the private repo plan4planet/internal.
 4. Asset paths in Markdown and includes go through `{{ '/assets/...' | relative_url }}`, never a bare `/assets/...` path.
 5. The AAAI logo stays full colour, unrecoloured, with clear space, and linked to aaai.org. The event is called "AAAI Fall Symposium 2026" in that word order.
 6. Do not edit `CNAME`, `_sass/vendor/`, `robots.txt`, or `sitemap.xml`.
